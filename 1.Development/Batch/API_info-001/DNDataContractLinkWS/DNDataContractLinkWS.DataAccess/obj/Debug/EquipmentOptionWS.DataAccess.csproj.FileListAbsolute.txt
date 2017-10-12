@@ -1,0 +1,7 @@
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\EquipmentOptionWS\EquipmentOptionWS.DataAccess\bin\Debug\EquipmentOptionWS.DataAccess.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\EquipmentOptionWS\EquipmentOptionWS.DataAccess\bin\Debug\EquipmentOptionWS.DataAccess.pdb
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\EquipmentOptionWS\EquipmentOptionWS.DataAccess\bin\Debug\EquipmentOptionWS.DTO.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\EquipmentOptionWS\EquipmentOptionWS.DataAccess\bin\Debug\EquipmentOptionWS.DTO.pdb
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\EquipmentOptionWS\EquipmentOptionWS.DataAccess\obj\Debug\EquipmentOptionWS.DataAccess.csprojResolveAssemblyReference.cache
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\EquipmentOptionWS\EquipmentOptionWS.DataAccess\obj\Debug\EquipmentOptionWS.DataAccess.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\EquipmentOptionWS\EquipmentOptionWS.DataAccess\obj\Debug\EquipmentOptionWS.DataAccess.pdb

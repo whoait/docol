@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        @RenderBody()
+        <img src="~/Content/Images/error-page-icon.jpg" align="left">
+        
+	<br>
+	<br>
+	<h3 style="font-weight: bold; color: Red">That's an error.</h3>
+	<br>
+	<div>@Html.Raw( ViewBag.Message )</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.ReportServices\bin\Debug\Gulliver.DoCol.ReportServices.dll.config
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.ReportServices\bin\Debug\Gulliver.DoCol.ReportServices.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.ReportServices\bin\Debug\Gulliver.DoCol.ReportServices.pdb
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.ReportServices\obj\Debug\Gulliver.DoCol.ReportServices.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.ReportServices\obj\Debug\Gulliver.DoCol.ReportServices.pdb
+E:\Project\DocumentControls\Gulliver.DoCol.ReportServices\bin\Debug\Gulliver.DoCol.ReportServices.dll.config
+E:\Project\DocumentControls\Gulliver.DoCol.ReportServices\bin\Debug\Gulliver.DoCol.ReportServices.dll
+E:\Project\DocumentControls\Gulliver.DoCol.ReportServices\bin\Debug\Gulliver.DoCol.ReportServices.pdb
+E:\Project\DocumentControls\Gulliver.DoCol.ReportServices\bin\Debug\Gulliver.DoCol.DataAccess.Framework.dll
+E:\Project\DocumentControls\Gulliver.DoCol.ReportServices\bin\Debug\ionic.zip.dll
+E:\Project\DocumentControls\Gulliver.DoCol.ReportServices\bin\Debug\Gulliver.DoCol.Constants.dll
+E:\Project\DocumentControls\Gulliver.DoCol.ReportServices\bin\Debug\Gulliver.DoCol.DataAccess.Framework.pdb
+E:\Project\DocumentControls\Gulliver.DoCol.ReportServices\bin\Debug\Gulliver.DoCol.Constants.pdb
+E:\Project\DocumentControls\Gulliver.DoCol.ReportServices\obj\Debug\Gulliver.DoCol.ReportServices.csprojResolveAssemblyReference.cache
+E:\Project\DocumentControls\Gulliver.DoCol.ReportServices\obj\Debug\Gulliver.DoCol.ReportServices.dll
+E:\Project\DocumentControls\Gulliver.DoCol.ReportServices\obj\Debug\Gulliver.DoCol.ReportServices.pdb

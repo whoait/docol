@@ -1,0 +1,58 @@
+[Control Section]
+VERSION=7.2
+OPTION=FIELDATTR
+;
+[Body Data Section]
+<line1>=
+<line1_1>=
+<line1_2>=在庫
+<line2>=車庫証明・自社名依頼申請書
+<line3>=店舗コード
+<line3_1>=
+<line4>=店舗名
+<line4_1>=
+<line5>=車名
+<line5_1>=
+<line6>=車台番号
+<line6_1>=CZ4A-0006721
+<line7>=仕入番号
+<line7_1>=
+<line8>=※ 車庫証明を取得し、自社名変をお願い致します
+<line9>=※ 自社名終了後は車検原本をこの申請書と一緒に幕張オフィスDNチームにお送り下さい。
+<line10>=DN書類チーム
+<line11>=J-NET TEL
+<line11_1>=20000-28
+<line12>=          FAX
+<line12_1>=20000-38
+<line13>=管理番号: 
+<line13_1>=
+[Form Section]
+NEXTPAGE
+;
+[Body Data Section]
+<line1>=
+<line1_1>=
+<line1_2>=在庫
+<line2>=車庫証明・自社名依頼申請書
+<line3>=店舗コード
+<line3_1>=
+<line4>=店舗名
+<line4_1>=
+<line5>=車名
+<line5_1>=
+<line6>=車台番号
+<line6_1>=ACBC-0006721
+<line7>=仕入番号
+<line7_1>=
+<line8>=※ 車庫証明を取得し、自社名変をお願い致します
+<line9>=※ 自社名終了後は車検原本をこの申請書と一緒に幕張オフィスDNチームにお送り下さい。
+<line10>=DN書類チーム
+<line11>=J-NET TEL
+<line11_1>=20000-28
+<line12>=          FAX
+<line12_1>=20000-38
+<line13>=管理番号: 
+<line13_1>=
+[Form Section]
+NEXTPAGE
+;

@@ -1,0 +1,46 @@
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.UtilityServices.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.UtilityServices.pdb
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.UtilityServices\bin\Debug\AntiXSSLibrary.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.UtilityServices\bin\Debug\AWSSDK.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.Constants.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.Entities.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.MessageUtility.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.UtilityServices\bin\Debug\ionic.zip.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.UtilityServices\bin\Debug\log4net.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.UtilityServices\bin\Debug\System.Web.Mvc.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.DataValidation.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.DataAccess.Framework.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.Constants.pdb
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.Entities.pdb
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.MessageUtility.pdb
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.UtilityServices\bin\Debug\AWSSDK.pdb
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.UtilityServices\bin\Debug\log4net.xml
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.UtilityServices\bin\Debug\System.Web.Mvc.xml
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.DataValidation.pdb
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.DataAccess.Framework.pdb
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.UtilityServices\obj\Debug\Gulliver.DoCol.UtilityServices.csprojResolveAssemblyReference.cache
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.UtilityServices\obj\Debug\Gulliver.DoCol.UtilityServices.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.UtilityServices\obj\Debug\Gulliver.DoCol.UtilityServices.pdb
+E:\Project\DocumentControls\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.UtilityServices.dll
+E:\Project\DocumentControls\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.UtilityServices.pdb
+E:\Project\DocumentControls\Gulliver.DoCol.UtilityServices\bin\Debug\AntiXSSLibrary.dll
+E:\Project\DocumentControls\Gulliver.DoCol.UtilityServices\bin\Debug\AWSSDK.dll
+E:\Project\DocumentControls\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.Constants.dll
+E:\Project\DocumentControls\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.Entities.dll
+E:\Project\DocumentControls\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.MessageUtility.dll
+E:\Project\DocumentControls\Gulliver.DoCol.UtilityServices\bin\Debug\ionic.zip.dll
+E:\Project\DocumentControls\Gulliver.DoCol.UtilityServices\bin\Debug\log4net.dll
+E:\Project\DocumentControls\Gulliver.DoCol.UtilityServices\bin\Debug\System.Web.Mvc.dll
+E:\Project\DocumentControls\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.DataValidation.dll
+E:\Project\DocumentControls\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.DataAccess.Framework.dll
+E:\Project\DocumentControls\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.Constants.pdb
+E:\Project\DocumentControls\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.Entities.pdb
+E:\Project\DocumentControls\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.MessageUtility.pdb
+E:\Project\DocumentControls\Gulliver.DoCol.UtilityServices\bin\Debug\AWSSDK.pdb
+E:\Project\DocumentControls\Gulliver.DoCol.UtilityServices\bin\Debug\log4net.xml
+E:\Project\DocumentControls\Gulliver.DoCol.UtilityServices\bin\Debug\System.Web.Mvc.xml
+E:\Project\DocumentControls\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.DataValidation.pdb
+E:\Project\DocumentControls\Gulliver.DoCol.UtilityServices\bin\Debug\Gulliver.DoCol.DataAccess.Framework.pdb
+E:\Project\DocumentControls\Gulliver.DoCol.UtilityServices\obj\Debug\Gulliver.DoCol.UtilityServices.csprojResolveAssemblyReference.cache
+E:\Project\DocumentControls\Gulliver.DoCol.UtilityServices\obj\Debug\Gulliver.DoCol.UtilityServices.dll
+E:\Project\DocumentControls\Gulliver.DoCol.UtilityServices\obj\Debug\Gulliver.DoCol.UtilityServices.pdb

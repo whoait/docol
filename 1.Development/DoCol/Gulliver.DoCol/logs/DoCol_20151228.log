@@ -1,0 +1,160 @@
+INFO  - [12/28/2015 08:40:AM][Application_Start][][][][START]
+
+INFO  - [12/28/2015 08:40:AM][RegisterGlobalFilters][][][][START]
+
+INFO  - [12/28/2015 08:40:AM][RegisterGlobalFilters][][][][END]
+
+INFO  - [12/28/2015 08:40:AM][Application_Start][][][][END]
+
+INFO  - [12/28/2015 08:42:AM][Application_Start][][][][START]
+
+INFO  - [12/28/2015 08:42:AM][RegisterGlobalFilters][][][][START]
+
+INFO  - [12/28/2015 08:42:AM][RegisterGlobalFilters][][][][END]
+
+INFO  - [12/28/2015 08:42:AM][Application_Start][][][][END]
+
+INFO  - [12/28/2015 08:57:AM][Application_Start][][][][START]
+
+INFO  - [12/28/2015 08:57:AM][RegisterGlobalFilters][][][][START]
+
+INFO  - [12/28/2015 08:57:AM][RegisterGlobalFilters][][][][END]
+
+INFO  - [12/28/2015 08:57:AM][Application_Start][][][][END]
+
+ERROR - [12/28/2015 08:57:AM][Gulliver.DoCol.Areas.DCW.Controllers.DCW003Controller.DCW003Index][][][::1][GLV_SYS_LoginException]
+   at Gulliver.DoCol.Controllers.BaseController.OnActionExecuting(ActionExecutingContext filterContext) in d:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\Controllers\BaseController.cs:line 131
+   at System.Web.Mvc.Controller.System.Web.Mvc.IActionFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.InvokeActionMethodFilterAsynchronously(IActionFilter filter, ActionExecutingContext preContext, Func`1 nextInChain)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<>c__DisplayClass3b.<BeginInvokeActionMethodWithFilters>b__35()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__1e(AsyncCallback asyncCallback, Object asyncState)
+INFO  - [12/28/2015 08:57:AM][Application_Error][][][][START]
+
+INFO  - [12/28/2015 08:57:AM][Application_Error][][][][END]
+
+ERROR - [12/28/2015 08:57:AM][Gulliver.DoCol.Areas.DCW.Controllers.DCW003Controller.DCW003Index][][][::1][GLV_SYS_LoginException]
+   at Gulliver.DoCol.Controllers.BaseController.OnActionExecuting(ActionExecutingContext filterContext) in d:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\Controllers\BaseController.cs:line 131
+   at System.Web.Mvc.Controller.System.Web.Mvc.IActionFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.InvokeActionMethodFilterAsynchronously(IActionFilter filter, ActionExecutingContext preContext, Func`1 nextInChain)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<>c__DisplayClass3b.<BeginInvokeActionMethodWithFilters>b__35()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__1e(AsyncCallback asyncCallback, Object asyncState)
+INFO  - [12/28/2015 08:57:AM][Application_Error][][][][START]
+
+INFO  - [12/28/2015 08:57:AM][Application_Error][][][][END]
+
+INFO  - [12/28/2015 09:02:AM][Application_Start][][][][START]
+
+INFO  - [12/28/2015 09:02:AM][RegisterGlobalFilters][][][][START]
+
+INFO  - [12/28/2015 09:02:AM][RegisterGlobalFilters][][][][END]
+
+INFO  - [12/28/2015 09:02:AM][Application_Start][][][][END]
+
+ERROR - [12/28/2015 10:16:AM][Gulliver.DoCol.Areas.DCW.Controllers.DCW003Controller.DCW003Index][][][::1][GLV_SYS_LoginException]
+   at Gulliver.DoCol.Controllers.BaseController.OnActionExecuting(ActionExecutingContext filterContext) in d:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\Controllers\BaseController.cs:line 131
+   at System.Web.Mvc.Controller.System.Web.Mvc.IActionFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.InvokeActionMethodFilterAsynchronously(IActionFilter filter, ActionExecutingContext preContext, Func`1 nextInChain)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<>c__DisplayClass3b.<BeginInvokeActionMethodWithFilters>b__35()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__1e(AsyncCallback asyncCallback, Object asyncState)
+INFO  - [12/28/2015 10:16:AM][Application_Error][][][][START]
+
+INFO  - [12/28/2015 10:16:AM][Application_Error][][][][END]
+
+INFO  - [12/28/2015 10:48:AM][Application_Start][][][][START]
+
+INFO  - [12/28/2015 10:48:AM][RegisterGlobalFilters][][][][START]
+
+INFO  - [12/28/2015 10:48:AM][RegisterGlobalFilters][][][][END]
+
+INFO  - [12/28/2015 10:48:AM][Application_Start][][][][END]
+
+ERROR - [12/28/2015 11:51:AM][Gulliver.DoCol.Areas.DCW.Controllers.DCW003Controller.DCW003Index][][][::1][GLV_SYS_LoginException]
+   at Gulliver.DoCol.Controllers.BaseController.OnActionExecuting(ActionExecutingContext filterContext) in d:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\Controllers\BaseController.cs:line 131
+   at System.Web.Mvc.Controller.System.Web.Mvc.IActionFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.InvokeActionMethodFilterAsynchronously(IActionFilter filter, ActionExecutingContext preContext, Func`1 nextInChain)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<>c__DisplayClass3b.<BeginInvokeActionMethodWithFilters>b__35()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__1e(AsyncCallback asyncCallback, Object asyncState)
+INFO  - [12/28/2015 11:51:AM][Application_Error][][][][START]
+
+INFO  - [12/28/2015 11:51:AM][Application_Error][][][][END]
+
+INFO  - [12/28/2015 02:23:PM][Application_Start][][][][START]
+
+INFO  - [12/28/2015 02:23:PM][RegisterGlobalFilters][][][][START]
+
+INFO  - [12/28/2015 02:23:PM][RegisterGlobalFilters][][][][END]
+
+INFO  - [12/28/2015 02:23:PM][Application_Start][][][][END]
+
+INFO  - [12/28/2015 02:43:PM][Application_Start][][][][START]
+
+INFO  - [12/28/2015 02:43:PM][RegisterGlobalFilters][][][][START]
+
+INFO  - [12/28/2015 02:43:PM][RegisterGlobalFilters][][][][END]
+
+INFO  - [12/28/2015 02:43:PM][Application_Start][][][][END]
+
+ERROR - [12/28/2015 02:43:PM][Gulliver.DoCol.Areas.DCW.Controllers.DCW003Controller.DCW003Index][][][::1][GLV_SYS_LoginException]
+   at Gulliver.DoCol.Controllers.BaseController.OnActionExecuting(ActionExecutingContext filterContext) in d:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\Controllers\BaseController.cs:line 131
+   at System.Web.Mvc.Controller.System.Web.Mvc.IActionFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.InvokeActionMethodFilterAsynchronously(IActionFilter filter, ActionExecutingContext preContext, Func`1 nextInChain)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<>c__DisplayClass3b.<BeginInvokeActionMethodWithFilters>b__35()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__1e(AsyncCallback asyncCallback, Object asyncState)
+INFO  - [12/28/2015 02:43:PM][Application_Error][][][][START]
+
+INFO  - [12/28/2015 02:43:PM][Application_Error][][][][END]
+
+INFO  - [12/28/2015 02:48:PM][Application_Start][][][][START]
+
+INFO  - [12/28/2015 02:48:PM][RegisterGlobalFilters][][][][START]
+
+INFO  - [12/28/2015 02:48:PM][RegisterGlobalFilters][][][][END]
+
+INFO  - [12/28/2015 02:48:PM][Application_Start][][][][END]
+
+INFO  - [12/28/2015 02:55:PM][Application_Start][][][][START]
+
+INFO  - [12/28/2015 02:55:PM][RegisterGlobalFilters][][][][START]
+
+INFO  - [12/28/2015 02:55:PM][RegisterGlobalFilters][][][][END]
+
+INFO  - [12/28/2015 02:55:PM][Application_Start][][][][END]
+
+ERROR - [12/28/2015 02:56:PM][Gulliver.DoCol.Areas.DCW.Controllers.DCW003Controller.DCW003Index][][][::1][GLV_SYS_LoginException]
+   at Gulliver.DoCol.Controllers.BaseController.OnActionExecuting(ActionExecutingContext filterContext) in d:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\Controllers\BaseController.cs:line 131
+   at System.Web.Mvc.Controller.System.Web.Mvc.IActionFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.InvokeActionMethodFilterAsynchronously(IActionFilter filter, ActionExecutingContext preContext, Func`1 nextInChain)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<>c__DisplayClass3b.<BeginInvokeActionMethodWithFilters>b__35()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   at System.Web.Mvc.Async.AsyncResultWrapper.Begin[TResult](AsyncCallback callback, Object state, BeginInvokeDelegate beginDelegate, EndInvokeDelegate`1 endDelegate, Object tag, Int32 timeout)
+   at System.Web.Mvc.Async.AsyncResultWrapper.Begin[TResult](AsyncCallback callback, Object state, BeginInvokeDelegate beginDelegate, EndInvokeDelegate`1 endDelegate, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__1e(AsyncCallback asyncCallback, Object asyncState)
+INFO  - [12/28/2015 02:56:PM][Application_Error][][][][START]
+
+INFO  - [12/28/2015 02:56:PM][Application_Error][][][][END]
+
+INFO  - [12/28/2015 04:15:PM][Application_Start][][][][START]
+
+INFO  - [12/28/2015 04:15:PM][RegisterGlobalFilters][][][][START]
+
+INFO  - [12/28/2015 04:15:PM][RegisterGlobalFilters][][][][END]
+
+INFO  - [12/28/2015 04:15:PM][Application_Start][][][][END]
+

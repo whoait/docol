@@ -1,0 +1,12 @@
+﻿@{
+	Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+<div>
+	<img src="/../../Content/Images/error-page-icon.jpg" align="left">
+	<br>
+	<br>
+	<h3 style="font-weight: bold; color: Red">That's an error.</h3>
+	<br>
+	<div>@Html.Raw( ViewBag.Message )</div>
+</div>

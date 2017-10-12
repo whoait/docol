@@ -1,0 +1,11 @@
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.BusinessLogic\bin\Release\DisplayMainWS.BusinessLogic.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.BusinessLogic\bin\Release\DisplayMainWS.BusinessLogic.pdb
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.BusinessLogic\bin\Release\DisplayMainWS.DataAccess.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.BusinessLogic\bin\Release\DisplayMainWS.DTO.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.BusinessLogic\bin\Release\DisplayMainWS.DataAccess.pdb
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.BusinessLogic\bin\Release\DisplayMainWS.DTO.pdb
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.BusinessLogic\obj\Release\DisplayMainWS.BusinessLogic.csprojResolveAssemblyReference.cache
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.BusinessLogic\obj\Release\DisplayMainWS.BusinessLogic.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.BusinessLogic\obj\Release\DisplayMainWS.BusinessLogic.pdb
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.BusinessLogic\bin\Release\DisplayMainWS.Common.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.BusinessLogic\bin\Release\DisplayMainWS.Common.pdb

@@ -1,0 +1,89 @@
+﻿<div class="col-xs-6">
+    @if (ViewBag.NumberOfPage > 1)
+    {
+        <ul class="pagination">
+
+            @if (ViewBag.PageIndex - 1 == 0)
+            {
+                <li class="disable">
+                    <a href="#" id="nextPaging" data-pageindex="" class="">前へ</a>
+                </li>
+            }
+            else
+            {
+                <li class="active">
+                    <a href="#" data-pageindex="@(ViewBag.PageIndex - 1)" class="paging">前へ</a>
+                </li>
+            }
+            @if (ViewBag.NumberOfPage > 1)
+            {
+                for (int i = ViewBag.PageBegin; i <= ViewBag.PageEnd; i++)
+                {
+                    if (i == ViewBag.PageIndex)
+                    {
+                        <li class="active">
+                            <a href="#" data-pageindex="@i" class="paging">@(i)</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li>
+                            <a href="#" data-pageindex="@i" class="paging">@(i)</a>
+                        </li>
+                    }
+                }
+            }
+            else
+            {
+                <li class="active">
+                    <a href="#" data-pageindex="1" class="paging">1</a>
+                </li>
+            }
+
+            @if (ViewBag.PageIndex == ViewBag.NumberOfPage)
+            {
+                <li class="disable">
+                    <a id="prevPaging" href="#" data-pageindex="" class="">次へ</a>
+                </li>
+            }
+            else
+            {
+                <li class="active">
+                    <a href="#" data-pageindex="@(ViewBag.PageIndex + 1)" class="paging">次へ</a>
+                </li>
+            }
+        </ul>
+    }
+</div>
+
+@{
+    string offset = string.Empty;
+    if (ViewBag.Total > 1)
+    {
+        offset = "中 " + @ViewBag.StartOffset + "～" + @ViewBag.EndOffset + " 件を表示";
+    }
+}
+
+<div class="col-xs-6 text-right" style="padding: 25px 0px;display: block;">
+    <span class="font_status">@Html.Raw("全"+ ViewBag.Total) @Html.Raw("件"+offset)</span>
+</div>
+
+<input id="PageSize" type="hidden" value="@ViewBag.PageSize" />
+<input id="PageIndex" type="hidden" value="@ViewBag.PageIndex" />
+<input id="PageBegin" type="hidden" value="@ViewBag.PageBegin" />
+<input id="PageEnd" type="hidden" value="@ViewBag.PageEnd" />
+<input id="SortItem" type="hidden" value="@ViewBag.SortItem" />
+<input id="SortDirection" type="hidden" value="@ViewBag.SortDirection" />
+
+<script type="text/javascript">
+    $(function () {
+        $('.paging').click(function () {
+            $("html, body").animate({ scrollTop: 0 }, 500);
+            return false;
+        });
+
+        $('.disable > a[id="prevPaging"], .disable > a[id="nextPaging"]').click(function () {
+        	event.preventDefault();
+        });
+    });
+</script>

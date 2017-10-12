@@ -1,0 +1,5 @@
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\BinaryFileWS\BinaryFileWS.DTO\bin\Debug\KaizoPartsWS.DTO.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\BinaryFileWS\BinaryFileWS.DTO\bin\Debug\KaizoPartsWS.DTO.pdb
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\BinaryFileWS\BinaryFileWS.DTO\obj\Debug\BinaryFileWS.DTO.csprojResolveAssemblyReference.cache
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\BinaryFileWS\BinaryFileWS.DTO\obj\Debug\KaizoPartsWS.DTO.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\BinaryFileWS\BinaryFileWS.DTO\obj\Debug\KaizoPartsWS.DTO.pdb

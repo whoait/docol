@@ -1,0 +1,90 @@
+﻿
+@using Gulliver.DoCol.Constants.Resources
+@model Gulliver.DoCol.Entities.DCW.DCW001Model.DCW001Login
+
+@{ 
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml"; 
+}
+
+@section CssSection {
+    @*<link href="~/Content/themes/DCW/DCW001.css" rel="stylesheet" />*@
+    <link href="~/Content/themes/DCW//login.css" rel="stylesheet" />
+    <script src="~/Scripts/DCW/DCW001.js"></script>
+    <style>
+        #content
+        {
+            height: 500px;
+        }
+    </style>
+}
+
+     
+  <div id="content">
+    @using (Html.BeginForm("DCW001Index", "DCW001", FormMethod.Post, new { @id="form-submit"}))
+    {
+        <div class="col-xs-12 logo_login"></div>
+        <div class="col-xs-12 bg_gray_new text-left f_bold pa_t_20">
+            <p>ログインID</p>
+        </div>
+        <div class="col-xs-12 margin_top_10">
+            <div>
+                @*@Html.TextBoxFor(m => m.userName, new { autofocus = "", @maxlength = "10", @id = "txtShopId" })*@
+                <input type="text" value="DOC123" id="userid" name="TANTOSHA_NAME">
+            </div>
+        </div>
+        <div class="col-xs-12 bg_gray_new text-left f_bold">
+            <p>パスワード</p>
+        </div>
+        <div class="col-xs-12 margin_top_10">
+            <div>
+                @*@Html.TextBoxFor(m => m.password, new { autofocus = "", @maxlength = "10", @id = "txtUserId", @type = "password" })*@
+                <input type="password" value="hello123" id="passwordid" name="PASSWORD">
+            </div>
+        </div>
+        <div class="col-xs-12 bg_gray_new text-left f_bold">
+            <p>URL</p>
+        </div>
+        <div class="col-xs-12 ">
+            <div style="padding-top:10px">
+                @*@Html.TextBoxFor(m => m.password, new { autofocus = "", @maxlength = "10", @id = "txtUserId", @type = "password" })*@
+                <input type="text" id ="urlID" name="domainLogin" >
+            </div>
+        </div>
+        <div class="col-xs-12 ">
+            @*<input class="submit pa_b_10" type="submit" value="ログイン" >*@
+            <input type="submit" class="submit pa_b_10" value="ログイン" id="HQ">
+        </div>
+   
+    <div class="col-xs-12 bold bor_top ">
+        <p class="">@System.Configuration.ConfigurationManager.AppSettings["Version"]</p>
+    </div>
+    }
+</div>
+
+
+<script>
+    $(function () {
+        debugger
+        var pathname = window.location.origin;
+        $("#urlID").val(pathname +'/');
+        $("#HQ").click(function () {
+            var redirect = $('input[name=redirect]').val();
+            var userid = $("#userid").val();
+            var passwordid = $("#passwordid").val();
+            var urlID = $("#urlID").val();
+            $.redirectPost(redirect, { TANTOSHA_NAME: userid, PASSWORD: passwordid, domainLogin: urlID });
+        });
+        // jquery extend function
+        $.extend(
+		{
+		    redirectPost: function (location, args) {
+		        var form = '';
+		        $.each(args, function (key, value) {
+		            form += '<input type="hidden" name="' + key + '" id="' + key + '" value="' + value + '">';
+		        });
+		        $('<form action="' + location + '" method="POST">' + form + '</form>').appendTo('body').submit();
+		    }
+		});
+    });
+</script>
+

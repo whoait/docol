@@ -1,0 +1,177 @@
+﻿/*BEGIN MÃ MÀU BACKGROUND*/
+.bg_gray {
+    background: #dae2e8;
+}
+
+.bg_light {
+    background: #fbfdea;
+}
+
+.bg_green {
+    background: #93c775; /* Old browsers */
+    background: -moz-linear-gradient(top, #93c775 0%, #88c167 50%, #82be61 51%, #82be61 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#93c775), color-stop(50%,#88c167), color-stop(51%,#82be61), color-stop(100%,#82be61)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #93c775 0%,#88c167 50%,#82be61 51%,#82be61 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #93c775 0%,#88c167 50%,#82be61 51%,#82be61 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #93c775 0%,#88c167 50%,#82be61 51%,#82be61 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #93c775 0%,#88c167 50%,#82be61 51%,#82be61 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93c775', endColorstr='#82be61',GradientType=0 ); /* IE6-9 */
+    color: #000;
+}
+
+.c_white {
+    color: white;
+}
+
+.c_blue {
+    color: blue;
+}
+
+.bg_666 {
+    background-color: #666;
+}
+
+/** Begin table tbl color **/
+
+.tbl.form .tbl_item.tbl_label {
+    background: #93c775; /* Old browsers */
+    background: -moz-linear-gradient(top, #93c775 0%, #88c167 50%, #82be61 51%, #82be61 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#93c775), color-stop(50%,#88c167), color-stop(51%,#82be61), color-stop(100%,#82be61)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #93c775 0%,#88c167 50%,#82be61 51%,#82be61 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #93c775 0%,#88c167 50%,#82be61 51%,#82be61 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #93c775 0%,#88c167 50%,#82be61 51%,#82be61 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #93c775 0%,#88c167 50%,#82be61 51%,#82be61 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93c775', endColorstr='#82be61',GradientType=0 ); /* IE6-9 */
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.tbl .colorodd,
+.tbl.col1st_color .tbl_item:first-child:not(.nocolor),
+.tbl.tbl_form .tbl_row:not(.header) .tbl_item:nth-child(odd):not(.coloreven),
+.tbl.tbl8col .tbl_row .tbl_item:nth-child(odd),
+.tbl.tbl2col .tbl_row .tbl_item:nth-child(1) {
+    background: #93c775; /* Old browsers */
+    background: -moz-linear-gradient(top, #93c775 0%, #88c167 50%, #82be61 51%, #82be61 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#93c775), color-stop(50%,#88c167), color-stop(51%,#82be61), color-stop(100%,#82be61)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #93c775 0%,#88c167 50%,#82be61 51%,#82be61 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #93c775 0%,#88c167 50%,#82be61 51%,#82be61 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #93c775 0%,#88c167 50%,#82be61 51%,#82be61 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #93c775 0%,#88c167 50%,#82be61 51%,#82be61 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93c775', endColorstr='#82be61',GradientType=0 ); /* IE6-9 */
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.tbl.tblsole .tbl_row:nth-child(odd):not(.total):not(.header):not(.spacing) .tbl_item,
+.tbl.tbl_form .tbl_row:nth-child(odd):not(.total):not(.header):not(.spacing) .tbl_item {
+    background-color: #fbfdea;
+}
+
+.tbl .coloreven,
+.tbl.tbl_form .tbl_row:not(.header) .tbl_item:nth-child(even):not(.colorodd),
+.tbl.tblsole .tbl_row:nth-child(even):not(.total):not(.header):not(.spacing) .tbl_item,
+.tbl.tbl8col .tbl_item,
+.tbl.tbl2col .tbl_item {
+    background-color: #dae2e8;
+}
+
+.tbl .nocolor, .tbl.nocolor {
+    background-color: #edf0f5;
+}
+
+/** boder table tbl **/
+
+.tbl.col1st_color .tbl_item,
+.tbl.tbl_form .tbl_item:not(.noboder),
+.tbl.form .tbl_item:not(.noboder),
+.tbl.separate .tbl_item:not(.noboder) {
+    border: 1px solid #7388a0;
+}
+
+.outline,
+.tbl.separate .tbl_item.outline,
+.tbl:not(.separate):not(.form):not(.tblsole):not(.outlineb) {
+    border: 2px solid #b8cacd;
+}
+
+.outlineb {
+  border: 1px solid #7388a0;
+  display: inline-block!important;
+}
+
+/* boder table sole */
+.tbl.separate .tbl.tblsole .tbl_item,
+.tbl.tblsole .tbl_item {
+    border-right: 1px solid #7388a0;
+    border-left: 1px solid #fff;
+    border-top: 1px solid #7388a0;
+    /*border-top: 0;*/
+    border-bottom: 0;
+}
+
+/* boder cell_child */
+.cell_child:not(:last-child) {
+    border-bottom: 1px solid #7388a0;
+}
+
+/* outline boder table sole */
+.tbl.tblsole .tbl_row:first-child:not(.noboder) .tbl_item,
+.tbl.tblsole .tbl_row.spacing .tbl_item {
+    border-top: 2px solid #7388a0;
+}
+
+.tbl.tblsole .tbl_row:last-child:not(.noboder) .tbl_item {
+    border-bottom: 2px solid #7388a0;
+}
+
+.tbl.tblsole .tbl_row:not(.noboder) .tbl_item:first-child {
+    border-left: 2px solid #7388a0;
+}
+
+.tbl.tblsole .tbl_row:not(.noboder) .tbl_item:last-child {
+    border-right: 2px solid #7388a0;
+}
+
+/* exception boder tbl */
+.tbl .tbl_row.bo_top.b2p,
+.tbl .tbl_row.bo_top.b2p .tbl_item {
+    border-top: 2px solid #b8cacd;
+}
+
+.tbl .tbl_item.bo_top.b2p {
+    border-top: 2px solid #b8cacd;
+}
+
+.tbl .tbl_item.bo_right.b2p {
+    border-right: 2px solid #b8cacd;
+}
+
+.tbl .tbl_row .tbl_item.bo_left {
+    border-left: 1px solid #7388a0;
+}
+
+.tbl .tbl_item.invisible:nth-child(n) {
+    border: hidden;
+    border-top: 2px solid #b8cacd;
+}
+
+.tbl .tbl_row .spacing,
+.tbl_form .tbl_item:not(.invisible) + .tbl_item.invisible {
+    border-left: 2px solid #b8cacd;
+}
+
+.tbl .tbl_row .spacing,
+.tbl_form .tbl_item.invisible:first-child ~ .tbl_item.invisible {
+    border-right: 2px solid #b8cacd;
+}
+/** End table tbl color **/
+
+/*BEGIN Validate*/
+.invalid {
+    border-color: #E9322D !important;
+    box-shadow: 0 0 6px #F8B9B7 !important;
+}
+/*END Validate*/

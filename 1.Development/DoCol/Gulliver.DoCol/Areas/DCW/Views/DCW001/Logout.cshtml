@@ -1,0 +1,22 @@
+﻿@{ 
+    Layout = "~/Views/Shared/_LayoutError.cshtml"; 
+}
+@section CssSection {
+    @*<link href="~/Content/themes/DCW/DCW001.css" rel="stylesheet" />*@
+    <link href="~/Content/themes/DCW//login.css" rel="stylesheet" />
+    <style>
+        #content
+        {
+            height: 460px;
+        }
+    </style>
+}
+
+<div id="content">
+    <div class="col-xs-12 text_c f_bold" style="margin-top:180px">
+            <p style="font-size:30px;color:red">LOG OUT SUCCESS</p>
+        </div>
+    <div class="col-xs-12 bold bor_top" style="margin-top:200px">
+        <p>@System.Configuration.ConfigurationManager.AppSettings["Version"]</p>
+    </div>
+</div>

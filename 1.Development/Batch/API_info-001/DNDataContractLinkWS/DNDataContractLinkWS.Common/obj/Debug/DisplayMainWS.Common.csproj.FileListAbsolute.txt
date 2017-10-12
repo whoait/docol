@@ -1,0 +1,5 @@
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.Common\bin\Debug\DisplayMainWS.Common.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.Common\bin\Debug\DisplayMainWS.Common.pdb
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.Common\obj\Debug\DisplayMainWS.Common.csprojResolveAssemblyReference.cache
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.Common\obj\Debug\DisplayMainWS.Common.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.Common\obj\Debug\DisplayMainWS.Common.pdb

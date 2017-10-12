@@ -1,0 +1,9 @@
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\KaizoPartsWS\KaizoPartsWS.BusinessLogic\obj\Debug\KaizoPartsWS.BusinessLogic.csprojResolveAssemblyReference.cache
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\KaizoPartsWS\KaizoPartsWS.BusinessLogic\bin\Debug\KaizoPartsWS.BusinessLogic.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\KaizoPartsWS\KaizoPartsWS.BusinessLogic\bin\Debug\KaizoPartsWS.BusinessLogic.pdb
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\KaizoPartsWS\KaizoPartsWS.BusinessLogic\bin\Debug\KaizoPartsWS.DataAccess.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\KaizoPartsWS\KaizoPartsWS.BusinessLogic\bin\Debug\KaizoPartsWS.DTO.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\KaizoPartsWS\KaizoPartsWS.BusinessLogic\bin\Debug\KaizoPartsWS.DataAccess.pdb
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\KaizoPartsWS\KaizoPartsWS.BusinessLogic\bin\Debug\KaizoPartsWS.DTO.pdb
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\KaizoPartsWS\KaizoPartsWS.BusinessLogic\obj\Debug\KaizoPartsWS.BusinessLogic.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\KaizoPartsWS\KaizoPartsWS.BusinessLogic\obj\Debug\KaizoPartsWS.BusinessLogic.pdb

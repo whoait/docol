@@ -1,0 +1,135 @@
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\DisplayMainWS.API.dll.config
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\DisplayMainWS.API.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\DisplayMainWS.API.pdb
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\Antlr3.Runtime.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\DisplayMainWS.BusinessLogic.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\DisplayMainWS.DTO.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\EntityFramework.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\Microsoft.Data.Edm.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\Microsoft.Data.OData.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\System.Spatial.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\System.Web.Cors.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\System.Web.Helpers.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\System.Web.Http.Cors.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\System.Web.Mvc.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\System.Web.Optimization.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\System.Web.Providers.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\System.Web.Razor.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\System.Web.WebPages.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\System.Web.WebPages.Razor.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\WebGrease.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\DisplayMainWS.DataAccess.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\DisplayMainWS.BusinessLogic.pdb
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\DisplayMainWS.DTO.pdb
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\System.Web.Http.Cors.xml
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\EntityFramework.xml
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\System.Web.Helpers.xml
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\System.Web.Mvc.xml
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\System.Web.Razor.xml
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\System.Web.WebPages.xml
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\System.Web.WebPages.Razor.xml
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\Microsoft.Data.Edm.xml
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\Microsoft.Data.OData.xml
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\System.Spatial.xml
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\DisplayMainWS.DataAccess.pdb
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\de\Microsoft.Data.OData.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\es\Microsoft.Data.OData.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\it\Microsoft.Data.OData.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\de\System.Spatial.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\es\System.Spatial.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\fr\System.Spatial.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\it\System.Spatial.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\ja\System.Spatial.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\ko\System.Spatial.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\ru\System.Spatial.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\zh-Hans\System.Spatial.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\bin\zh-Hant\System.Spatial.resources.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\obj\Debug\DisplayMainWS.API.csprojResolveAssemblyReference.cache
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\obj\Debug\DisplayMainWS.API.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.API\obj\Debug\DisplayMainWS.API.pdb
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\DisplayMainWS.API.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\DisplayMainWS.API.pdb
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\Antlr3.Runtime.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\DisplayMainWS.BusinessLogic.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\DisplayMainWS.DTO.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\EntityFramework.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\Microsoft.Data.Edm.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\Microsoft.Data.OData.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\Microsoft.Web.Infrastructure.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\System.Spatial.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\System.Web.Helpers.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\System.Web.Mvc.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\System.Web.Optimization.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\System.Web.Providers.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\System.Web.Razor.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\System.Web.WebPages.Deployment.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\System.Web.WebPages.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\System.Web.WebPages.Razor.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\WebGrease.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\DisplayMainWS.DataAccess.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\DisplayMainWS.Common.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\DisplayMainWS.BusinessLogic.pdb
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\DisplayMainWS.DTO.pdb
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\System.Web.Http.Cors.xml
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\EntityFramework.xml
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\System.Web.Helpers.xml
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\System.Web.Mvc.xml
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\System.Web.Razor.xml
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\System.Web.WebPages.xml
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\System.Web.WebPages.Deployment.xml
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\System.Web.WebPages.Razor.xml
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\Microsoft.Data.Edm.xml
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\Microsoft.Data.OData.xml
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\System.Spatial.xml
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\DisplayMainWS.DataAccess.pdb
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\DisplayMainWS.Common.pdb
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\de\Microsoft.Data.Edm.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\es\Microsoft.Data.Edm.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\it\Microsoft.Data.Edm.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\de\Microsoft.Data.OData.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\es\Microsoft.Data.OData.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\fr\Microsoft.Data.OData.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\it\Microsoft.Data.OData.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\ja\Microsoft.Data.OData.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\ko\Microsoft.Data.OData.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\ru\Microsoft.Data.OData.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\de\System.Spatial.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\es\System.Spatial.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\fr\System.Spatial.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\it\System.Spatial.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\ja\System.Spatial.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\ko\System.Spatial.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\ru\System.Spatial.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\zh-Hans\System.Spatial.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\bin\zh-Hant\System.Spatial.resources.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\obj\Debug\DisplayMainWS.API.csprojResolveAssemblyReference.cache
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\obj\Debug\DisplayMainWS.API.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.API\obj\Debug\DisplayMainWS.API.pdb

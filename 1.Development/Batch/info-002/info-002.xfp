@@ -1,0 +1,1670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fe:Project fb:created="2015-11-11T17:18:25.752 ICT" fb:idSeq="1" fb:version="1.0" id="ba5ebfe7-fdc8-42f0-af97-ac90aacfa728" name="info-002" version="1.0" xmlns:fb="http://www.infoteria.com/asteria/flowbuilder" xmlns:fe="http://www.infoteria.com/asteria/flowengine" xmlns:mp="http://www.infoteria.com/asteria/mapper">
+	<fb:Property name="CreatedVersion">4.9.0.9199</fb:Property>
+	<fb:Property name="UpdateVersion">4.9.0.9199</fb:Property>
+	<fb:Property name="Revision"/>
+	<fb:Property name="Author"/>
+	<fb:Property name="Copyright"/>
+	<fe:Property name="CacheType">true</fe:Property>
+	<fe:Property name="AllowInvoke"/>
+	<fe:Property name="LogSettings" unfold="true">
+		<fe:Property name="LogName"/>
+		<fe:Property name="LogLevel">default</fe:Property>
+		<fe:Property name="OutputDefault">true</fe:Property>
+	</fe:Property>
+	<fe:Flow id="Flow1" name="info-002">
+		<fe:Property name="Timeout">180</fe:Property>
+		<fe:Property name="Exception"/>
+		<fe:Property name="AllowInvoke"/>
+		<fe:Property name="LogSettings" unfold="true">
+			<fe:Property name="LogName"/>
+			<fe:Property name="LogLevel">default</fe:Property>
+			<fe:Property name="OutputDefault">true</fe:Property>
+		</fe:Property>
+		<fe:Property name="CloseSession">true</fe:Property>
+		<fe:Property name="HttpExecute">false</fe:Property>
+		<fb:Description height="278" width="172" x="187" y="50">
+			<fb:Property name="Font">Tahoma-BOLDITALIC-11</fb:Property>
+			<fb:Property name="Background">40808000</fb:Property>
+			<fb:Property name="Text">Get data A = &gt;B Cancel</fb:Property>
+		</fb:Description>
+		<fb:Description height="511" width="170" x="423" y="52">
+			<fb:Property name="Font">Tahoma-BOLDITALIC-11</fb:Property>
+			<fb:Property name="Background">40808000</fb:Property>
+			<fb:Property name="Text">Update Data  A=&gt;B Cancel</fb:Property>
+		</fb:Description>
+		<fb:Description height="236" width="169" x="189" y="562">
+			<fb:Property name="Font">Tahoma-BOLDITALIC-11</fb:Property>
+			<fb:Property name="Background">4000ff00</fb:Property>
+			<fb:Property name="Text">Get data New DN NO</fb:Property>
+		</fb:Description>
+		<fb:Description height="545" width="170" x="418" y="618">
+			<fb:Property name="Font">Tahoma-BOLDITALIC-11</fb:Property>
+			<fb:Property name="Background">4000ff00</fb:Property>
+			<fb:Property name="Text">Update Data  New DN NO</fb:Property>
+		</fb:Description>
+		<fb:Description height="232" width="170" x="186" y="1176">
+			<fb:Property name="Font">Tahoma-BOLDITALIC-11</fb:Property>
+			<fb:Property name="Background">40ffff00</fb:Property>
+			<fb:Property name="Text">Get data A =&gt; H, H = B Cancel</fb:Property>
+		</fb:Description>
+		<fb:Description height="545" width="193" x="427" y="1234">
+			<fb:Property name="Font">Tahoma-BOLDITALIC-11</fb:Property>
+			<fb:Property name="Background">40ffff00</fb:Property>
+			<fb:Property name="Text">Update data A =&gt; H, H = B Cancel</fb:Property>
+		</fb:Description>
+		<fb:Description height="351" width="171" x="189" y="1617">
+			<fb:Property name="Font">Tahoma-BOLDITALIC-11</fb:Property>
+			<fb:Property name="Background">40cc99ff</fb:Property>
+			<fb:Property name="Text">Update XML file</fb:Property>
+		</fb:Description>
+		<fe:Component fb:x="254" fb:y="16" name="Start_info-002" type="Start">
+			<fe:Property name="Exception"/>
+			<fe:Property name="BeginTransaction">false</fe:Property>
+			<fe:Property name="BeginCheckPoint">False</fe:Property>
+			<fe:Property name="CheckPointGroup" unfold="true">
+				<fe:Property name="Status"/>
+				<fe:Property name="RetryCount">SystemDefault</fe:Property>
+				<fe:Property name="RetryInterval">SystemDefault</fe:Property>
+				<fe:Property name="OtherServerRetry">true</fe:Property>
+			</fe:Property>
+			<fe:Property name="RequiredRole"/>
+			<fe:Property name="ArgumentSyncFlowVariables">true</fe:Property>
+			<fe:Output>
+				<fe:Stream format="Any"/>
+			</fe:Output>
+		</fe:Component>
+		<fe:Component fb:x="254" fb:y="84" name="FileGet_Condition" type="FileSystem(Get)">
+			<fe:Property name="Exception"/>
+			<fe:Property name="FileNotFoundException"/>
+			<fe:Property name="FilePath">BatchSCrunStop/info-002TimeStop.xml</fe:Property>
+			<fe:Property name="FilePathDetail" unfold="true">
+				<fe:Property name="HomeDirectory">Relative</fe:Property>
+				<fe:Property name="AllowAbsolute">true</fe:Property>
+				<fe:Property name="AllowUpDir">true</fe:Property>
+			</fe:Property>
+			<fe:Property name="FileEncoding">(AutoDetect)</fe:Property>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="FileDelete">false</fe:Property>
+			<fe:Output>
+				<fe:Stream format="XML">
+					<fe:Property name="DTDFilePath"/>
+					<fe:Property name="Normalize">false</fe:Property>
+					<fe:Property name="Validate">false</fe:Property>
+					<fe:Property name="Encoding">utf-8</fe:Property>
+					<fe:Property name="LineFeed">(No conversion)</fe:Property>
+					<fe:Property name="OutputForm">(none)</fe:Property>
+					<fe:Property name="OutputXMLDeclaration">true</fe:Property>
+					<fe:Property name="EmptyTag">true</fe:Property>
+					<fe:FieldDef>
+						<fe:Field expanded="true" name="inputPara" nodeType="Element" repeat="false" type="String">
+							<fe:Field name="UPDATE_DATE" nodeType="Element" repeat="false" type="String"/>
+						</fe:Field>
+					</fe:FieldDef>
+				</fe:Stream>
+			</fe:Output>
+		</fe:Component>
+		<fe:Component fb:x="254" fb:y="152" name="Mapper_Condition" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="PassStream">false</fe:Property>
+			<fe:Property name="CountZeroException">false</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings">
+				<mp:Mappings>
+					<mp:Function fb:x="186" fb:y="84" name="NOW1" type="NOW">
+						<mp:Property name="Format">yyyy/MM/dd HH:mm:ss</mp:Property>
+						<mp:Property name="TruncateTime">false</mp:Property>
+						<mp:Property name="TimeZone">(default)</mp:Property>
+						<mp:Property name="Locale">(default)</mp:Property>
+					</mp:Function>
+					<mp:Link name="Link2">
+						<mp:Input name="NOW1"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/LAST_PRACTICE_DATETIME"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link1">
+						<mp:Input fb:x="0" fb:y="0" table="SD/SD:FileGet_Condition/SD:F/inputPara/UPDATE_DATE"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/I_UPDATE_DATE"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link3">
+						<mp:Input fb:x="0" fb:y="0" table="SD/SD:FileGet_Condition/SD:F/inputPara/UPDATE_DATE"/>
+						<mp:Output fb:x="0" fb:y="0" table="CP/CP:RDB_GetDataAHCencel/SQLParameter/update_date"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+				</mp:Mappings>
+			</fe:Property>
+			<fe:Output>
+				<fe:Stream format="Text">
+					<fe:Property name="Encoding">utf-8</fe:Property>
+				</fe:Stream>
+			</fe:Output>
+		</fe:Component>
+		<fe:Component fb:x="254" fb:y="220" name="RDB_GetDataAHCencel" type="RDB(Get)">
+			<fe:Property name="Exception">@$@system@$@	Ignore</fe:Property>
+			<fe:Property name="ConnectException"/>
+			<fe:Property name="RecordNotFoundException">@$@system@$@	Ignore</fe:Property>
+			<fe:Property name="Connection">RDB_Docol_Test</fe:Property>
+			<fe:Property name="SQL">SELECT																
+	 DC.DOC_CONTROL_NO 															
+	 FROM [dbDocol_Test].[dbo].TT_DOC_CONTROL AS DC WITH(NOLOCK) 															
+	 INNER JOIN [dbDocol_Test].[dbo].TT_DN_CAR_INFO AS DNC WITH(NOLOCK) 															
+	 ON															
+	 (															
+		DNC.SHUPPINN_TOROKU_NO = DC.SHIIRE_SHUPPINN_TOROKU_NO														
+		AND DNC.CHASSIS_NO = DC.CHASSIS_NO														
+		AND DNC.CAR_ID = DC.CAR_ID														
+	 )															
+	 WHERE 															
+	 	DC.DOC_STATUS IN ('102','103','104')														
+		AND DNC.CANCEL_FLG = '1'														
+		AND DNC.DELETE_FLG= '0' 																
+		AND DNC.UPDATE_DATE &gt;= ?update_date?	</fe:Property>
+			<fe:Property name="RecordFilter">false</fe:Property>
+			<fe:Property name="StartRow">1</fe:Property>
+			<fe:Property name="GetCount">0</fe:Property>
+			<fe:Property name="QueryTimeout">0</fe:Property>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="GetByLoop">1</fe:Property>
+			<fe:Property name="CountZeroException">true</fe:Property>
+			<fe:Property name="RDBGetDetail" unfold="true">
+				<fe:Property name="Transaction">false</fe:Property>
+				<fe:Property name="FetchSize">1000</fe:Property>
+				<fe:Property name="TransformSQLParameter">true</fe:Property>
+			</fe:Property>
+			<fe:Property designer="true" name="SQLBuilder">
+				<fe:SQLBuilder>
+					<fe:Option defaultSchema="docol" indentSQL="true" omitDefaultSchema="true" quoteName="false" syncSQL="false" useTableAlias="true"/>
+					<fe:Param bounds="0,0,0,0">
+						<fe:Column name="update_date" type="VARCHAR"/>
+					</fe:Param>
+				</fe:SQLBuilder>
+			</fe:Property>
+			<fe:AdditionalProp name="SQLParameter">
+				<fe:Row JavaType="VARCHAR" Name="update_date" Type="String"/>
+			</fe:AdditionalProp>
+			<fe:Output>
+				<fe:Stream format="Record">
+					<fe:FieldDef>
+						<fe:Field name="DOC_CONTROL_NO" type="String"/>
+					</fe:FieldDef>
+				</fe:Stream>
+			</fe:Output>
+		</fe:Component>
+		<fe:Component fb:x="254" fb:y="288" name="Mapper_GetDataAHCancel" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="PassStream">true</fe:Property>
+			<fe:Property name="CountZeroException">false</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings">
+				<mp:Mappings>
+					<mp:Link name="Link1">
+						<mp:Input fb:x="0" fb:y="0" table="SD/SD:RDB_GetDataAHCencel/SD:COUNT"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/TotalRecordExtract"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link2">
+						<mp:Input fb:x="0" fb:y="0" table="CP/CP:RDB_GetDataAHCencel/ExceptionString"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/ErrorMessage"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+				</mp:Mappings>
+			</fe:Property>
+		</fe:Component>
+		<fe:Component fb:x="254" fb:y="356" name="Branch_GetAHCancel" type="BranchFilterStart">
+			<fe:Property name="Exception"/>
+			<fe:Property name="Condition">$flow.TotalRecordExtract &gt; 0</fe:Property>
+			<fe:Property name="EvaluateMode">Any one</fe:Property>
+		</fe:Component>
+		<fe:Component fb:x="492" fb:y="152" name="SQL_UpdateAHCancel" type="SQLCall">
+			<fe:Property name="Exception">@$@system@$@	Ignore</fe:Property>
+			<fe:Property name="ConnectException"/>
+			<fe:Property name="RecordNotFoundException"/>
+			<fe:Property name="Connection">RDB_Docol_Test</fe:Property>
+			<fe:Property name="Mode">Procedure</fe:Property>
+			<fe:Property name="SQL">EXEC [dbDocol_Test].[dbo].[stp_UpdateAHCancel]  &#xd;
+?DocControlNo?&#xd;
+,?Result? </fe:Property>
+			<fe:Property name="QueryTimeout">0</fe:Property>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="CountZeroException">true</fe:Property>
+			<fe:Property name="UpdateCount"/>
+			<fe:Property name="Transaction">true</fe:Property>
+			<fe:Property name="TransformSQLParameter">true</fe:Property>
+			<fe:AdditionalProp name="SQLParameter">
+				<fe:Row InOut="in" Name="DocControlNo" Type="VARCHAR"/>
+				<fe:Row InOut="out" Name="Result" Type="VARCHAR"/>
+			</fe:AdditionalProp>
+		</fe:Component>
+		<fe:Component fb:x="492" fb:y="220" name="Mapper_ResultUpdateAHCancel" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="PassStream">false</fe:Property>
+			<fe:Property name="CountZeroException">false</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings">
+				<mp:Mappings>
+					<mp:Link name="Link2">
+						<mp:Input fb:x="0" fb:y="0" table="CP/CP:SQL_UpdateAHCancel/ExceptionString"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/ErrorMessage"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link1">
+						<mp:Input fb:x="0" fb:y="0" table="CP/CP:SQL_UpdateAHCancel/SQLParameter/DocControlNo"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/RecordKey"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link3">
+						<mp:Input fb:x="0" fb:y="0" table="CP/CP:SQL_UpdateAHCancel/SQLParameter/Result"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/ResultSPT"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+				</mp:Mappings>
+			</fe:Property>
+			<fe:Output>
+				<fe:Stream format="Text">
+					<fe:Property name="Encoding">utf-8</fe:Property>
+				</fe:Stream>
+			</fe:Output>
+		</fe:Component>
+		<fe:Component fb:x="492" fb:y="84" name="Mapper_DataUpdateAHCancel" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">true</fe:Property>
+			<fe:Property name="PassStream">false</fe:Property>
+			<fe:Property name="CountZeroException">true</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings">
+				<mp:Mappings>
+					<mp:Link name="Link1">
+						<mp:Input fb:x="0" fb:y="0" table="SD/SD:Branch_GetAHCancel.branch/SD:F/DOC_CONTROL_NO"/>
+						<mp:Output fb:x="0" fb:y="0" table="CP/CP:SQL_UpdateAHCancel/SQLParameter/DocControlNo"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+				</mp:Mappings>
+			</fe:Property>
+			<fe:Output>
+				<fe:Stream format="Record">
+					<fe:FieldDef/>
+				</fe:Stream>
+			</fe:Output>
+		</fe:Component>
+		<fe:Component fb:x="492" fb:y="458" name="LoopEnd_AHCance" type="LoopEnd">
+			<fe:Property name="LoopStart">Mapper_DataUpdateAHCancel</fe:Property>
+			<fe:Property name="PackRecords">PackRecords</fe:Property>
+		</fe:Component>
+		<fe:Component fb:x="492" fb:y="288" name="Branch_ResultUpDate1" type="BranchFilterStart">
+			<fe:Property name="Exception"/>
+			<fe:Property name="Condition">$flow.ResultSPT =0</fe:Property>
+			<fe:Property name="EvaluateMode">Any one</fe:Property>
+		</fe:Component>
+		<fe:Component fb:x="458" fb:y="356" name="Mapper_failAHCancel" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="PassStream">false</fe:Property>
+			<fe:Property name="CountZeroException">false</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings">
+				<mp:Mappings>
+					<mp:Function fb:x="84" fb:y="254" name="Add1" type="Add">
+						<mp:Property name="Calculation">Add</mp:Property>
+						<mp:Property name="Data">1</mp:Property>
+						<mp:Property name="Scale"/>
+						<mp:Input>
+							<mp:Item>Link1</mp:Item>
+						</mp:Input>
+					</mp:Function>
+					<mp:Link name="Link1">
+						<mp:Input fb:x="0" fb:y="0" table="FV/NumOfRecordFail"/>
+						<mp:Output name="Add1"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link2">
+						<mp:Input name="Add1"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/NumOfRecordFail"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+				</mp:Mappings>
+			</fe:Property>
+			<fe:Output>
+				<fe:Stream format="Text">
+					<fe:Property name="Encoding">utf-8</fe:Property>
+				</fe:Stream>
+			</fe:Output>
+			<fe:Log>Import data A =&gt;  H Cancal  into TT_DOC_CONTROL.
+MESSAGE : ${flow.ErrorMessage}
+KEY : ${flow.RecordKey}</fe:Log>
+		</fe:Component>
+		<fe:Component fb:x="526" fb:y="356" name="Mapper_successAHCancel" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="PassStream">false</fe:Property>
+			<fe:Property name="CountZeroException">false</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings">
+				<mp:Mappings>
+					<mp:Function fb:x="152" fb:y="254" name="Add1" type="Add">
+						<mp:Property name="Calculation">Add</mp:Property>
+						<mp:Property name="Data">1</mp:Property>
+						<mp:Property name="Scale"/>
+						<mp:Input>
+							<mp:Item>Link1</mp:Item>
+						</mp:Input>
+					</mp:Function>
+					<mp:Link name="Link1">
+						<mp:Input fb:x="0" fb:y="0" table="FV/NumOfRecordSuccess"/>
+						<mp:Output name="Add1"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link3">
+						<mp:Input name="Add1"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/NumOfRecordSuccess"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+				</mp:Mappings>
+			</fe:Property>
+			<fe:Output>
+				<fe:Stream format="Text">
+					<fe:Property name="Encoding">utf-8</fe:Property>
+				</fe:Stream>
+			</fe:Output>
+		</fe:Component>
+		<fe:Component fb:x="492" fb:y="424" name="BranchEnd_AHCancel" type="BranchFilterEnd">
+			<fe:Input>
+				<fe:Item>Link16</fe:Item>
+				<fe:Item>Link17</fe:Item>
+			</fe:Input>
+			<fe:Output>
+				<fe:Stream format="Text">
+					<fe:Property name="Encoding">utf-8</fe:Property>
+				</fe:Stream>
+			</fe:Output>
+		</fe:Component>
+		<fe:Component fb:x="254" fb:y="662" name="RDB_GetDataDNNo" type="RDB(Get)">
+			<fe:Property name="Exception">@$@system@$@	Ignore</fe:Property>
+			<fe:Property name="ConnectException"/>
+			<fe:Property name="RecordNotFoundException"/>
+			<fe:Property name="Connection">RDB_Docol_Test</fe:Property>
+			<fe:Property name="SQL">SELECT																	
+	 T1.DOC_CONTROL_NO 																
+	,T1.SHUPPINN_TOROKU_NO																
+	,T1.SHOP_CD																
+	,T1.RAKUSATSU_SHOP_CD																
+	,T1.DN_SEIYAKU_DATE																
+	,T1.SHIIRE_NO																
+	,T1.CAR_SUB_ID																
+																	
+FROM (SELECT																	
+			 DC.DOC_CONTROL_NO 														
+			,DNC.SHUPPINN_TOROKU_NO														
+			,DNC.SHOP_CD														
+			,DNC.RAKUSATSU_SHOP_CD														
+			,DNC.DN_SEIYAKU_DATE														
+			,DNC.SHIIRE_NO	
+			,DNC.CAR_SUB_ID
+			,DNC.CAR_ID														
+		FROM [dbDocol_Test].[dbo].TT_DOC_CONTROL AS DC WITH(NOLOCK) 															
+		INNER JOIN [dbDocol_Test].[dbo].TT_DN_CAR_INFO AS DNC WITH(NOLOCK) 															
+		ON (															
+		DNC.CHASSIS_NO = DC.CHASSIS_NO															
+		AND DNC.CAR_ID = DC.CAR_ID															
+		AND DC.RAKUSATSU_SHOP_CD=DNC.SHOP_CD
+		AND DNC.UPDATE_DATE &gt;= ?update_date?
+		AND DC.URIAGE_SHUPPINN_TOROKU_NO IS NULL
+		 )	
+		INNER JOIN [dbDocol_Test].[dbo].TM_CONST CONST (nolock)		
+		ON( 
+		DNC.SHOP_CD=CONST.VALUE		
+		AND CONST.TYPE='書類保留店舗'		
+		)												
+	    WHERE 																
+	 	DC.DOC_STATUS IN ('102','103','104')															
+		--AND DNC.CANCEL_FLG = '0'
+		AND	(DNC.CANCEL_FLG &lt;&gt; '1' OR DNC.CANCEL_FLG IS NULL)		
+	 )AS T1																
+	INNER JOIN (SELECT																
+					DC.DOC_CONTROL_NO 												
+					,DNC.CAR_ID												
+					,MAX(DNC.DN_SEIYAKU_DATE)   AS DN_SEIYAKU_DATE												
+				FROM [dbDocol_Test].[dbo].TT_DOC_CONTROL AS DC WITH(NOLOCK) 													
+				INNER JOIN [dbDocol_Test].[dbo].TT_DN_CAR_INFO AS DNC WITH(NOLOCK) 													
+				ON (													
+					DNC.CHASSIS_NO = DC.CHASSIS_NO												
+					AND DNC.CAR_ID = DC.CAR_ID	
+					AND DC.RAKUSATSU_SHOP_CD=DNC.SHOP_CD			
+					AND DNC.UPDATE_DATE &gt;= ?update_date?		
+					AND DC.URIAGE_SHUPPINN_TOROKU_NO IS NULL			
+											
+					)	
+					INNER JOIN [dbDocol_Test].[dbo].TM_CONST CONST (nolock)		
+					ON DNC.SHOP_CD=CONST.VALUE		
+					AND CONST.TYPE='書類保留店舗'		
+											
+				WHERE 													
+	 				DC.DOC_STATUS IN ('102','103','104')												
+					--AND DNC.CANCEL_FLG = '0'	
+                    AND	(DNC.CANCEL_FLG &lt;&gt; '1' OR DNC.CANCEL_FLG IS NULL)						
+				GROUP BY  DC.DOC_CONTROL_NO ,DNC.CAR_ID													
+				) AS T2													
+	ON 																
+	T1.DOC_CONTROL_NO=T2.DOC_CONTROL_NO																
+	AND T1.CAR_ID=T2.CAR_ID																
+	AND T1.DN_SEIYAKU_DATE=T2.DN_SEIYAKU_DATE</fe:Property>
+			<fe:Property name="RecordFilter">false</fe:Property>
+			<fe:Property name="StartRow">1</fe:Property>
+			<fe:Property name="GetCount">0</fe:Property>
+			<fe:Property name="QueryTimeout">0</fe:Property>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="GetByLoop">1</fe:Property>
+			<fe:Property name="CountZeroException">true</fe:Property>
+			<fe:Property name="RDBGetDetail" unfold="true">
+				<fe:Property name="Transaction">false</fe:Property>
+				<fe:Property name="FetchSize">1000</fe:Property>
+				<fe:Property name="TransformSQLParameter">true</fe:Property>
+			</fe:Property>
+			<fe:Property designer="true" name="SQLBuilder">
+				<fe:SQLBuilder>
+					<fe:Option defaultSchema="docol" indentSQL="true" omitDefaultSchema="true" quoteName="false" syncSQL="false" useTableAlias="true"/>
+					<fe:Param bounds="0,0,0,0">
+						<fe:Column name="update_date" type="VARCHAR"/>
+					</fe:Param>
+				</fe:SQLBuilder>
+			</fe:Property>
+			<fe:AdditionalProp name="SQLParameter">
+				<fe:Row JavaType="VARCHAR" Name="update_date" Type="String"/>
+			</fe:AdditionalProp>
+			<fe:Output>
+				<fe:Stream format="Record">
+					<fe:FieldDef>
+						<fe:Field name="DOC_CONTROL_NO" type="String"/>
+						<fe:Field name="SHUPPINN_TOROKU_NO" type="String"/>
+						<fe:Field name="SHOP_CD" type="String"/>
+						<fe:Field name="RAKUSATSU_SHOP_CD" type="String"/>
+						<fe:Field name="DN_SEIYAKU_DATE" type="String"/>
+						<fe:Field name="SHIIRE_NO" type="String"/>
+						<fe:Field name="CAR_SUB_ID" type="String"/>
+					</fe:FieldDef>
+				</fe:Stream>
+			</fe:Output>
+		</fe:Component>
+		<fe:Component fb:x="254" fb:y="730" name="Mapper_GetDataNewDN" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="PassStream">true</fe:Property>
+			<fe:Property name="CountZeroException">false</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings">
+				<mp:Mappings>
+					<mp:Link name="Link1">
+						<mp:Input fb:x="0" fb:y="0" table="SD/SD:RDB_GetDataDNNo/SD:COUNT"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/TotalRecordExtract"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link2">
+						<mp:Input fb:x="0" fb:y="0" table="CP/CP:RDB_GetDataDNNo/ExceptionString"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/ErrorMessage"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+				</mp:Mappings>
+			</fe:Property>
+		</fe:Component>
+		<fe:Component fb:x="254" fb:y="424" name="Mapper_Log1" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="PassStream">false</fe:Property>
+			<fe:Property name="CountZeroException">false</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings">
+				<mp:Mappings>
+					<mp:Link name="Link1">
+						<mp:Input fb:x="0" fb:y="0" table="FV/SetValue"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/NumOfRecordSuccess"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link2">
+						<mp:Input fb:x="0" fb:y="0" table="FV/SetValue"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/NumOfRecordFail"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link3">
+						<mp:Input fb:x="0" fb:y="0" table="FV/SetValue"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/UpdateCountReturn"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link4">
+						<mp:Input fb:x="0" fb:y="0" table="FV/SetValue"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/TotalRecordExtract"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+				</mp:Mappings>
+			</fe:Property>
+			<fe:Output>
+				<fe:Stream format="Text">
+					<fe:Property name="Encoding">utf-8</fe:Property>
+				</fe:Stream>
+			</fe:Output>
+			<fe:Log>Get data A =&gt; H Cancel
+${flow.ErrorMessage} End processing...</fe:Log>
+		</fe:Component>
+		<fe:Component fb:x="254" fb:y="798" name="Branch_GetNewDN" type="BranchFilterStart">
+			<fe:Property name="Exception"/>
+			<fe:Property name="Condition">$flow.TotalRecordExtract &gt; 0</fe:Property>
+			<fe:Property name="EvaluateMode">Any one</fe:Property>
+		</fe:Component>
+		<fe:Component fb:x="254" fb:y="866" name="Mapper_Log3" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="PassStream">false</fe:Property>
+			<fe:Property name="CountZeroException">false</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings">
+				<mp:Mappings>
+					<mp:Link name="Link1">
+						<mp:Input fb:x="0" fb:y="0" table="FV/SetValue"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/NumOfRecordSuccess"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link2">
+						<mp:Input fb:x="0" fb:y="0" table="FV/SetValue"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/NumOfRecordFail"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link3">
+						<mp:Input fb:x="0" fb:y="0" table="FV/SetValue"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/TotalRecordExtract"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link4">
+						<mp:Input fb:x="0" fb:y="0" table="FV/SetValue"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/UpdateCountReturn"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+				</mp:Mappings>
+			</fe:Property>
+			<fe:Output>
+				<fe:Stream format="Text">
+					<fe:Property name="Encoding">utf-8</fe:Property>
+				</fe:Stream>
+			</fe:Output>
+			<fe:Log>Get data New DN No
+${flow.ErrorMessage} End processing...</fe:Log>
+		</fe:Component>
+		<fe:Component fb:x="492" fb:y="662" name="Mapper_DataUpdateNewDN" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">true</fe:Property>
+			<fe:Property name="PassStream">false</fe:Property>
+			<fe:Property name="CountZeroException">true</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings">
+				<mp:Mappings>
+					<mp:Function fb:x="186" fb:y="152" name="FORMATDATE1" type="FORMATDATE">
+						<mp:Property name="Format">yyyy/MM/dd HH:mm:ss</mp:Property>
+						<mp:Property name="TimeZone">(default)</mp:Property>
+						<mp:Property name="Locale">(default)</mp:Property>
+					</mp:Function>
+					<mp:Link name="Link1">
+						<mp:Input fb:x="0" fb:y="0" table="SD/SD:Branch_GetNewDN.branch/SD:F/DOC_CONTROL_NO"/>
+						<mp:Output fb:x="0" fb:y="0" table="CP/CP:SQLCall1/SQLParameter/DocControlNo"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link2">
+						<mp:Input fb:x="0" fb:y="0" table="SD/SD:Branch_GetNewDN.branch/SD:F/SHUPPINN_TOROKU_NO"/>
+						<mp:Output fb:x="0" fb:y="0" table="CP/CP:SQLCall1/SQLParameter/ShuppinnTorokuNo"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link3">
+						<mp:Input fb:x="0" fb:y="0" table="SD/SD:Branch_GetNewDN.branch/SD:F/SHOP_CD"/>
+						<mp:Output fb:x="0" fb:y="0" table="CP/CP:SQLCall1/SQLParameter/ShopCD"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link6">
+						<mp:Input fb:x="0" fb:y="0" table="SD/SD:Branch_GetNewDN.branch/SD:F/SHIIRE_NO"/>
+						<mp:Output fb:x="0" fb:y="0" table="CP/CP:SQLCall1/SQLParameter/ShiireNo"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link7">
+						<mp:Input fb:x="0" fb:y="0" table="SD/SD:Branch_GetNewDN.branch/SD:F/CAR_SUB_ID"/>
+						<mp:Output fb:x="0" fb:y="0" table="CP/CP:SQLCall1/SQLParameter/CarSubID"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link4">
+						<mp:Input fb:x="0" fb:y="0" table="SD/SD:Branch_GetNewDN.branch/SD:F/RAKUSATSU_SHOP_CD"/>
+						<mp:Output fb:x="0" fb:y="0" table="CP/CP:SQLCall1/SQLParameter/RakusatsuShopCD"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link5">
+						<mp:Input fb:x="0" fb:y="0" table="SD/SD:Branch_GetNewDN.branch/SD:F/DN_SEIYAKU_DATE"/>
+						<mp:Output name="FORMATDATE1"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link8">
+						<mp:Input name="FORMATDATE1"/>
+						<mp:Output fb:x="0" fb:y="0" table="CP/CP:SQLCall1/SQLParameter/DNSeiyakuDate"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+				</mp:Mappings>
+			</fe:Property>
+			<fe:Output>
+				<fe:Stream format="Text">
+					<fe:Property name="Encoding">utf-8</fe:Property>
+				</fe:Stream>
+			</fe:Output>
+		</fe:Component>
+		<fe:Component fb:x="492" fb:y="798" name="Mapper_ResultUpdateNewDN" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="PassStream">false</fe:Property>
+			<fe:Property name="CountZeroException">false</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings">
+				<mp:Mappings>
+					<mp:Unknown model="input">
+						<mp:Item id="UN:CP" name="Unknown" parent="CP">
+							<mp:Item name="SQLParameter">
+								<mp:Item class="item" name="DocControlNO"/>
+								<mp:Item class="item" name="Result"/>
+							</mp:Item>
+						</mp:Item>
+					</mp:Unknown>
+					<mp:Link name="Link2">
+						<mp:Input fb:x="0" fb:y="0" table="CP/CP:SQLCall1/ExceptionString"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/ErrorMessage"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link3">
+						<mp:Input fb:x="0" fb:y="0" table="CP/UN:CP/SQLParameter/DocControlNO" unknown="true"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/RecordKey"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link1">
+						<mp:Input fb:x="0" fb:y="0" table="CP/UN:CP/SQLParameter/Result" unknown="true"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/ResultSPT"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+				</mp:Mappings>
+			</fe:Property>
+			<fe:Output>
+				<fe:Stream format="Text">
+					<fe:Property name="Encoding">utf-8</fe:Property>
+				</fe:Stream>
+			</fe:Output>
+		</fe:Component>
+		<fe:Component fb:x="492" fb:y="866" name="Branch_ResultUpDate2" type="BranchFilterStart">
+			<fe:Property name="Exception"/>
+			<fe:Property name="Condition">$flow.ResultSPT =0</fe:Property>
+			<fe:Property name="EvaluateMode">Any one</fe:Property>
+		</fe:Component>
+		<fe:Component fb:x="458" fb:y="934" name="Mapper_failNewDN" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="PassStream">false</fe:Property>
+			<fe:Property name="CountZeroException">false</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings">
+				<mp:Mappings>
+					<mp:Function fb:x="118" fb:y="254" name="Add1" type="Add">
+						<mp:Property name="Calculation">Add</mp:Property>
+						<mp:Property name="Data">1</mp:Property>
+						<mp:Property name="Scale"/>
+						<mp:Input>
+							<mp:Item>Link1</mp:Item>
+						</mp:Input>
+					</mp:Function>
+					<mp:Link name="Link1">
+						<mp:Input fb:x="0" fb:y="0" table="FV/NumOfRecordFail"/>
+						<mp:Output name="Add1"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link2">
+						<mp:Input name="Add1"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/NumOfRecordFail"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+				</mp:Mappings>
+			</fe:Property>
+			<fe:Output>
+				<fe:Stream format="Text">
+					<fe:Property name="Encoding">utf-8</fe:Property>
+				</fe:Stream>
+			</fe:Output>
+			<fe:Log>Import data New DN no into TT_DOC_CONTROL.
+MESSAGE : ${flow.ErrorMessage}
+KEY : ${flow.RecordKey}</fe:Log>
+		</fe:Component>
+		<fe:Component fb:x="526" fb:y="934" name="Mapper_successNewDN" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="PassStream">false</fe:Property>
+			<fe:Property name="CountZeroException">false</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings">
+				<mp:Mappings>
+					<mp:Function fb:x="118" fb:y="254" name="Add1" type="Add">
+						<mp:Property name="Calculation">Add</mp:Property>
+						<mp:Property name="Data">1</mp:Property>
+						<mp:Property name="Scale"/>
+						<mp:Input>
+							<mp:Item>Link1</mp:Item>
+						</mp:Input>
+					</mp:Function>
+					<mp:Link name="Link1">
+						<mp:Input fb:x="0" fb:y="0" table="FV/NumOfRecordSuccess"/>
+						<mp:Output name="Add1"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link3">
+						<mp:Input name="Add1"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/NumOfRecordSuccess"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+				</mp:Mappings>
+			</fe:Property>
+			<fe:Output>
+				<fe:Stream format="Text">
+					<fe:Property name="Encoding">utf-8</fe:Property>
+				</fe:Stream>
+			</fe:Output>
+		</fe:Component>
+		<fe:Component fb:x="492" fb:y="1002" name="BranchEnd_NewDN" type="BranchFilterEnd">
+			<fe:Input>
+				<fe:Item>Link27</fe:Item>
+				<fe:Item>Link28</fe:Item>
+			</fe:Input>
+			<fe:Output>
+				<fe:Stream format="Text">
+					<fe:Property name="Encoding">utf-8</fe:Property>
+				</fe:Stream>
+			</fe:Output>
+		</fe:Component>
+		<fe:Component fb:x="492" fb:y="1070" name="LoopEnd_NewDN" type="LoopEnd">
+			<fe:Property name="LoopStart">Mapper_DataUpdateNewDN</fe:Property>
+			<fe:Property name="PackRecords">PackRecords</fe:Property>
+		</fe:Component>
+		<fe:Component fb:x="254" fb:y="1274" name="RDB_GetDataAHHBCencel" type="RDB(Get)">
+			<fe:Property name="Exception">@$@system@$@	Ignore</fe:Property>
+			<fe:Property name="ConnectException"/>
+			<fe:Property name="RecordNotFoundException"/>
+			<fe:Property name="Connection">RDB_Docol_Test</fe:Property>
+			<fe:Property name="SQL">SELECT 																				
+	   DOC_CONTROL_NO																			
+	  ,SHUPPINN_TOROKU_NO																			
+	  ,DNC1.SHOP_CD																			
+	  ,DNC1.RAKUSATSU_SHOP_CD																			
+	  ,DNC1.DN_SEIYAKU_DATE																			
+	  ,DNC1.SHIIRE_NO																			
+	  ,DNC1.CAR_SUB_ID																			
+	 FROM [dbDocol_Test].[dbo].TT_DOC_CONTROL AS DC WITH(NOLOCK)																			
+		INNER JOIN 																		
+		(																		
+			SELECT																	
+				 SHUPPINN_TOROKU_NO																
+				 ,CHASSIS_NO,CAR_ID																
+				 ,SHOP_CD,RAKUSATSU_SHOP_CD																
+				 ,DN_SEIYAKU_DATE,SHIIRE_NO																
+				 ,CAR_SUB_ID  														
+				 ,DELETE_FLG																
+			FROM [dbDocol_Test].[dbo].TT_DN_CAR_INFO AS DNC WITH(NOLOCK)																
+			WHERE DNC.SHUPPINN_TOROKU_NO IN																	
+				(SELECT DC.SHIIRE_SHUPPINN_TOROKU_NO 																
+					FROM [dbDocol_Test].[dbo].TT_DOC_CONTROL AS DC WITH(NOLOCK)															
+					INNER JOIN [dbDocol_Test].[dbo].TT_DN_CAR_INFO AS DNC WITH(NOLOCK)													
+					ON(															
+						DNC.SHUPPINN_TOROKU_NO = DC.URIAGE_SHUPPINN_TOROKU_NO														
+						AND DNC.CHASSIS_NO = DC.CHASSIS_NO														
+						AND DNC.CAR_ID = DC.CAR_ID														
+						AND DC.DOC_STATUS IN ('102','103','104')														
+						AND DNC.CANCEL_FLG = '1'														
+						AND DNC.DELETE_FLG = '0'														
+						AND DNC.UPDATE_DATE &gt;= ?UpdateDate? 														
+						)														
+				)																
+		) AS DNC1																		
+		ON 																		
+		(																		
+			DNC1.SHUPPINN_TOROKU_NO = DC.SHIIRE_SHUPPINN_TOROKU_NO																	
+			AND DNC1.CHASSIS_NO = DC.CHASSIS_NO																	
+			AND DNC1.CAR_ID = DC.CAR_ID																	
+			AND DC.DOC_STATUS IN ('102','103','104')										
+			AND DNC1.DELETE_FLG = '0'																	
+		)		</fe:Property>
+			<fe:Property name="RecordFilter">false</fe:Property>
+			<fe:Property name="StartRow">1</fe:Property>
+			<fe:Property name="GetCount">0</fe:Property>
+			<fe:Property name="QueryTimeout">0</fe:Property>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="GetByLoop">1</fe:Property>
+			<fe:Property name="CountZeroException">true</fe:Property>
+			<fe:Property name="RDBGetDetail" unfold="true">
+				<fe:Property name="Transaction">false</fe:Property>
+				<fe:Property name="FetchSize">1000</fe:Property>
+				<fe:Property name="TransformSQLParameter">true</fe:Property>
+			</fe:Property>
+			<fe:Property designer="true" name="SQLBuilder">
+				<fe:SQLBuilder>
+					<fe:Option defaultSchema="docol" indentSQL="true" omitDefaultSchema="true" quoteName="false" syncSQL="false" useTableAlias="true"/>
+					<fe:Param bounds="0,0,0,0">
+						<fe:Column name="UpdateDate" type="VARCHAR"/>
+					</fe:Param>
+				</fe:SQLBuilder>
+			</fe:Property>
+			<fe:AdditionalProp name="SQLParameter">
+				<fe:Row JavaType="VARCHAR" Name="UpdateDate" Type="String"/>
+			</fe:AdditionalProp>
+			<fe:Output>
+				<fe:Stream format="Record">
+					<fe:FieldDef>
+						<fe:Field name="DOC_CONTROL_NO" type="String"/>
+						<fe:Field name="SHUPPINN_TOROKU_NO" type="String"/>
+						<fe:Field name="SHOP_CD" type="String"/>
+						<fe:Field name="RAKUSATSU_SHOP_CD" type="String"/>
+						<fe:Field name="DN_SEIYAKU_DATE" type="String"/>
+						<fe:Field name="SHIIRE_NO" type="String"/>
+						<fe:Field name="CAR_SUB_ID" type="String"/>
+					</fe:FieldDef>
+				</fe:Stream>
+			</fe:Output>
+		</fe:Component>
+		<fe:Component fb:x="492" fb:y="526" name="Mapper_log2" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="PassStream">false</fe:Property>
+			<fe:Property name="CountZeroException">false</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings">
+				<mp:Mappings>
+					<mp:Link name="Link1">
+						<mp:Input fb:x="0" fb:y="0" table="FV/SetValue"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/NumOfRecordFail"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link2">
+						<mp:Input fb:x="0" fb:y="0" table="FV/SetValue"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/NumOfRecordSuccess"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link3">
+						<mp:Input fb:x="0" fb:y="0" table="FV/SetValue"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/TotalRecordExtract"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link4">
+						<mp:Input fb:x="0" fb:y="0" table="FV/SetValue"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/UpdateCountReturn"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+				</mp:Mappings>
+			</fe:Property>
+			<fe:Output>
+				<fe:Stream format="Text">
+					<fe:Property name="Encoding">utf-8</fe:Property>
+				</fe:Stream>
+			</fe:Output>
+			<fe:Log>Import data A =&gt;  H Cancal  into TT_DOC_CONTROL.
+Total record(s) extract : ${flow.TotalRecordExtract}
+Number of record(s) fail : ${flow.NumOfRecordFail}
+Number of record(s) success : ${flow.NumOfRecordSuccess}</fe:Log>
+		</fe:Component>
+		<fe:Component fb:x="492" fb:y="1138" name="Mapper_Log4" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="PassStream">false</fe:Property>
+			<fe:Property name="CountZeroException">false</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings">
+				<mp:Mappings>
+					<mp:Link name="Link1">
+						<mp:Input fb:x="0" fb:y="0" table="FV/SetValue"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/NumOfRecordSuccess"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link2">
+						<mp:Input fb:x="0" fb:y="0" table="FV/SetValue"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/NumOfRecordFail"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link3">
+						<mp:Input fb:x="0" fb:y="0" table="FV/SetValue"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/UpdateCountReturn"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link4">
+						<mp:Input fb:x="0" fb:y="0" table="FV/SetValue"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/TotalRecordExtract"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+				</mp:Mappings>
+			</fe:Property>
+			<fe:Output>
+				<fe:Stream format="Text">
+					<fe:Property name="Encoding">utf-8</fe:Property>
+				</fe:Stream>
+			</fe:Output>
+			<fe:Log>Import data New DN no into TT_DOC_CONTROL.
+Total record(s) extract : ${flow.TotalRecordExtract}
+Number of record(s) fail : ${flow.NumOfRecordFail}
+Number of record(s) success : ${flow.NumOfRecordSuccess}</fe:Log>
+		</fe:Component>
+		<fe:Component fb:x="254" fb:y="1342" name="Mapper_GetDataAHHBCancel" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="PassStream">true</fe:Property>
+			<fe:Property name="CountZeroException">false</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings">
+				<mp:Mappings>
+					<mp:Link name="Link1">
+						<mp:Input fb:x="0" fb:y="0" table="SD/SD:RDB_GetDataAHHBCencel/SD:COUNT"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/TotalRecordExtract"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link2">
+						<mp:Input fb:x="0" fb:y="0" table="CP/CP:RDB_GetDataAHHBCencel/ExceptionString"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/ErrorMessage"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+				</mp:Mappings>
+			</fe:Property>
+		</fe:Component>
+		<fe:Component fb:x="254" fb:y="1410" name="Branch_GetAHHBCancel" type="BranchFilterStart">
+			<fe:Property name="Exception"/>
+			<fe:Property name="Condition">$flow.TotalRecordExtract &gt; 0</fe:Property>
+			<fe:Property name="EvaluateMode">Any one</fe:Property>
+		</fe:Component>
+		<fe:Component fb:x="254" fb:y="1478" name="Mapper_log5" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="PassStream">false</fe:Property>
+			<fe:Property name="CountZeroException">false</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings"/>
+			<fe:Output>
+				<fe:Stream format="Text">
+					<fe:Property name="Encoding">utf-8</fe:Property>
+				</fe:Stream>
+			</fe:Output>
+			<fe:Log>Get data A =&gt; ,H =&gt; B Cancel
+${flow.ErrorMessage} End processing...</fe:Log>
+		</fe:Component>
+		<fe:Component fb:x="492" fb:y="1274" name="Mapper_DataUpdateAHHBCancel" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">true</fe:Property>
+			<fe:Property name="PassStream">false</fe:Property>
+			<fe:Property name="CountZeroException">true</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings">
+				<mp:Mappings>
+					<mp:Function fb:x="152" fb:y="118" name="FORMATDATE1" type="FORMATDATE">
+						<mp:Property name="Format">yyyy/MM/dd HH:mm:ss</mp:Property>
+						<mp:Property name="TimeZone">(default)</mp:Property>
+						<mp:Property name="Locale">(default)</mp:Property>
+					</mp:Function>
+					<mp:Link name="Link1">
+						<mp:Input fb:x="0" fb:y="0" table="SD/SD:Branch_GetAHHBCancel.branch/SD:F/DOC_CONTROL_NO"/>
+						<mp:Output fb:x="0" fb:y="0" table="CP/CP:SQLCall2/SQLParameter/DocControlNo"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link2">
+						<mp:Input fb:x="0" fb:y="0" table="SD/SD:Branch_GetAHHBCancel.branch/SD:F/SHOP_CD"/>
+						<mp:Output fb:x="0" fb:y="0" table="CP/CP:SQLCall2/SQLParameter/ShopCD"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link3">
+						<mp:Input fb:x="0" fb:y="0" table="SD/SD:Branch_GetAHHBCancel.branch/SD:F/RAKUSATSU_SHOP_CD"/>
+						<mp:Output fb:x="0" fb:y="0" table="CP/CP:SQLCall2/SQLParameter/RakusatsuShopCD"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link5">
+						<mp:Input fb:x="0" fb:y="0" table="SD/SD:Branch_GetAHHBCancel.branch/SD:F/SHIIRE_NO"/>
+						<mp:Output fb:x="0" fb:y="0" table="CP/CP:SQLCall2/SQLParameter/ShiireNo"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link6">
+						<mp:Input fb:x="0" fb:y="0" table="SD/SD:Branch_GetAHHBCancel.branch/SD:F/CAR_SUB_ID"/>
+						<mp:Output fb:x="0" fb:y="0" table="CP/CP:SQLCall2/SQLParameter/CarSubID"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link4">
+						<mp:Input fb:x="0" fb:y="0" table="SD/SD:Branch_GetAHHBCancel.branch/SD:F/DN_SEIYAKU_DATE"/>
+						<mp:Output name="FORMATDATE1"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link7">
+						<mp:Input name="FORMATDATE1"/>
+						<mp:Output fb:x="0" fb:y="0" table="CP/CP:SQLCall2/SQLParameter/DNSeiyakuDate"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+				</mp:Mappings>
+			</fe:Property>
+			<fe:Output>
+				<fe:Stream format="Text">
+					<fe:Property name="Encoding">utf-8</fe:Property>
+				</fe:Stream>
+			</fe:Output>
+		</fe:Component>
+		<fe:Component fb:x="492" fb:y="1410" name="Mapper_ResultUpdateAHHBCancel" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="PassStream">false</fe:Property>
+			<fe:Property name="CountZeroException">false</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings">
+				<mp:Mappings>
+					<mp:Unknown model="input">
+						<mp:Item id="UN:CP" name="Unknown" parent="CP">
+							<mp:Item name="SQLParameter">
+								<mp:Item class="item" name="DocControlNo"/>
+								<mp:Item class="item" name="Result"/>
+							</mp:Item>
+						</mp:Item>
+					</mp:Unknown>
+					<mp:Link name="Link1">
+						<mp:Input fb:x="0" fb:y="0" table="CP/UN:CP/SQLParameter/DocControlNo" unknown="true"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/RecordKey"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link2">
+						<mp:Input fb:x="0" fb:y="0" table="CP/CP:SQLCall2/ExceptionString"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/ErrorCode"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link3">
+						<mp:Input fb:x="0" fb:y="0" table="CP/UN:CP/SQLParameter/Result" unknown="true"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/ResultSPT"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+				</mp:Mappings>
+			</fe:Property>
+			<fe:Output>
+				<fe:Stream format="Text">
+					<fe:Property name="Encoding">utf-8</fe:Property>
+				</fe:Stream>
+			</fe:Output>
+		</fe:Component>
+		<fe:Component fb:x="492" fb:y="1478" name="Branch_ResultUpDate3" type="BranchFilterStart">
+			<fe:Property name="Exception"/>
+			<fe:Property name="Condition">$flow.ResultSPT =0</fe:Property>
+			<fe:Property name="EvaluateMode">Any one</fe:Property>
+		</fe:Component>
+		<fe:Component fb:x="458" fb:y="1546" name="Mapper_failAHHBCancel" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="PassStream">false</fe:Property>
+			<fe:Property name="CountZeroException">false</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings">
+				<mp:Mappings>
+					<mp:Function fb:x="118" fb:y="254" name="Add1" type="Add">
+						<mp:Property name="Calculation">Add</mp:Property>
+						<mp:Property name="Data">1</mp:Property>
+						<mp:Property name="Scale"/>
+						<mp:Input>
+							<mp:Item>Link1</mp:Item>
+						</mp:Input>
+					</mp:Function>
+					<mp:Link name="Link1">
+						<mp:Input fb:x="0" fb:y="0" table="FV/NumOfRecordFail"/>
+						<mp:Output name="Add1"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link2">
+						<mp:Input name="Add1"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/NumOfRecordFail"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+				</mp:Mappings>
+			</fe:Property>
+			<fe:Output>
+				<fe:Stream format="Text">
+					<fe:Property name="Encoding">utf-8</fe:Property>
+				</fe:Stream>
+			</fe:Output>
+			<fe:Log>Import data A = &gt; H, H =&gt; B Cancel no into TT_DOC_CONTROL.
+MESSAGE : ${flow.ErrorMessage}
+KEY : ${flow.RecordKey}</fe:Log>
+		</fe:Component>
+		<fe:Component fb:x="526" fb:y="1546" name="Mapper_successAHHBCancel" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="PassStream">false</fe:Property>
+			<fe:Property name="CountZeroException">false</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings">
+				<mp:Mappings>
+					<mp:Function fb:x="118" fb:y="254" name="Add1" type="Add">
+						<mp:Property name="Calculation">Add</mp:Property>
+						<mp:Property name="Data">1</mp:Property>
+						<mp:Property name="Scale"/>
+						<mp:Input>
+							<mp:Item>Link1</mp:Item>
+						</mp:Input>
+					</mp:Function>
+					<mp:Link name="Link1">
+						<mp:Input fb:x="0" fb:y="0" table="FV/NumOfRecordSuccess"/>
+						<mp:Output name="Add1"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+					<mp:Link name="Link3">
+						<mp:Input name="Add1"/>
+						<mp:Output fb:x="0" fb:y="0" table="FV/NumOfRecordSuccess"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+				</mp:Mappings>
+			</fe:Property>
+			<fe:Output>
+				<fe:Stream format="Text">
+					<fe:Property name="Encoding">utf-8</fe:Property>
+				</fe:Stream>
+			</fe:Output>
+		</fe:Component>
+		<fe:Component fb:x="492" fb:y="1614" name="BranchEnd_AHHBCancel" type="BranchFilterEnd">
+			<fe:Input>
+				<fe:Item>Link43</fe:Item>
+				<fe:Item>Link44</fe:Item>
+			</fe:Input>
+			<fe:Output>
+				<fe:Stream format="Text">
+					<fe:Property name="Encoding">utf-8</fe:Property>
+				</fe:Stream>
+			</fe:Output>
+		</fe:Component>
+		<fe:Component fb:x="492" fb:y="1682" name="LoopEnd_AHHBCancel" type="LoopEnd">
+			<fe:Property name="LoopStart">Mapper_DataUpdateAHHBCancel</fe:Property>
+			<fe:Property name="PackRecords">PackRecords</fe:Property>
+		</fe:Component>
+		<fe:Component fb:x="492" fb:y="1750" name="Mapper_log6" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="PassStream">false</fe:Property>
+			<fe:Property name="CountZeroException">false</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings"/>
+			<fe:Output>
+				<fe:Stream format="Text">
+					<fe:Property name="Encoding">utf-8</fe:Property>
+				</fe:Stream>
+			</fe:Output>
+			<fe:Log>Import data A =&gt; H, H =&gt; B Cancel  no into TT_DOC_CONTROL.
+Total record(s) extract : ${flow.TotalRecordExtract}
+Number of record(s) fail : ${flow.NumOfRecordFail}
+Number of record(s) success : ${flow.NumOfRecordSuccess}</fe:Log>
+		</fe:Component>
+		<fe:Component fb:x="254" fb:y="594" name="Mapper1" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="PassStream">false</fe:Property>
+			<fe:Property name="CountZeroException">false</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings">
+				<mp:Mappings>
+					<mp:Link name="Link1">
+						<mp:Input fb:x="0" fb:y="0" table="FV/I_UPDATE_DATE"/>
+						<mp:Output fb:x="0" fb:y="0" table="CP/CP:RDB_GetDataDNNo/SQLParameter/update_date"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+				</mp:Mappings>
+			</fe:Property>
+			<fe:Input>
+				<fe:Item>Link13</fe:Item>
+				<fe:Item>Link31</fe:Item>
+			</fe:Input>
+			<fe:Output>
+				<fe:Stream format="Text">
+					<fe:Property name="Encoding">utf-8</fe:Property>
+				</fe:Stream>
+			</fe:Output>
+		</fe:Component>
+		<fe:Component fb:x="254" fb:y="1206" name="Mapper2" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="PassStream">false</fe:Property>
+			<fe:Property name="CountZeroException">false</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings">
+				<mp:Mappings>
+					<mp:Link name="Link1">
+						<mp:Input fb:x="0" fb:y="0" table="FV/I_UPDATE_DATE"/>
+						<mp:Output fb:x="0" fb:y="0" table="CP/CP:RDB_GetDataAHHBCencel/SQLParameter/UpdateDate"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+				</mp:Mappings>
+			</fe:Property>
+			<fe:Input>
+				<fe:Item>Link32</fe:Item>
+				<fe:Item>Link33</fe:Item>
+			</fe:Input>
+			<fe:Output>
+				<fe:Stream format="Text">
+					<fe:Property name="Encoding">utf-8</fe:Property>
+				</fe:Stream>
+			</fe:Output>
+		</fe:Component>
+		<fe:Component fb:x="254" fb:y="1920" name="EndRecordTime_002_BI002" type="End">
+			<fe:Property name="CommitTransaction">true</fe:Property>
+			<fe:Property name="ReturnValue"/>
+		</fe:Component>
+		<fe:Component fb:x="254" fb:y="1784" name="XMLUpdate_Input_info-002" type="XMLUpdate">
+			<fe:Property name="Exception"/>
+			<fe:AdditionalProp name="Update">
+				<fe:Row Name="UPDATE_DATE" TargetPath="/inputPara/UPDATE_DATE"/>
+			</fe:AdditionalProp>
+			<fe:Output>
+				<fe:Stream format="XML">
+					<fe:Property name="DTDFilePath"/>
+					<fe:Property name="Normalize">false</fe:Property>
+					<fe:Property name="Validate">false</fe:Property>
+					<fe:Property name="Encoding">utf-8</fe:Property>
+					<fe:Property name="LineFeed">(No conversion)</fe:Property>
+					<fe:Property name="OutputForm">(none)</fe:Property>
+					<fe:Property name="OutputXMLDeclaration">true</fe:Property>
+					<fe:Property name="EmptyTag">true</fe:Property>
+					<fe:FieldDef/>
+				</fe:Stream>
+			</fe:Output>
+		</fe:Component>
+		<fe:Component fb:x="254" fb:y="1716" name="Mapper_Time_info-002" type="Mapper2">
+			<fe:Property name="Exception"/>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="PassStream">true</fe:Property>
+			<fe:Property name="CountZeroException">false</fe:Property>
+			<fe:Property name="MvMode">2</fe:Property>
+			<fe:Property name="Mappings">
+				<mp:Mappings>
+					<mp:Link name="Link1">
+						<mp:Input fb:x="0" fb:y="0" table="FV/LAST_PRACTICE_DATETIME"/>
+						<mp:Output fb:x="0" fb:y="0" table="CP/CP:XMLUpdate_Input_info-002/Update/UPDATE_DATE"/>
+						<fb:Line type="Direct"/>
+					</mp:Link>
+				</mp:Mappings>
+			</fe:Property>
+		</fe:Component>
+		<fe:Component fb:x="254" fb:y="1852" name="FilePut_Xml_info-002" type="FileSystem(Put)">
+			<fe:Property name="Exception"/>
+			<fe:Property name="AlreadyExistException"/>
+			<fe:Property name="FilePath">BatchSCrunStop/info-002TimeStop.xml</fe:Property>
+			<fe:Property name="FilePathDetail" unfold="true">
+				<fe:Property name="HomeDirectory">Relative</fe:Property>
+				<fe:Property name="AllowAbsolute">true</fe:Property>
+				<fe:Property name="AllowUpDir">true</fe:Property>
+			</fe:Property>
+			<fe:Property name="AppendMode">New</fe:Property>
+			<fe:Property name="AllowOverwrite">true</fe:Property>
+			<fe:Property name="FileDelete">false</fe:Property>
+		</fe:Component>
+		<fe:Component fb:x="254" fb:y="1648" name="FileGet1" type="FileSystem(Get)">
+			<fe:Property name="Exception"/>
+			<fe:Property name="FileNotFoundException"/>
+			<fe:Property name="FilePath">BatchSCrunStop/info-002TimeStop.xml</fe:Property>
+			<fe:Property name="FilePathDetail" unfold="true">
+				<fe:Property name="HomeDirectory">Relative</fe:Property>
+				<fe:Property name="AllowAbsolute">true</fe:Property>
+				<fe:Property name="AllowUpDir">true</fe:Property>
+			</fe:Property>
+			<fe:Property name="FileEncoding">(AutoDetect)</fe:Property>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="FileDelete">false</fe:Property>
+			<fe:Input>
+				<fe:Item>Link47</fe:Item>
+				<fe:Item>Link48</fe:Item>
+			</fe:Input>
+			<fe:Output>
+				<fe:Stream format="XML">
+					<fe:Property name="DTDFilePath"/>
+					<fe:Property name="Normalize">false</fe:Property>
+					<fe:Property name="Validate">false</fe:Property>
+					<fe:Property name="Encoding">utf-8</fe:Property>
+					<fe:Property name="LineFeed">(No conversion)</fe:Property>
+					<fe:Property name="OutputForm">(none)</fe:Property>
+					<fe:Property name="OutputXMLDeclaration">true</fe:Property>
+					<fe:Property name="EmptyTag">true</fe:Property>
+					<fe:FieldDef/>
+				</fe:Stream>
+			</fe:Output>
+		</fe:Component>
+		<fe:Component fb:x="492" fb:y="730" name="SQLCall1" type="SQLCall">
+			<fe:Property name="Exception"/>
+			<fe:Property name="ConnectException"/>
+			<fe:Property name="RecordNotFoundException"/>
+			<fe:Property name="Connection">RDB_Docol_Test</fe:Property>
+			<fe:Property name="Mode">Procedure</fe:Property>
+			<fe:Property name="SQL">EXEC [dbDocol_Test].[dbo].[stp_UpdateNewDNNo]  &#xd;
+?DocControlNo?&#xd;
+,?ShuppinnTorokuNo?  &#xd;
+,?ShopCD?&#xd;
+,?RakusatsuShopCD?&#xd;
+,?DNSeiyakuDate?&#xd;
+,?ShiireNo?&#xd;
+,?CarSubID?&#xd;
+, ?Result?</fe:Property>
+			<fe:Property name="QueryTimeout">0</fe:Property>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="CountZeroException">true</fe:Property>
+			<fe:Property name="UpdateCount"/>
+			<fe:Property name="Transaction">true</fe:Property>
+			<fe:Property name="TransformSQLParameter">true</fe:Property>
+			<fe:AdditionalProp name="SQLParameter">
+				<fe:Row InOut="in" Name="DocControlNo" Type="VARCHAR"/>
+				<fe:Row InOut="in" Name="ShuppinnTorokuNo" Type="VARCHAR"/>
+				<fe:Row InOut="in" Name="ShopCD" Type="VARCHAR"/>
+				<fe:Row InOut="in" Name="RakusatsuShopCD" Type="VARCHAR"/>
+				<fe:Row InOut="in" Name="DNSeiyakuDate" Type="VARCHAR"/>
+				<fe:Row InOut="in" Name="ShiireNo" Type="VARCHAR"/>
+				<fe:Row InOut="in" Name="CarSubID" Type="VARCHAR"/>
+				<fe:Row InOut="out" Name="Result" Type="VARCHAR"/>
+			</fe:AdditionalProp>
+		</fe:Component>
+		<fe:Component fb:x="492" fb:y="1342" name="SQLCall2" type="SQLCall">
+			<fe:Property name="Exception"/>
+			<fe:Property name="ConnectException"/>
+			<fe:Property name="RecordNotFoundException"/>
+			<fe:Property name="Connection">RDB_Docol_Test</fe:Property>
+			<fe:Property name="Mode">Procedure</fe:Property>
+			<fe:Property name="SQL">EXEC [dbDocol_Test].[dbo].[stp_UpdateAHHBCancel] &#xd;
+?DocControlNo?&#xd;
+,?ShopCD?&#xd;
+,?RakusatsuShopCD?&#xd;
+,?DNSeiyakuDate?&#xd;
+,?ShiireNo?&#xd;
+,?CarSubID?&#xd;
+, ?Result? 	</fe:Property>
+			<fe:Property name="QueryTimeout">0</fe:Property>
+			<fe:Property name="LoopProcess">false</fe:Property>
+			<fe:Property name="CountZeroException">true</fe:Property>
+			<fe:Property name="UpdateCount"/>
+			<fe:Property name="Transaction">true</fe:Property>
+			<fe:Property name="TransformSQLParameter">true</fe:Property>
+			<fe:AdditionalProp name="SQLParameter">
+				<fe:Row InOut="in" Name="DocControlNo" Type="VARCHAR"/>
+				<fe:Row InOut="in" Name="ShopCD" Type="VARCHAR"/>
+				<fe:Row InOut="in" Name="RakusatsuShopCD" Type="VARCHAR"/>
+				<fe:Row InOut="in" Name="DNSeiyakuDate" Type="VARCHAR"/>
+				<fe:Row InOut="in" Name="ShiireNo" Type="VARCHAR"/>
+				<fe:Row InOut="in" Name="CarSubID" Type="VARCHAR"/>
+				<fe:Row InOut="out" Name="Result" Type="VARCHAR"/>
+			</fe:AdditionalProp>
+		</fe:Component>
+		<fe:Link name="Link1">
+			<fe:Input name="Start_info-002"/>
+			<fe:Output name="FileGet_Condition"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link2">
+			<fe:Input name="FileGet_Condition"/>
+			<fe:Output name="Mapper_Condition"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link3">
+			<fe:Input name="Mapper_Condition"/>
+			<fe:Output name="RDB_GetDataAHCencel"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link4">
+			<fe:Input name="RDB_GetDataAHCencel"/>
+			<fe:Output name="Mapper_GetDataAHCancel"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link5">
+			<fe:Input name="Mapper_GetDataAHCancel"/>
+			<fe:Output name="Branch_GetAHCancel"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link14">
+			<fe:Input name="SQL_UpdateAHCancel"/>
+			<fe:Output name="Mapper_ResultUpdateAHCancel"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link10">
+			<fe:Input name="Branch_GetAHCancel" state="branch"/>
+			<fe:Output name="Mapper_DataUpdateAHCancel"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link7">
+			<fe:Input name="Mapper_DataUpdateAHCancel"/>
+			<fe:Output name="SQL_UpdateAHCancel"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link6">
+			<fe:Input name="Mapper_ResultUpdateAHCancel"/>
+			<fe:Output name="Branch_ResultUpDate1"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link11">
+			<fe:Input name="Branch_ResultUpDate1"/>
+			<fe:Output name="Mapper_failAHCancel"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link15">
+			<fe:Input name="Branch_ResultUpDate1" state="branch"/>
+			<fe:Output name="Mapper_successAHCancel"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link16">
+			<fe:Input name="Mapper_failAHCancel"/>
+			<fe:Output name="BranchEnd_AHCancel"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link17">
+			<fe:Input name="Mapper_successAHCancel"/>
+			<fe:Output name="BranchEnd_AHCancel"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link18">
+			<fe:Input name="BranchEnd_AHCancel"/>
+			<fe:Output name="LoopEnd_AHCance"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link12">
+			<fe:Input name="RDB_GetDataDNNo"/>
+			<fe:Output name="Mapper_GetDataNewDN"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link8">
+			<fe:Input name="Branch_GetAHCancel"/>
+			<fe:Output name="Mapper_Log1"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link19">
+			<fe:Input name="Mapper_GetDataNewDN"/>
+			<fe:Output name="Branch_GetNewDN"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link20">
+			<fe:Input name="Branch_GetNewDN"/>
+			<fe:Output name="Mapper_Log3"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link21">
+			<fe:Input name="Branch_GetNewDN" state="branch"/>
+			<fe:Output name="Mapper_DataUpdateNewDN"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link24">
+			<fe:Input name="Mapper_ResultUpdateNewDN"/>
+			<fe:Output name="Branch_ResultUpDate2"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link25">
+			<fe:Input name="Branch_ResultUpDate2"/>
+			<fe:Output name="Mapper_failNewDN"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link26">
+			<fe:Input name="Branch_ResultUpDate2" state="branch"/>
+			<fe:Output name="Mapper_successNewDN"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link27">
+			<fe:Input name="Mapper_successNewDN"/>
+			<fe:Output name="BranchEnd_NewDN"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link28">
+			<fe:Input name="Mapper_failNewDN"/>
+			<fe:Output name="BranchEnd_NewDN"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link29">
+			<fe:Input name="BranchEnd_NewDN"/>
+			<fe:Output name="LoopEnd_NewDN"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link9">
+			<fe:Input name="LoopEnd_AHCance"/>
+			<fe:Output name="Mapper_log2"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link30">
+			<fe:Input name="LoopEnd_NewDN"/>
+			<fe:Output name="Mapper_Log4"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link34">
+			<fe:Input name="RDB_GetDataAHHBCencel"/>
+			<fe:Output name="Mapper_GetDataAHHBCancel"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link35">
+			<fe:Input name="Mapper_GetDataAHHBCancel"/>
+			<fe:Output name="Branch_GetAHHBCancel"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link36">
+			<fe:Input name="Branch_GetAHHBCancel"/>
+			<fe:Output name="Mapper_log5"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link37">
+			<fe:Input name="Branch_GetAHHBCancel" state="branch"/>
+			<fe:Output name="Mapper_DataUpdateAHHBCancel"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link40">
+			<fe:Input name="Mapper_ResultUpdateAHHBCancel"/>
+			<fe:Output name="Branch_ResultUpDate3"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link41">
+			<fe:Input name="Branch_ResultUpDate3"/>
+			<fe:Output name="Mapper_failAHHBCancel"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link42">
+			<fe:Input name="Branch_ResultUpDate3" state="branch"/>
+			<fe:Output name="Mapper_successAHHBCancel"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link43">
+			<fe:Input name="Mapper_failAHHBCancel"/>
+			<fe:Output name="BranchEnd_AHHBCancel"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link44">
+			<fe:Input name="Mapper_successAHHBCancel"/>
+			<fe:Output name="BranchEnd_AHHBCancel"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link45">
+			<fe:Input name="BranchEnd_AHHBCancel"/>
+			<fe:Output name="LoopEnd_AHHBCancel"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link46">
+			<fe:Input name="LoopEnd_AHHBCancel"/>
+			<fe:Output name="Mapper_log6"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link13">
+			<fe:Input name="Mapper_Log1"/>
+			<fe:Output name="Mapper1"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link31">
+			<fe:Input name="Mapper_log2"/>
+			<fe:Output name="Mapper1"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link49">
+			<fe:Input name="Mapper1"/>
+			<fe:Output name="RDB_GetDataDNNo"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link32">
+			<fe:Input name="Mapper_Log3"/>
+			<fe:Output name="Mapper2"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link33">
+			<fe:Input name="Mapper_Log4"/>
+			<fe:Output name="Mapper2"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link50">
+			<fe:Input name="Mapper2"/>
+			<fe:Output name="RDB_GetDataAHHBCencel"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link51">
+			<fe:Input name="Mapper_Time_info-002"/>
+			<fe:Output name="XMLUpdate_Input_info-002"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link52">
+			<fe:Input name="XMLUpdate_Input_info-002"/>
+			<fe:Output name="FilePut_Xml_info-002"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link53">
+			<fe:Input name="FilePut_Xml_info-002"/>
+			<fe:Output name="EndRecordTime_002_BI002"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link54">
+			<fe:Input name="FileGet1"/>
+			<fe:Output name="Mapper_Time_info-002"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link47">
+			<fe:Input name="Mapper_log5"/>
+			<fe:Output name="FileGet1"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link48">
+			<fe:Input name="Mapper_log6"/>
+			<fe:Output name="FileGet1"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link22">
+			<fe:Input name="Mapper_DataUpdateNewDN"/>
+			<fe:Output name="SQLCall1"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link23">
+			<fe:Input name="SQLCall1"/>
+			<fe:Output name="Mapper_ResultUpdateNewDN"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link38">
+			<fe:Input name="Mapper_DataUpdateAHHBCancel"/>
+			<fe:Output name="SQLCall2"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Link name="Link39">
+			<fe:Input name="SQLCall2"/>
+			<fe:Output name="Mapper_ResultUpdateAHHBCancel"/>
+			<fb:Line type="Direct"/>
+		</fe:Link>
+		<fe:Variables>
+			<fe:Field access="private" name="LAST_PRACTICE_DATETIME" type="String"/>
+			<fe:Field access="private" name="I_UPDATE_DATE" type="String"/>
+			<fe:Field access="private" default="0" name="TotalRecordExtract" type="Integer"/>
+			<fe:Field access="private" name="ErrorMessage" type="String"/>
+			<fe:Field access="private" name="ErrorCode" type="String"/>
+			<fe:Field access="private" name="RecordKey" type="String"/>
+			<fe:Field access="private" default="0" name="UpdateCountReturn" type="Integer"/>
+			<fe:Field access="private" default="0" name="NumOfRecordFail" type="Integer"/>
+			<fe:Field access="private" default="0" name="NumOfRecordSuccess" type="Integer"/>
+			<fe:Field access="private" default="0" name="SetValue" readonly="true" type="Integer"/>
+			<fe:Field access="private" default="0" name="ResultSPT" type="Integer"/>
+		</fe:Variables>
+	</fe:Flow>
+</fe:Project>

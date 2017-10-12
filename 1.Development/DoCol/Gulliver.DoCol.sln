@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gulliver.DoCol", "Gulliver.DoCol\Gulliver.DoCol.csproj", "{555236CF-1DD1-4285-AC00-EC5D655668D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gulliver.DoCol.BusinessServices", "Gulliver.DoCol.BusinessServices\Gulliver.DoCol.BusinessServices.csproj", "{D54D076B-1CF7-4C9C-9677-8BE245C56425}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gulliver.DoCol.Constants", "Gulliver.DoCol.Constants\Gulliver.DoCol.Constants.csproj", "{16945A79-74D5-4017-853E-21C9386DB5DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gulliver.DoCol.DataAccess", "Gulliver.DoCol.DataAccess\Gulliver.DoCol.DataAccess.csproj", "{85261325-354A-4C6F-A687-7DF8C39F4C6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gulliver.DoCol.DataAccess.Framework", "Gulliver.DoCol.DataAccess.Framework\Gulliver.DoCol.DataAccess.Framework.csproj", "{7D7B4453-A7B9-4037-AE9B-8EE39654D71E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gulliver.DoCol.DataValidation", "Gulliver.DoCol.DataValidation\Gulliver.DoCol.DataValidation.csproj", "{892F4B6A-8287-4AD2-8AB0-90CE6E6729DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gulliver.DoCol.Entities", "Gulliver.DoCol.Entities\Gulliver.DoCol.Entities.csproj", "{498BE419-2F92-4441-BAD2-889C4EC0C99B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gulliver.DoCol.MessageUtility", "Gulliver.DoCol.MessageUtility\Gulliver.DoCol.MessageUtility.csproj", "{D44B02BC-AD17-43D7-AF6E-3B31F37ECA36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gulliver.DoCol.ReportServices", "Gulliver.DoCol.ReportServices\Gulliver.DoCol.ReportServices.csproj", "{D49B57AB-7B66-4562-8E43-499904B75AD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gulliver.DoCol.UtilityServices", "Gulliver.DoCol.UtilityServices\Gulliver.DoCol.UtilityServices.csproj", "{CAA5F09E-D141-46C7-8BE9-A5C1A8F16E81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{555236CF-1DD1-4285-AC00-EC5D655668D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{555236CF-1DD1-4285-AC00-EC5D655668D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{555236CF-1DD1-4285-AC00-EC5D655668D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{555236CF-1DD1-4285-AC00-EC5D655668D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D54D076B-1CF7-4C9C-9677-8BE245C56425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D54D076B-1CF7-4C9C-9677-8BE245C56425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D54D076B-1CF7-4C9C-9677-8BE245C56425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D54D076B-1CF7-4C9C-9677-8BE245C56425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16945A79-74D5-4017-853E-21C9386DB5DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16945A79-74D5-4017-853E-21C9386DB5DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16945A79-74D5-4017-853E-21C9386DB5DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16945A79-74D5-4017-853E-21C9386DB5DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85261325-354A-4C6F-A687-7DF8C39F4C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85261325-354A-4C6F-A687-7DF8C39F4C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85261325-354A-4C6F-A687-7DF8C39F4C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85261325-354A-4C6F-A687-7DF8C39F4C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D7B4453-A7B9-4037-AE9B-8EE39654D71E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D7B4453-A7B9-4037-AE9B-8EE39654D71E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D7B4453-A7B9-4037-AE9B-8EE39654D71E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D7B4453-A7B9-4037-AE9B-8EE39654D71E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{892F4B6A-8287-4AD2-8AB0-90CE6E6729DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892F4B6A-8287-4AD2-8AB0-90CE6E6729DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892F4B6A-8287-4AD2-8AB0-90CE6E6729DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892F4B6A-8287-4AD2-8AB0-90CE6E6729DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{498BE419-2F92-4441-BAD2-889C4EC0C99B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{498BE419-2F92-4441-BAD2-889C4EC0C99B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{498BE419-2F92-4441-BAD2-889C4EC0C99B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{498BE419-2F92-4441-BAD2-889C4EC0C99B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D44B02BC-AD17-43D7-AF6E-3B31F37ECA36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D44B02BC-AD17-43D7-AF6E-3B31F37ECA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D44B02BC-AD17-43D7-AF6E-3B31F37ECA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D44B02BC-AD17-43D7-AF6E-3B31F37ECA36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D49B57AB-7B66-4562-8E43-499904B75AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49B57AB-7B66-4562-8E43-499904B75AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49B57AB-7B66-4562-8E43-499904B75AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49B57AB-7B66-4562-8E43-499904B75AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAA5F09E-D141-46C7-8BE9-A5C1A8F16E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA5F09E-D141-46C7-8BE9-A5C1A8F16E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA5F09E-D141-46C7-8BE9-A5C1A8F16E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA5F09E-D141-46C7-8BE9-A5C1A8F16E81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

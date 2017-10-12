@@ -1,0 +1,31 @@
+USE [dbDOC]
+GO
+
+/****** Object:  Table [dbo].[TM_NUMBERING_CONTROL]    Script Date: 2015/12/25 15:56:46 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[TM_NUMBERING_CONTROL](
+	[NUMBERING_TYPE] [varchar](10) NULL,
+	[ADMIN_DATE] [datetime] NULL,
+	[COUNTER_VALUE] [int] NULL,
+	[CREATE_DATE] [datetime] NULL,
+	[CREATE_USER_CD] [varchar](10) NULL,
+	[CREATE_PG_CD] [varchar](10) NULL,
+	[UPDATE_DATE] [datetime] NULL,
+	[UPDATE_USER_CD] [varchar](10) NULL,
+	[UPDATE_PG_CD] [varchar](10) NULL,
+	[DELETE_FLG] [char](1) NULL
+) ON [dbDOC_DATA]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+

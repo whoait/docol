@@ -1,0 +1,207 @@
+﻿@using Gulliver.DoCol.Constants.Resources;
+@using Gulliver.DoCol.UtilityServices;
+@{
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+@section TitleSection {
+    <h2>@DCW002.labelHeaderTitle</h2>
+}
+
+@Html.IncludeVersionedJs("/Scripts/DCW/DCW002.js")
+@section CssSection {
+    <link href="~/Content/themes/DCW/DCW002.css" rel="stylesheet" />
+}
+<div class="container no_pa" style="height: 850px;">
+    <!--Area メインメニュー-->
+    <div class="col-xs-12 ma_t_100">
+        <!--Area buttom 詳細条件で書類を検索する-->
+        <div class="col-xs-12 w20 p_2">
+            <button class="btn_common btn_dcw001_100" type="button" id="btnSearchDetail">@Html.Raw(DCW002.btnSearchDetail)</button>
+        </div>
+        <!--Area buttom 本日発送予定の書類を検索する(普通車)-->
+        <div class="col-xs-12 w20 p_2">
+            <button class="btn_common btn_dcw001_100" type="button" id="btnSearchLightVehicles">@Html.Raw(DCW002.btnSearchLightVehicles)</button>
+        </div>
+        <!--Area buttom 本日発送予定の書類を検索する(軽)-->
+        <div class="col-xs-12 w20 p_2">
+            <button class="btn_common btn_dcw001_100" type="button" id="btnSearchLory">@Html.Raw(DCW002.btnSearchLory)</button>
+        </div>
+        <!--Area buttom 本日発送予定の書類を検索する(AA)-->
+        @*<div class="col-xs-12 w20 p_2">
+            <button class="btn_common btn_dcw001_100" type="button" id="btnSearchAA">@Html.Raw(DCW002.btnSearchAA)</button>
+        </div>*@
+        <!--Area buttom 棚卸し-->
+        <div class="col-xs-12 w20 p_2">
+            <button class="btn_common btn_dcw001_100" type="button" id="btnInventory">@Html.Raw(DCW002.btnInventory)</button>
+        </div>
+        <div class="col-xs-12 w20 p_2">
+            <button class="btn_common btn_dcw001_100" type="button" id="btnExportCsv">ハンディ用のマスタを作成する</button>
+        </div>
+
+    </div>
+    <!-- Area ファイル取込み -->
+    <div class="col-xs-12 ma_t_100">
+        <div class="bar_title bg_green ma_t_5">
+            <h4 class="f_bold"><span>@DCW002.titleImportFile</span></h4>
+        </div>
+    </div>
+    @using (Html.BeginForm("DCW002UploadFile", "DCW002", FormMethod.Post, new { @id = "form", enctype = "multipart/form-data" }))
+    {  
+        <div class="col-xs-12 ma_t_5">
+            <div class="col-xs-12">
+                <div class="Table bo_normal bg_gray col-xs-12  text-center">
+                    <!-- Area フォーマット -->
+                    <div class="Row ">
+                        <div class="Cell bo_right bo_bottom bg_green f_bold w20">
+                            <p>@DCW002.titleFormat</p>
+                        </div>
+
+                        <div class="Cell bo_bottom h_55 ">
+                            <div class="col-xs-12">
+                                <!--radio 書類受取ファイル-->
+                                <div class="col-xs-12 w20">
+                                    @{
+                                        <div class="Row">
+                                        @if (ViewBag.Mode == null)
+                                        {
+                                            <input id="rad1" value="6" name="mode" type="radio" class="css-radio" checked="checked">
+                                            <label for="rad1" class="css-label-radio" style="margin-left: -40px;">@DCW002.rad1</label>
+                                        }
+                                        else if (ViewBag.Mode == 6)
+                                        {
+                                            <input id="rad1_1" value="6" name="mode" type="radio" class="css-radio" checked ="checked">
+                                            <label for="rad1_1" class="css-label-radio" style="margin-left: -40px;">@DCW002.rad1</label>
+                                        }
+                                        else{
+                                            <input id="rad1_2" value="6" name="mode" type="radio" class="css-radio">
+                                            <label for="rad1_2" class="css-label-radio" style="margin-left: -40px;">@DCW002.rad1</label>
+                                        }
+                                        </div>
+                                        <div class="Row">
+                                        @if (ViewBag.Check == 1){                                        
+                                            <input id="checkBox" value="1" type="checkbox" name="check" class="css-checkbox ma_l_5" checked="checked" />
+                                            <label for="checkBox" class="css-label-checkbox ma_l_5">自社名・抹消完了の取込み</label>
+                                        }
+                                        else{
+                                            <input id="checkBox1" value="1" type="checkbox" name="check" class="css-checkbox ma_l_5"/>
+                                            <label for="checkBox1" class="css-label-checkbox ma_l_5">自社名・抹消完了の取込み</label>
+                                        }
+                                        </div>
+                                  }
+                                </div>
+                                <!--radio 車検証QRコードCSV-->
+                                <div class="col-xs-12 w20">
+                                    @{
+                                        if (ViewBag.Mode == 7)
+                                        {
+                                            <input id="rad2" value="7" name="mode" type="radio" class="css-radio" checked="checked">
+                                            <label for="rad2" class="css-label-radio">@DCW002.rad2</label>
+                                        }
+                                        
+                                        else{
+                                            <input id="rad2_2" value="7" name="mode" type="radio" class="css-radio">
+                                            <label for="rad2_2" class="css-label-radio">@DCW002.rad2</label>
+                                        }
+                                    }
+                                </div>
+                                <!--radio ファイル番号CSV-->
+                                <div class="col-xs-12 w20">
+                                    @{
+                                        if (ViewBag.Mode == 8)
+                                        {
+                                            <input id="rad3" value="8" name="mode" type="radio" class="css-radio" checked="checked">
+                                            <label for="rad3" class="css-label-radio">@DCW002.rad3</label>
+                                        }
+                                        else
+                                        {
+                                            <input id="rad3_1" value="8" name="mode" type="radio" class="css-radio">
+                                            <label for="rad3_1" class="css-label-radio">@DCW002.rad3</label>
+                                        }
+                                    }
+                                </div>
+                                <!--radio 自社名・抹消対象ファイル-->
+                                <div class="col-xs-12 w20">
+                                    @{
+                                        if (ViewBag.Mode == 9)
+                                        {
+                                            <input id="rad4" value="9" name="mode" type="radio" class="css-radio" checked="checked">
+                                            <label for="rad4" class="css-label-radio">@DCW002.rad4</label>
+                                        }
+                                        else
+                                        {
+                                            <input id="rad4_1" value="9" name="mode" type="radio" class="css-radio">
+                                            <label for="rad4_1" class="css-label-radio">@DCW002.rad4</label>
+                                        }
+                                     }
+                                </div>
+                                <!--radio 書類返送対象ファイル-->
+                                <div class="col-xs-12 w20">
+                                    @{
+                                        if (ViewBag.Mode == 10)
+                                        {
+                                            <input id="rad5" value="10" name="mode" type="radio" class="css-radio" checked="checked">
+                                            <label for="rad5" class="css-label-radio">@DCW002.rad5</label>
+                                        }
+                                        else
+                                        {
+                                            <input id="rad5_1" value="10" name="mode" type="radio" class="css-radio">
+                                            <label for="rad5_1" class="css-label-radio">@DCW002.rad5</label>
+                                        }
+                                    }   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="Row ">
+                        <div class="Cell bo_right bo_bottom bg_green f_bold w20">
+                            <p>@DCW002.titleFileName</p>
+                        </div>
+                        <div class="Cell bo_bottom">
+                            <div class="col-xs-12">
+                                <!--button 選択-->
+
+
+                                <div class="col-xs-12 w10" style="text-align: left; padding: 5px">
+
+                                    @*<span>@DCW002.btnSelectFile</span>*@
+                                    <input type="file" id="fileUpload" name="file" style="display: none;" accept=".csv" onchange="fileSelected(this)">
+                                    <input type="button" class="btn_common fl" value="@DCW002.btnSelectFile" id="btnSelectFile">
+                                </div>
+
+                                <!--Lable 選択されていません-->
+
+                                    <div class="col-xs-12 w60">
+                                        <label class="lblFileInput fl" id="lblPatchFile" style="padding-top: 12px;">選択されていません</label>
+                                    </div>
+                                   
+                                <div>
+
+                                    <button class="btn_common fr" type="submit" id="btnImport" style="margin: 5px 0">@DCW002.btnImport</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input id="check1" type="hidden" value="0" name="check" />
+        </div>
+    }
+
+    <input id="DCW002MessType" type="hidden" value="@ViewBag.MessageType" />
+
+    <input id="DCW002MessContent" type="hidden" value="@ViewBag.MessageContent" />
+</div>
+<script>
+    var URL1 = '@Url.Action("GoToDCW003", "DCW002", new { mode = 1, check = 0 })';
+	var URL2 = '@Url.Action("GoToDCW003", "DCW002", new { mode = 2, check = 0 })';
+	var URL3 = '@Url.Action("GoToDCW003", "DCW002", new { mode = 3, check = 0 })';
+	var URL4 = '@Url.Action("GoToDCW003", "DCW002", new { mode = 4, check = 0 })';
+    var URL5 = '@Url.Action("GoToDCW003", "DCW002", new { mode = 5, check = 0 })';
+    var URL7 = '@Url.Action("DCW003Index", "DCW003")';
+    var URL8 = '@Url.Action("DCW002ExportCsv", "DCW002")';
+	var UPLOAD_FILE = '@Url.Action("DCW002UploadFile", "DCW002")';
+	var URL6 = '@Url.Action("GoToDCW003", "DCW002")';
+</script>

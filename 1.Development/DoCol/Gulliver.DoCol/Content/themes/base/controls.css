@@ -1,0 +1,40 @@
+.scrollup
+{
+	width: 45px;
+	height: 45px;
+	opacity: 1;
+	position: fixed;
+	bottom: 45px;
+	right: 45px;
+	display: none;
+	z-index: 1;
+	background: url(../../Images/icon_back_to_top.png) no-repeat left center;
+	cursor: pointer;
+}
+
+.hiddenLeft
+{
+	position: relative;
+	left: -100000px;
+}
+
+.input-validation-error
+{
+	border: 1px solid #695FA2!important;
+	background-color: #FF5959 !important;
+}
+
+/* Css truncate text */
+.tbl_fixed
+{
+	table-layout: fixed;
+}
+
+.tbl_truncate
+{
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+/* Css truncate text END */

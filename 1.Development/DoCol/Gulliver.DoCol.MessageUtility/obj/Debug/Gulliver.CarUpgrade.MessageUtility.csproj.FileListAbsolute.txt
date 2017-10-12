@@ -1,0 +1,11 @@
+E:\Project\DocumentControls\Gulliver.DoCol.MessageUtility\bin\Debug\Gulliver.DoCol.MessageUtility.dll
+E:\Project\DocumentControls\Gulliver.DoCol.MessageUtility\bin\Debug\Gulliver.DoCol.MessageUtility.pdb
+E:\Project\DocumentControls\Gulliver.DoCol.MessageUtility\bin\Debug\Gulliver.DoCol.DataAccess.Framework.dll
+E:\Project\DocumentControls\Gulliver.DoCol.MessageUtility\bin\Debug\System.Web.Mvc.dll
+E:\Project\DocumentControls\Gulliver.DoCol.MessageUtility\bin\Debug\Gulliver.DoCol.Constants.dll
+E:\Project\DocumentControls\Gulliver.DoCol.MessageUtility\bin\Debug\Gulliver.DoCol.DataAccess.Framework.pdb
+E:\Project\DocumentControls\Gulliver.DoCol.MessageUtility\bin\Debug\System.Web.Mvc.xml
+E:\Project\DocumentControls\Gulliver.DoCol.MessageUtility\bin\Debug\Gulliver.DoCol.Constants.pdb
+E:\Project\DocumentControls\Gulliver.DoCol.MessageUtility\obj\Debug\Gulliver.DoCol.MessageUtility.csprojResolveAssemblyReference.cache
+E:\Project\DocumentControls\Gulliver.DoCol.MessageUtility\obj\Debug\Gulliver.DoCol.MessageUtility.dll
+E:\Project\DocumentControls\Gulliver.DoCol.MessageUtility\obj\Debug\Gulliver.DoCol.MessageUtility.pdb

@@ -1,0 +1,5 @@
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\EquipmentOptionWS\EquipmentOptionWS.DTO\bin\Debug\EquipmentOptionWS.DTO.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\EquipmentOptionWS\EquipmentOptionWS.DTO\bin\Debug\EquipmentOptionWS.DTO.pdb
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\EquipmentOptionWS\EquipmentOptionWS.DTO\obj\Debug\EquipmentOptionWS.DTO.csprojResolveAssemblyReference.cache
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\EquipmentOptionWS\EquipmentOptionWS.DTO\obj\Debug\EquipmentOptionWS.DTO.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\EquipmentOptionWS\EquipmentOptionWS.DTO\obj\Debug\EquipmentOptionWS.DTO.pdb

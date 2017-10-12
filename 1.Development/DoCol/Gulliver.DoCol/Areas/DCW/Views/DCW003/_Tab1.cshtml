@@ -1,0 +1,614 @@
+﻿@using Gulliver.DoCol.Entities.DCW.DCW003Model
+@model List<Gulliver.DoCol.Entities.DCW.DCW003Model.DCW003Result>
+@{
+	List<DCW003DropDownModel> lstDropMassho = ViewBag.DropMassho;
+
+	List<DCW003DropDownModel> lstDropJishamei = ViewBag.DropJishamei;
+
+	List<DCW003DropDownModel> lstDropDocStatus = ViewBag.DropDocStatus;
+
+    
+    Gulliver.DoCol.Entities.CmnEntityModel cmnModel = Gulliver.DoCol.UtilityServices.CacheUtil.GetCache<Gulliver.DoCol.Entities.CmnEntityModel>("CmnEntityModel", new Gulliver.DoCol.Entities.CmnEntityModel());
+
+}
+<div class="Table tbl_fixed solecolor">
+	<div class="Row f_bold_11_5 text_c bg_green h120">
+		<div class="Cell w2 bo_right bo_left">
+			<div class="Table tbl_fixed col-xs-12">
+				<div class="Row h120">
+					<div class="Cell bo_bottom">
+						<input id="IsNewCar" type="checkbox" class="css-checkbox headerCheckbox">
+						<label for="IsNewCar" class="css-label-checkbox label-style"></label>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="Cell w11 bo_right text-center">
+			<div class="Table tbl_fixed col-xs-12">
+				<div class="Row h40">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">仕入DN出品番号</p>
+					</div>
+				</div>
+				<div class="Row h40">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">売上DN出品番号</p>
+					</div>
+				</div>
+				<div class="Row h40">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">車台番号</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="Cell bo_right w7 text-center">
+			<div class="Table tbl_fixed col-xs-12">
+				<div class="Row h80">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">出品店情報</p>
+					</div>
+				</div>
+				<div class="Row h40">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">仕入AA会場</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="Cell bo_right w7">
+			<div class="Table tbl_fixed col-xs-12">
+				<div class="Row h80">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">落札店情報</p>
+					</div>
+				</div>
+				<div class="Row h40">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">売上AA会場</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="Cell bo_right w6">
+			<div class="Table tbl_fixed col-xs-12">
+				<div class="Row h40">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">年式</p>
+					</div>
+				</div>
+				<div class="Row h40">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">車輌区分</p>
+					</div>
+				</div>
+				<div class="Row h40">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">AA開催日</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="Cell bo_right w12">
+			<div class="Table col-xs-12">
+				<div class="Row bo_bottom col-xs-12 h40">
+					<div class="Cell bo_right col-xs-6">
+						<div class="Row bo_bottom col-xs-12   h40">
+							<p class ="pa_t_12 tbl_truncate">メーカー</p>
+						</div>
+					</div>
+					<div class="Cell col-xs-6">
+						<div class="Row bo_bottom col-xs-12  h40">
+							<p class ="pa_t_12 tbl_truncate">車名</p>
+						</div>
+					</div>
+				</div>
+				<div class="Row bo_bottom col-xs-12 h40">
+					<div class="Cell col-xs-12">
+						<div class="Row bo_bottom col-xs-12 h40">
+							<p class ="pa_t_12 tbl_truncate">グレード</p>
+						</div>
+					</div>
+				</div>
+				<div class="Row bo_bottom col-xs-12 h40">
+					<div class="Cell bo_right col-xs-6">
+						<div class="Row bo_bottom col-xs-12 h40">
+							<p class ="pa_t_12 tbl_truncate">AA番号</p>
+						</div>
+					</div>
+					<div class="Cell  col-xs-6">
+						<div class="Row bo_bottom col-xs-12 h40">
+							<p class ="pa_t_12 tbl_truncate">DN成約日</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="Cell bo_right w6">
+			<div class="Table tbl_fixed col-xs-12">
+				<div class="Row h40">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">型式</p>
+					</div>
+				</div>
+				<div class="Row h40">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">書類区分</p>
+					</div>
+				</div>
+				<div class="Row h40">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">自社名区分</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="Cell bo_right w8">
+			<div class="Table tbl_fixed col-xs-12">
+				<div class="Row h40">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">書類ステータス</p>
+					</div>
+				</div>
+				<div class="Row h40">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">登録ナンバー</p>
+					</div>
+				</div>
+				<div class="Row h40">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">書類有効期限</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="Cell bo_right w7">
+			<div class="Table tbl_fixed col-xs-12">
+				<div class="Row h40">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">ファイル番号</p>
+					</div>
+				</div>
+				<div class="Row h40">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">仕入番号</p>
+					</div>
+				</div>
+				<div class="Row h40">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">車検満了日</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="Cell bo_right w10">
+			<div class="Table tbl_fixed col-xs-12">
+				<div class="Row h40">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">書類入庫日</p>
+					</div>
+				</div>
+				<div class="Row h40">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">自社名依頼日</p>
+					</div>
+				</div>
+				<div class="Row h40">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">抹消依頼日</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="Cell bo_right w10">
+			<div class="Table tbl_fixed col-xs-12">
+				<div class="Row h40">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">書類出庫日</p>
+					</div>
+				</div>
+				<div class="Row h40">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">自社名完了日</p>
+					</div>
+				</div>
+				<div class="Row h40">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">抹消完了日</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="Cell bo_right w4">
+			<div class="Table tbl_fixed col-xs-12">
+				<div class="Row h120">
+					<div class="Cell bo_bottom">
+						<p class="tbl_truncate">メモ</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="Cell w2 bo_right">
+			<div class="Table tbl_fixed col-xs-12">
+				<div class="Row h120 bo_bottom">
+					<div class="Cell bo_bottom">
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <input type="hidden" id="countCheckbox" value="@Model.Count" />
+	@for (int i = 0; i < Model.Count; i++)
+    {   
+       
+        <div class="Row tbl_row f_11 tblDetail DCW003_bo_bottom h_10">
+            <div class="Cell w2 DCW003_bo_bottom">
+
+             </div>
+             <div class="Cell w2 DCW003_bo_bottom">
+
+             </div>
+             <div class="Cell w2 DCW003_bo_bottom">
+
+             </div>
+             <div class="Cell w2 DCW003_bo_bottom">
+
+             </div>
+             <div class="Cell w2 DCW003_bo_bottom">
+
+             </div>
+             <div class="Cell w2 DCW003_bo_bottom">
+
+             </div>
+             <div class="Cell w2 DCW003_bo_bottom">
+
+             </div>
+             <div class="Cell w2 DCW003_bo_bottom">
+
+             </div>
+             <div class="Cell w2 DCW003_bo_bottom">
+
+             </div>
+             <div class="Cell w2 DCW003_bo_bottom">
+
+             </div>
+             <div class="Cell w2 DCW003_bo_bottom">
+ 
+             </div>
+             <div class="Cell w2 DCW003_bo_bottom">
+
+             </div>
+             <div class="Cell w2 DCW003_bo_bottom">
+
+             </div>
+
+        </div>
+     
+        <div class="Row h120 tbl_row f_11 checkCL checkCL_@i tblDetail cancel_@Model[i].UriageCancelFlg@Model[i].ShiireCancelFlg ">
+			<div class="Cell w2 bo_right bo_left">
+				<div class="Table tbl_fixed col-xs-12">
+					<div class="Row h132 ">
+						<div class="Cell bo_bottom text-center">
+							<input id="chk-@i" type="checkbox" class="css-checkbox checkboxItem">
+							<label for="chk-@i" class="css-label-checkbox label-style"></label>
+							@Html.HiddenFor(m => m[i].DocControlNo)
+                            <input  type="hidden" value="@i" class="idsolebar"/>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="Cell w8 bo_right">
+				<div class="Table tbl_fixed col-xs-12">
+					<div class="Row h44">
+						<div class="Cell bo_bottom">
+							<p class="tbl_truncate">@Model[i].ShiireShuppinnTorokuNo</p>
+						</div>
+					</div>
+					<div class="Row h44">
+						<div class="Cell bo_bottom">
+							@Html.TextBoxFor(m => m[i].UriageShuppinnTorokuNo, new { @class = "form-control txtItem", @maxlength = "8" })
+						</div>
+					</div>
+					<div class="Row h44">
+						<div class="Cell bo_bottom">
+							<p class="p_break ">@Model[i].ChassisNo</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="Cell bo_right w7">
+				<div class="Table tbl_fixed col-xs-12">
+					<div class="Row h88">
+						<div class="Cell bo_bottom">
+							<p class="p_break cell_break">@Model[i].ShopName
+							</p>
+						</div>
+					</div>
+					<div class="Row h44">
+						<div class="Cell bo_bottom">
+							<p class="p_break ">@Model[i].ShiireAaKaijo</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="Cell bo_right w7">
+				<div class="Table tbl_fixed col-xs-12">
+					<div class="Row h88">
+						<div class="Cell bo_bottom">
+							<p class="p_break cell_break">@Model[i].RakusatsuShopName</p>
+						</div>
+					</div>
+					<div class="Row h44">
+						<div class="Cell bo_bottom">
+							<p class="p_break">@Model[i].UriageAaKaijo</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="Cell bo_right w6">
+				<div class="Table tbl_fixed col-xs-12">
+					<div class="Row h44">
+						<div class="Cell bo_bottom">
+							<p>@Model[i].Nenshiki</p>
+						</div>
+					</div>
+					<div class="Row h44">
+						<div class="Cell bo_bottom">
+							@if (Model[i].KeiCarFlg == "0")
+                           {
+								<p>普通車</p>
+                           }
+                            else if (Model[i].KeiCarFlg == "1")
+                            {
+						         <p>軽</p>
+                            }
+						</div>
+					</div>
+					<div class="Row h44">
+						<div class="Cell bo_bottom">
+							<p class=" autoCompleteDate-lbl">@Model[i].AaKaisaiDate</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="Cell bo_right w14">
+				<div class="Table col-xs-12 tbl_fixed">
+					<div class="Row bo_bottom col-xs-12 h44">
+						<div class="Cell bo_right col-xs-6">
+							<div class="Row bo_bottom col-xs-12 h44">
+								<p class="pa_t_15 p_break">@Model[i].MakerName</p>
+							</div>
+						</div>
+						<div class="Cell col-xs-6">
+							<div class="Row bo_bottom col-xs-12 h44">
+								<p class=" pa_t_15 p_break">@Model[i].CarName</p>
+							</div>
+						</div>
+					</div>
+					<div class="Row bo_bottom col-xs-12 h44">
+						<div class="Cell col-xs-12">
+							<div class="Row bo_bottom  col-xs-12 h44">
+								<p class="pa_t_15 p_break">@Model[i].GradeName</p>
+							</div>
+						</div>
+					</div>
+					<div class="Row bo_bottom col-xs-12 h44">
+						<div class="Cell bo_right col-xs-6 h44">
+							<div class="Row bo_bottom col-xs-12 h44">
+								<p class="pa_t_15 p_break ">@Model[i].AaShuppinNo</p>
+							</div>
+						</div>
+						<div class="Cell col-xs-6">
+							<div class="Row bo_bottom col-xs-12 h44">
+								<p class="pa_t_15 p_break autoCompleteDate-lbl ">@(Model[i].DnSeiyakuDate != null ? string.Format("{0:yyyy/MM/dd}", Model[i].DnSeiyakuDate) : "")</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="Cell bo_right w7">
+				<div class="Table tbl_fixed col-xs-12">
+					<div class="Row h44">
+						<div class="Cell bo_bottom">
+							<p class="tbl_truncate">@Model[i].Katashiki</p>
+						</div>
+					</div>
+					<div class="Row h44">
+						<div class="Cell bo_bottom">
+							<div class="Cell style_select width_select masshoColor">
+								@Html.DropDownListFor(m => m[i].MasshoFlg
+                                                    , new SelectList(lstDropMassho, "Value", "Text", Model[i].MasshoFlg), new { @class = "droplist" })
+
+								@Html.HiddenFor(m => m[i].MasshoFlg)
+							</div>
+						</div>
+					</div>
+					<div class="Row h44">
+						<div class="Cell bo_bottom">
+							<div class="Cell style_select width_select jishameiColor">
+								@Html.DropDownListFor(m => m[i].JishameiFlg
+                                                    , new SelectList(lstDropJishamei, "Value", "Text", Model[i].JishameiFlg), new { @class = "droplist" })
+
+								@Html.HiddenFor(m => m[i].JishameiFlg)
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="Cell bo_right w8">
+				<div class="Table tbl_fixed col-xs-12">
+					<div class="Row h44">
+						<div class="Cell bo_bottom">
+							<div class="Cell style_select width_select suggestItem">
+								@Html.DropDownListFor(m => m[i].DocStatus
+                                                    , new SelectList(lstDropDocStatus, "Value", "Text", Model[i].DocStatus), new { @class = "droplist" })
+
+								@Html.HiddenFor(m => m[i].DocStatus)
+								@Html.HiddenFor( m => m[i].ReportType )
+							</div>
+						</div>
+					</div>
+					<div class="Row h44">
+						<div class="Cell bo_bottom suggestItem">
+							<p>@Model[i].TorokuNo</p>
+						</div>
+					</div>
+					<div class="Row h44">
+						<div class="Cell bo_bottom">
+							<p class=" autoCompleteDate-lbl">@Model[i].ShoruiLimitDate</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="Cell bo_right w7">
+				<div class="Table tbl_fixed col-xs-12">
+					<div class="Row h44">
+						<div class="Cell bo_bottom">
+							<p class="tbl_truncate">@Model[i].RacNo@Model[i].FileNo</p>
+                            @Html.HiddenFor(m => m[i].FileNo)
+							@Html.HiddenFor(m=>m[i].RacNo)
+							@Html.HiddenFor(m=>m[i].ChassisNo)
+						</div>
+					</div>
+					<div class="Row h44">
+						<div class="Cell bo_bottom">
+                            @if (Model[i].ShiireNo == null)
+                            {
+                                <p class="p_break" id =""></p>
+                            }
+                            else if (Model[i].ShiireNo.Length > 20)
+                            {
+							<p class="p_break tbl_truncate" id ="">@Model[i].ShiireNo</p>
+                            }
+                            else
+                            { 
+                    		<p class="p_break" id ="">@Model[i].ShiireNo</p>
+                            }
+
+						</div>
+					</div>
+					<div class="Row h44">
+						<div class="Cell bo_bottom">
+							<p class="">
+                                @(Model[i].ShakenLimitDate != null ? string.Format("{0:yyyy/MM/dd}", Model[i].ShakenLimitDate) : "")
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="Cell bo_right w8">
+				<div class="Table tbl_fixed col-xs-12">
+					<div class="Row h44">
+						<div class="Cell bo_bottom">
+							@Html.TextBoxFor(m => m[i].DocNyukoDate, new { @class = "form-control autoCompleteDate txt-datepicker-75 date"})
+						</div>
+					</div>
+					<div class="Row h44">
+						<div class="Cell bo_bottom">
+							@Html.TextBoxFor(m => m[i].JishameiIraiShukkoDate, new { @class = "form-control autoCompleteDate txt-datepicker-75 date" })
+						</div>
+					</div>
+					<div class="Row h44">
+						<div class="Cell bo_bottom">
+							@Html.TextBoxFor(m => m[i].MasshoIraiShukkoDate, new { @class = "form-control autoCompleteDate txt-datepicker-75 date" })
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="Cell bo_right w8">
+				<div class="Table tbl_fixed col-xs-12">
+					<div class="Row h44">
+						<div class="Cell bo_bottom">
+							@Html.TextBoxFor(m => m[i].DocShukkoDate, new { @class = "form-control autoCompleteDate txt-datepicker-75 date" })
+						</div>
+					</div>
+					<div class="Row h44">
+						<div class="Cell bo_bottom">
+							@Html.TextBoxFor(m => m[i].JishameiKanryoNyukoDate, new { @class = "form-control autoCompleteDate txt-datepicker-75 date" })
+						</div>
+					</div>
+					<div class="Row h44">
+						<div class="Cell bo_bottom">
+							@Html.TextBoxFor(m => m[i].MasshoKanryoNyukoDate, new { @class = "form-control autoCompleteDate txt-datepicker-75 date" })
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="Cell bo_right w6">
+				<div class="Table tbl_fixed col-xs-12">
+					<div class="Row h132">
+						<div class="Cell bo_bottom">
+							@Html.TextAreaFor(m => m[i].Memo, new { @class = "form-control txtItem", cols = "50", rows = "8", @maxlength = "500" })
+                        </div>
+					</div>
+				</div>
+			</div>
+
+			<div class="Cell w4 bo_right">
+				<div class="Table tbl_fixed col-xs-12">
+					<div class="Row h132">
+						<div class="Cell text-center bo_bottom">
+							<button class="btn_common w_35 w_150  btnUpdate" id="btnUpdate-@i" type="button">更新</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+ }
+
+</div>
+<div class="col-xs-12 f_bold_12 mar_t_2persent mar_b_3persent">
+	<div class="col-xs-12 text-center">
+		<input class="btn_common  fr" type="button" value="一括登録" id="btnUpdateAll" />
+		<input class="btn_common fr ma_r_40" type="button" value="表紙印刷" id="btnPrintPage" />
+
+		<input class="btn_common fr ma_r_40" type="button" value="ハンディデータ転送" id="btnExportCSV" />           
+        @if (@cmnModel.ShainNo == "1")
+        {
+   		    <input class="btn_common fr ma_r_40 w150px" type="button" value="書類自動検索データ転送" id="btnSendAutoSearch" />
+        }
+	</div>
+</div>
+<script>
+@{
+    var settings = new Newtonsoft.Json.JsonSerializerSettings();
+    settings.StringEscapeHandling = Newtonsoft.Json.StringEscapeHandling.EscapeHtml; 
+	}
+	var currentList = JSON.parse('@Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model, settings))');
+</script>
+
+@using (Html.BeginForm("PrintPage", "DCW003", FormMethod.Post, new { id = "DCW003ViewPrintPage", style = "display: none", target = "_blank" }))
+{ 
+	<input type="hidden" name="lstParam" id="lstParam" />   
+	<input type="hidden" name="ReportId" id="ReportID" /> 
+}
+
+@using (Html.BeginForm( "OutputCsv", "DCW003", FormMethod.Post, new { id = "DCW003ExportCsv", style = "display: none" } ))
+{
+
+}
+

@@ -1,0 +1,5 @@
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.Common\bin\Release\DisplayMainWS.Common.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.Common\bin\Release\DisplayMainWS.Common.pdb
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.Common\obj\Release\DisplayMainWS.Common.csprojResolveAssemblyReference.cache
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.Common\obj\Release\DisplayMainWS.Common.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.Common\obj\Release\DisplayMainWS.Common.pdb

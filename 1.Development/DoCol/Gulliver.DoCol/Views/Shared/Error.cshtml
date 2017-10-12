@@ -1,0 +1,15 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+@{
+	ViewBag.Title = "Error";
+}
+@Styles.Render( "~/Content/Common.css" )
+<div style="text-align: center">
+	<h2>Sorry, an error occurred while processing your request.</h2>
+	@{
+		if (Model != null)
+		{
+		<h2>Error Detail: @Model.Exception.Message</h2>
+		}
+	}
+</div>

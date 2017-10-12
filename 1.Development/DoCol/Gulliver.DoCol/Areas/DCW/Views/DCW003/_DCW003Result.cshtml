@@ -1,0 +1,44 @@
+﻿@using Gulliver.DoCol.Entities.DCW.DCW003Model
+@model Gulliver.DoCol.Entities.DCW.DCW003Model.DCW003DetailModel
+@{
+	DCW003ConditionModel searchCondition = ViewBag.SearchCondition;
+}
+@Html.Hidden( "PageSize", searchCondition.PageSize )
+@Html.Hidden( "PageIndex", searchCondition.PageIndex )
+@Html.Hidden( "PageBegin", searchCondition.PageBegin )
+@Html.Hidden( "PageEnd", searchCondition.PageEnd )
+@Html.Hidden( "Action", @Url.Action( "DCW003Paging", "DCW003", new { Area = "DCW" } ) )
+@Html.Hidden( "DisplayArea", "searchResult" )
+
+<div id="tblTabs" class="col-xs-12 ">
+	<div id="tabs" class="margin_top_1persent">
+		<ul>
+			<li><a href="#tabs-1">車輌情報</a></li>
+			<li><a href="#tabs-2">書類受取情報</a></li>
+		</ul>
+		<form id="formTab1">
+			<div id="tabs-1" class="tab-padding">
+				@Html.Partial( "~/Areas/DCW/Views/DCW003/_Tab1.cshtml", Model.ResultModel )
+			</div>
+		</form>
+		<form id="formTab2">
+			<div id="tabs-2" class="tab-padding">
+				@Html.Partial( "~/Areas/DCW/Views/DCW003/_Tab2.cshtml", Model.UketoriModel )
+			</div>
+		</form>
+		<div class="col-xs-12">
+		@Html.Action( "Paging", "DCW003", searchCondition )
+	</div>
+	</div>
+</div>
+
+<script>
+
+	$(document).ready(function () {
+		$("#tabs").tabs();
+		InitPaging();
+	});
+
+	var MessageContentI0001 = '@ViewBag.contentMsgI0001';
+	var MessageTypeI0001 = '@ViewBag.typeMsgI0001';
+</script>

@@ -1,0 +1,5 @@
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.ReportServices\bin\Release\Gulliver.DoCol.ReportServices.dll.config
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.ReportServices\bin\Release\Gulliver.DoCol.ReportServices.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.ReportServices\bin\Release\Gulliver.DoCol.ReportServices.pdb
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.ReportServices\obj\Release\Gulliver.DoCol.ReportServices.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.ReportServices\obj\Release\Gulliver.DoCol.ReportServices.pdb

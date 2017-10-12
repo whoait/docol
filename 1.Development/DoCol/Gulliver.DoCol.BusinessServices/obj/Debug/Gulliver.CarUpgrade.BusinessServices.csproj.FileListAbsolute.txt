@@ -1,0 +1,21 @@
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.BusinessServices.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.BusinessServices.pdb
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.Constants.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.DataAccess.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.DataAccess.Framework.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.Entities.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.UtilityServices.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.BusinessServices\bin\Debug\log4net.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.BusinessServices\bin\Debug\AntiXssLibrary.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.MessageUtility.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.Constants.pdb
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.DataAccess.Framework.pdb
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.DataAccess.pdb
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.Entities.pdb
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.UtilityServices.pdb
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.BusinessServices\bin\Debug\log4net.xml
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.BusinessServices\bin\Debug\Gulliver.DoCol.MessageUtility.pdb
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.BusinessServices\obj\Debug\Gulliver.DoCol.BusinessServices.csprojResolveAssemblyReference.cache
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.BusinessServices\obj\Debug\Gulliver.DoCol.BusinessServices.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.BusinessServices\obj\Debug\Gulliver.DoCol.BusinessServices.pdb
+E:\Project\DocumentControls\Gulliver.DoCol.BusinessServices\obj\Debug\Gulliver.DoCol.BusinessServices.csprojResolveAssemblyReference.cache

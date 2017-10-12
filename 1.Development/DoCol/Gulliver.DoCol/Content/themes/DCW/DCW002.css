@@ -1,0 +1,43 @@
+﻿/*
+    Screen : DCW001
+    Created by: BinhVT5
+    Created Date : 2015-11/24
+    */
+.p_2 {
+	padding:0 2%;
+}
+.btn_dcw001_100{
+        
+		height: 100px !important;
+		width: 100%;
+
+}
+.btn_dcw001_30{
+
+		height: 30px !important;
+		line-height:0px;
+
+}
+
+label.lblFileInput
+{
+	margin-top:5px;
+	line-height:15px;
+}
+
+.col-xs-12 label
+{
+	font-weight:normal !important;
+	padding-left: 36px;
+}
+.h_55 
+{
+    height: 55px;
+}
+.pa_l_200
+{
+    padding-left: 200px;
+}
+
+
+

@@ -1,0 +1,13 @@
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.Entities\bin\Release\Gulliver.DoCol.Entities.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.Entities\bin\Release\Gulliver.DoCol.Entities.pdb
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.Entities\bin\Release\Gulliver.DoCol.Constants.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.Entities\bin\Release\Gulliver.DoCol.DataValidation.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.Entities\bin\Release\Gulliver.DoCol.MessageUtility.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.Entities\bin\Release\Gulliver.DoCol.DataAccess.Framework.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.Entities\bin\Release\Gulliver.DoCol.Constants.pdb
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.Entities\bin\Release\Gulliver.DoCol.DataValidation.pdb
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.Entities\bin\Release\Gulliver.DoCol.MessageUtility.pdb
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.Entities\bin\Release\Gulliver.DoCol.DataAccess.Framework.pdb
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.Entities\obj\Release\Gulliver.DoCol.Entities.csprojResolveAssemblyReference.cache
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.Entities\obj\Release\Gulliver.DoCol.Entities.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.Entities\obj\Release\Gulliver.DoCol.Entities.pdb

@@ -1,0 +1,102 @@
+﻿@using Gulliver.DoCol.BusinessServices.Common
+@using Gulliver.DoCol.Constants
+@{
+    Gulliver.DoCol.Entities.CmnEntityModel cmnModel = Gulliver.DoCol.UtilityServices.CacheUtil.GetCache<Gulliver.DoCol.Entities.CmnEntityModel>(CacheKeys.CmnEntityModel, new Gulliver.DoCol.Entities.CmnEntityModel());
+}
+<style>
+    #shop a {
+        font-size: 12px;
+    }
+
+    .font_heaher {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .btn_back_menu {
+        margin-top: -11px;
+    }
+    .pa_10 {
+        padding-left: 10px;
+    }
+    .ma_40 {
+        margin-left: 40px;
+    }
+    .ma_30 {
+        border: none !important;
+        margin-top: -30px;
+    }
+</style>
+
+
+<div id="header">
+    <div class="container no_pa">
+        @{
+            if (cmnModel.CurrentScreenID != "DCW002")
+            {
+            <div class="col-xs-6 font_heaher">
+                書類管理システム
+            </div>
+            <div class="f_login">
+
+                <div class="col-xs-4">
+                    <label class="icon_user ma_40">@cmnModel.UserName</label>
+                </div>
+
+                <div class="col-xs-4 pa_10">
+                    @*@Html.ActionLink("ログアウト", "Logout", "DCW001", new { Area = "DCW" }, new { @class = "icon_logout" })*@
+                    @*@Html.ActionLink("ログアウト", "Logout", "DCW001", new { Area = "DCW" }, new { @id = "btnLogOut" ,@class = "icon_logout" })*@
+                    <button class="icon_logout ma_30 btnLogOut">ログアウト</button>
+                </div>
+
+                <div class="col-xs-4">
+                    @*@Html.ActionLink("メインメニュー", "BackPreviousScreen", "DCW003", null, new { @class = "btn_back_menu btn_common " })*@
+                    @Html.ActionLink("メインメニュー", "DCW002Menu", "DCW002", new { Area = "DCW"}, new { @class = "btn_back_menu btn_common " })
+                </div>
+            </div>
+            }
+            else
+            {
+            <div class="col-xs-6 font_heaher">
+                書類管理システム
+            </div>
+            <div class="f_login">
+                <div class="col-xs-8">
+                    <label class="icon_user" style="margin-left: 210px;">@cmnModel.UserName</label>
+                </div>
+
+                <div class="col-xs-4">
+                    @*@Html.ActionLink("ログアウト", "Logout", "DCW001", new { Area = "DCW" }, new { @class = "icon_logout" })*@
+                    @*@Html.ActionLink("ログアウト", "Logout", "DCW001", new { Area = "DCW" }, new { @id = "btnLogOut" ,@class = "icon_logout" })*@
+                    <button class="icon_logout ma_30 btnLogOut">ログアウト</button>
+                </div>
+            </div>
+            }      
+        }
+    </div>
+
+</div>
+@{
+    string msgType = string.Empty;
+    string msgContent = string.Empty;
+    Gulliver.DoCol.UtilityServices.Utility.GetMessage(MessageCd.I0012, "", out msgType, out msgContent);
+    <input type="hidden" value="@msgType" id="msgType" />
+    <input type="hidden" value="@msgContent" id="msgContent" />
+    }
+
+<script>
+    $(document).on('click', '.btnLogOut', function () {
+        
+        var msgType = $('#msgType').val();
+        
+        var msgContent = $('#msgContent').val();
+        var URL10 = '@Url.Action("Logout", "DCW001", new { Area = "DCW" })';
+        ShowMsgBox(msgType, msgContent, function () {
+            RedirectPost(URL10);
+        });
+    });
+    
+    function GotoDCW002() {
+        RedirectPost(URL10);
+    }
+</script>

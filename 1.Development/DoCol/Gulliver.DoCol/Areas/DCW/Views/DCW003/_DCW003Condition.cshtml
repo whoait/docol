@@ -1,0 +1,331 @@
+﻿@using Gulliver.DoCol.Entities.DCW.DCW003Model
+@model Gulliver.DoCol.Entities.DCW.DCW003Model.DCW003ConditionModel
+<form id="submitSearchForm">
+	<div class="col-xs-12">
+		<div class="bar_title bg_green col-xs-9 pull-left">
+			<h4 class="f_bold pa_l_5 ">
+				<span>車両指定</span>
+			</h4>
+		</div>
+		<div class="bar_title bg_green col-xs-3 pull-left header_second">
+			<h4 class="f_bold pa_l_5 ">
+				<span>業務指定</span>
+			</h4>
+		</div>
+	</div>
+	<div class="col-xs-12 no_ma">
+		<div class="col-xs-5 pull-left">
+			<div class="Table  tbl_truncate w100 fl DCW003_boder bg_gray ma_t_10">
+				<div class="Row">
+					<div class="Cell text-center bo_bottom bo_right f_bold bg_green h40 w150px">
+						<p class=" tbl_truncate">出品登録番号</p>
+						@Html.HiddenFor( m => m.ModeImport )
+					</div>
+					<div class="Cell bo_bottom h81 padding_fixed_08 p5">
+						@Html.TextAreaFor( m => m.ShuppinnTorokuNo, new { @class = "form-control", cols = "50", rows = "3", @maxlength = "500" } )
+					</div>
+				</div>
+				<div class="Row">
+					<div class="Cell text-center bo_bottom bo_right f_bold bg_green h40 w150px">
+						<p  class=" tbl_truncate">車台番号</p>
+					</div>
+					<div class="Cell bo_bottom h40 padding_fixed_08 p5">
+						@Html.TextBoxFor( m => m.ChassisNo, new { @class = "form-control", @maxlength = "25" } )
+					</div>
+				</div>
+				<div class="Row">
+					<div class="Cell text-center bo_bottom bo_right f_bold bg_green h40 w150px">
+						<p class=" tbl_truncate">出品店舗</p>
+					</div>
+					<div class="Cell h40 padding_fixed_08 p5 bo_bottom">
+						@Html.TextBoxFor( m => m.ShopCd, new { @class = "form-control", @maxlength = "6" } )
+					</div>
+				</div>
+				<div class="Row">
+					<div class="Cell text-center  bo_right f_bold  bg_green h40 w150px">
+						<p class=" tbl_truncate">落札店舗</p>
+					</div>
+					<div class="Cell h40 padding_top_1 padding_fixed_08 p5">
+						@Html.TextBoxFor( m => m.RakusatsuShopCd, new { @class = "form-control", @maxlength = "6" } )
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-4 pull-left ">
+			<div class="Table w100  tbl_truncate centered DCW003_bo_top DCW003_bo_right DCW003_bo_left bg_gray ma_t_10">
+				<div class="Row">
+					<div class="Cell bo_bottom h40 ma_l_20 ">
+						<input id="shohin_DN" type="checkbox" class="css-checkbox">
+						<label for="shohin_DN" class="css-label-checkbox label-style ma_l_10">&nbsp; DN</label>
+
+						@*<input id="shohin_AA" type="checkbox" class="css-checkbox">
+						<label for="shohin_AA" class="css-label-checkbox label-style">&nbsp; AA</label>*@
+						@Html.HiddenFor( m => m.ShohinType )
+					</div>
+					<div class="Cell bo_bottom h40">
+						<span></span>
+					</div>
+					<div class="Cell bo_bottom h40">
+						<span></span>
+					</div>
+					<div class="Cell bo_bottom h40">
+						<span></span>
+					</div>
+				</div>
+			</div>
+			<div class="Table tbl_truncate w100 centered  DCW003_bo_right DCW003_bo_left bg_gray ">
+				<div class="Row">
+					<div class="Cell text-center  bo_right f_bold bg_green h40 w150px">
+						<p class=" tbl_truncate">ファイル番号</p>
+					</div>
+					<div class="Cell  h40 padding_top_1 padding_fixed_08 p5">
+						@Html.TextBoxFor( m => m.FileNo, new { @class = "form-control", @maxlength = "4" } )
+					</div>
+				</div>
+			</div>
+			<div class="Table tbl_truncate w100 centered DCW003_bo_top DCW003_bo_right DCW003_bo_left bg_gray ">
+				<div class="Row">
+					<div class="Cell bo_bottom h40 w25 pa_l_10">
+						@Html.RadioButtonFor( m => m.RadioType, true, new { @class = "css-radio", @id = "rdFourUp", @checked = "checked" } )
+						@Html.Label( "rdFourUp", "下4桁検索", new { @class = "css-label-radio" } )
+					</div>
+					<div class="Cell bo_bottom h40 w25">
+						@Html.RadioButtonFor( m => m.RadioType, true, new { @class = "css-radio", @id = "rdFull" } )
+						@Html.Label( "rdFull", "完全一致", new { @class = "css-label-radio" } )
+					</div>
+					<div class="Cell bo_bottom h40 w25">
+						@Html.RadioButtonFor( m => m.RadioType, true, new { @class = "css-radio", @id = "rdFront" } )
+						@Html.Label( "rdFront", "前方一致", new { @class = "css-label-radio" } )
+					</div>
+					<div class="Cell bo_bottom h40 w25">
+						@Html.RadioButtonFor( m => m.RadioType, true, new { @class = "css-radio", @id = "rdBehind" } )
+						@Html.Label( "rdBehind", "後方一致", new { @class = "css-label-radio" } )
+					</div>
+					@Html.HiddenFor( m => m.RadioType )
+				</div>
+			</div>
+			<div class="Table tbl_truncate w100 centered  DCW003_bo_bottom DCW003_bo_right DCW003_bo_left bg_gray">
+				<div class="Row">
+					<div class="Cell text-center bo_bottom bo_right f_bold bg_green h40 w150px">
+						<p class=" tbl_truncate">出品店舗名称</p>
+					</div>
+					<div class="Cell bo_bottom h40 padding_top_1 padding_fixed_08 p5">
+						<div class="div-contain-datepicker">
+							@Html.TextBoxFor( m => m.ShopName, new { @class = "form-control", @maxlength = "60" } )
+						</div>
+					</div>
+				</div>
+				<div class="Row">
+					<div class="Cell text-center  bo_right f_bold bg_green h40 w150px">
+						<p class=" tbl_truncate">落札店舗名称</p>
+					</div>
+					<div class="Cell h40 padding_fixed_08 p5">
+						@Html.TextBoxFor( m => m.RakusatsuShopName, new { @class = "form-control", @maxlength = "60" } )
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-3 pull-left">
+			<div class="Table w100 tbl_truncate fr DCW003_boder bg_gray ma_t_10">
+				<div class="Row">
+					<div class="Cell bo_bottom h40 padding_fixed_08 p5">
+						<input type="checkbox" class="css-checkbox" id="chkMode2">
+						<label for="chkMode2" class="css-label-checkbox label-style">&nbsp; 書類発送対象(普通車)を抽出</label>
+					</div>
+				</div>
+				<div class="Row">
+					<div class="Cell h40 padding_fixed_08 p5 bo_bottom">
+						<input type="checkbox" class="css-checkbox" id="chkMode3">
+						<label for="chkMode3" class="css-label-checkbox label-style">&nbsp; 書類発送対象(軽)を抽出</label>
+					</div>
+				</div>
+
+				@*<div class="Row">
+					<div class="Cell bo_bottom h40 padding_top_1 padding_fixed_08 p5">
+						<input type="checkbox" class="css-checkbox" id="chkModeAA">
+						<label for="chkModeAA" class="css-label-checkbox label-style">&nbsp; 書類発送対象(AA)を抽出</label>
+					</div>
+				</div>*@
+				<div class="Row">
+					<div class="Cell h40 padding_top_1 padding_fixed_08 p5">
+						<input type="checkbox" class="css-checkbox" id="chkMode4">
+						<label for="chkMode4" class="css-label-checkbox label-style">&nbsp; 棚卸し</label>
+					</div>
+                    @Html.HiddenFor( m => m.DocumentNomalCar )
+                    @Html.HiddenFor( m => m.DocumentNotNomalCar )
+                    @Html.HiddenFor( m => m.DocumentStocktaking )
+				</div>
+                <div class="Row">
+                    <div class="Cell h40 padding_fixed_08 p5 bo_bottom DCW003_bo_top">
+                    </div>
+                </div>
+                <div class="Row">
+                    <div class="Cell h42 padding_fixed_08 p5 ">
+                    </div>
+                </div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-xs-12">
+		<div class="col-xs-5 pull-left">
+			<div class="Table tbl_truncate w100 centered fl DCW003_bo_right DCW003_bo_left DCW003_bo_bottom bg_gray">
+                    <div class="Row DCW003_bo_bottom">
+				    <div class="Cell bg_green DCW003_bo_bottom  text-center bo_right f_bold h40">
+					    <p class=" tbl_truncate">書類ステータス</p>
+				    </div>
+				    <div class="Cell DCW003_bo_bottom">
+					    <p>
+						    <input id="status_102" type="checkbox" class="css-checkbox">
+						    <label for="status_102" class="css-label-checkbox label-style"> 保管中</label>
+                        
+						    <input id="status_103" type="checkbox" class="css-checkbox">
+						    <label for="status_103" class="css-label-checkbox label-style">自社名中</label>
+
+						    <input id="status_104" type="checkbox" class="css-checkbox">
+						    <label for="status_104" class="css-label-checkbox label-style">抹消中</label>
+                        
+						    <input id="status_105" type="checkbox" class="css-checkbox">
+						    <label for="status_105" class="css-label-checkbox label-style">保管なし(発送済)</label>
+					    </p>
+					    @Html.HiddenFor( m => m.DocStatus102 )
+					    @Html.HiddenFor( m => m.DocStatus103 )
+					    @Html.HiddenFor( m => m.DocStatus104 )
+					    @Html.HiddenFor( m => m.DocStatus105 )
+				    </div>
+			    </div>
+				<div class="Row">
+					<div class="Cell text-center DCW003_bo_bottom   DCW003_bo_right f_bold bg_green h40 w150px">
+						<p class=" tbl_truncate">成約日/落札開催日</p>
+					</div>
+					<div class="Cell bo_bottom h40 padding_fixed_08 p5 ">
+						@Html.TextBoxFor( m => m.AaDnSeiyakuDateStart, new { @class = "form-control autoCompleteDate txt-datepicker-35" } )
+						～
+					@Html.TextBoxFor( m => m.AaDnSeiyakuDateEnd, new { @class = "form-control autoCompleteDate txt-datepicker-35" } )
+					</div>
+				</div>
+				<div class="Row">
+					<div class="Cell text-center bo_bottom bo_right f_bold bg_green h40 w150px">
+						<p class=" tbl_truncate">書類入庫日</p>
+					</div>
+					<div class="Cell h40 padding_fixed_08 p5 bo_bottom">
+						@Html.TextBoxFor( m => m.DocNyukoDateStart, new { @class = "form-control autoCompleteDate txt-datepicker-35" } )
+						～
+					@Html.TextBoxFor( m => m.DocNyukoDateEnd, new { @class = "form-control autoCompleteDate txt-datepicker-35" } )
+					</div>
+				</div>
+				<div class="Row">
+					<div class="Cell text-center bo_bottom bo_right f_bold bg_green h40 w150px">
+						<p class=" tbl_truncate">自社名依頼出庫日</p>
+					</div>
+					<div class="Cell bo_bottom h40 padding_top_1 padding_fixed_08 p5">
+						@Html.TextBoxFor( m => m.JishameiIraiShukkoDateStart, new { @class = "form-control autoCompleteDate txt-datepicker-35" } )
+						～
+					@Html.TextBoxFor( m => m.JishameiIraiShukkoDateEnd, new { @class = "form-control autoCompleteDate txt-datepicker-35" } )
+					</div>
+				</div>
+				<div class="Row">
+					<div class="Cell text-center bo_bottom bo_right f_bold bg_green h40 w150px">
+						<p class=" tbl_truncate">抹消依頼出庫日</p>
+					</div>
+					<div class="bo_bottom Cell h40 padding_top_1 padding_fixed_08 p5">
+						@Html.TextBoxFor( m => m.MasshoIraiShukkoDateStart, new { @class = "form-control autoCompleteDate txt-datepicker-35" } )
+						～
+					@Html.TextBoxFor( m => m.MasshoIraiShukkoDateEnd, new { @class = "form-control autoCompleteDate txt-datepicker-35" } )
+					</div>
+				</div>
+				<div class="Row">
+					<div class="Cell text-center  bo_right f_bold bg_green h40 w150px">
+						<p class=" tbl_truncate">車検満了日</p>
+					</div>
+					<div class=" Cell h40 padding_top_1 padding_fixed_08 p5">
+						@Html.TextBoxFor( m => m.ShakenLimitDateStart, new { @class = "form-control autoCompleteDate txt-datepicker-35" } )
+						～
+					@Html.TextBoxFor( m => m.ShakenLimitDateEnd, new { @class = "form-control autoCompleteDate txt-datepicker-35" } )
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-7 ma_t_div pull-left ">
+			<div class="Table tbl_truncate w100 fl DCW003_boder">
+				<div class="Row">
+					<div class="Cell text-center bo_right f_bold bg_green h40 w150px ">
+						<p class=" tbl_truncate">車輌区分</p>
+					</div>
+					<div class="Cell h40 padding_fixed_08  w122px pa_l_10 ">
+						<input id="keiCar_0" type="checkbox" class="css-checkbox">
+						<label for="keiCar_0" class="css-label-checkbox label-style"> 普通車</label>
+					</div>
+					<div class="Cell h40 padding_fixed_08 p5 w131px">
+						<input id="keiCar_1" type="checkbox" class="css-checkbox">
+						<label for="keiCar_1" class="css-label-checkbox label-style"> 軽</label>
+						@Html.HiddenFor( m => m.KeiCarFlg0 )
+						@Html.HiddenFor( m => m.KeiCarFlg1 )
+					</div>
+					<div class="Cell text-center bo_right f_bold bg_green h40 w150px">
+						<span>書類区分</span>
+					</div>
+					<div class="Cell h40 padding_fixed_08 p5">
+						<input id="jishameiFlg" type="checkbox" class="css-checkbox">
+						<label for="jishameiFlg" class="css-label-checkbox label-style">自社名済</label>
+						@Html.HiddenFor( m => m.JishameiFlg )
+					</div>
+					<div class="Cell h40 padding_fixed_08 p5">
+						<input id="masshoFlg" type="checkbox" class="css-checkbox">
+						<label for="masshoFlg" class="css-label-checkbox label-style">抹消</label>
+						@Html.HiddenFor( m => m.MasshoFlg )
+					</div>
+				</div>
+			</div>
+			<div class="Table tbl_truncate w100 centered DCW003_bo_right DCW003_bo_left  bg_gray ">
+				<div class="Row">
+					<div class="Cell text-center bo_bottom bo_right f_bold bg_green h40 w150px">
+						<p class=" tbl_truncate">書類有効期限</p>
+					</div>
+					<div class="Cell bo_bottom h40 padding_fixed_08 p5 ">
+						@Html.TextBoxFor( m => m.ShoruiLimitDateStart, new { @class = "form-control autoCompleteDate txt-datepicker-20" } )
+						～
+					@Html.TextBoxFor( m => m.ShoruiLimitDateEnd, new { @class = "form-control autoCompleteDate txt-datepicker-20" } )
+					</div>
+				</div>
+				<div class="Row">
+					<div class="Cell text-center bo_bottom bo_right f_bold bg_green h40 w150px">
+						<p class=" tbl_truncate">書類出庫日</p>
+					</div>
+					<div class="Cell h40 padding_fixed_08 p5 bo_bottom">
+						@Html.TextBoxFor( m => m.DocShukkoDateStart, new { @class = "form-control autoCompleteDate txt-datepicker-20" } )
+						～
+					@Html.TextBoxFor( m => m.DocShukkoDateEnd, new { @class = "form-control autoCompleteDate txt-datepicker-20" } )
+					</div>
+				</div>
+				<div class="Row">
+					<div class="Cell text-center bo_bottom bo_right f_bold bg_green h40 w150px">
+						<p class=" tbl_truncate">自社名完了入庫日</p>
+					</div>
+					<div class="Cell bo_bottom h40 padding_top_1 padding_fixed_08 p5">
+						@Html.TextBoxFor( m => m.JishameiKanryoNyukoDateStart, new { @class = "form-control autoCompleteDate txt-datepicker-20" } )
+						～
+					@Html.TextBoxFor( m => m.JishameiKanryoNyukoDateEnd, new { @class = "form-control autoCompleteDate txt-datepicker-20" } )
+					</div>
+				</div>
+				<div class="Row">
+					<div class="Cell text-center bo_bottom bo_right f_bold bg_green h40 w150px">
+						<p class=" tbl_truncate">抹消完了入庫日</p>
+					</div>
+					<div class="Cell bo_bottom h40 padding_top_1 padding_fixed_08 p5">
+						@Html.TextBoxFor( m => m.MasshoKanryoNyukoDateStart, new { @class = "form-control autoCompleteDate txt-datepicker-20" } )
+						～
+					@Html.TextBoxFor( m => m.MasshoKanryoNyukoDateEnd, new { @class = "form-control autoCompleteDate txt-datepicker-20" } )
+					</div>
+				</div>
+				<div class="Row">
+					<div class="Cell text-center bo_bottom  f_bold  h41 w150px">
+					</div>
+					<div class="Cell bo_bottom h40 padding_top_1 padding_fixed_08 p5">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</form>

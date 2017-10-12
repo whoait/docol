@@ -1,0 +1,35 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>@ViewBag.Title</title>
+	@Styles.Render( "~/bundles/style" )
+	@RenderSection( "CssSection", required: false )
+
+	@Scripts.Render( "~/bundles/jquery" )
+	@Scripts.Render( "~/bundles/jqueryui" )
+	@Scripts.Render( "~/bundles/jqueryval" )
+	@Scripts.Render( "~/bundles/customjs" )
+
+	<meta name="viewport" content="width=device-width" />
+</head>
+<body>
+	<div id="loading"></div>
+	<div class="col-xs-12"></div>
+	<div class="col-xs-12 title">
+		@RenderSection( "TitleSection", required: false )
+	</div>
+	<div class="container no_pa">
+		@RenderBody()
+
+		<div class="scrollup"></div>
+	</div>
+	<div id="footer">
+		<h6>@System.Configuration.ConfigurationManager.AppSettings["Version"]</h6>
+	</div>
+	<!-- content error validate-->
+	<div id="HiddenErrorValidate" class="hidden">@ViewBag.ErrorValidate</div>
+	@Scripts.Render( "~/bundles/jqueryCommon" )
+	@RenderSection( "Scripts", required: false )
+	@RenderSection( "Styles", required: false )
+</body>
+</html>

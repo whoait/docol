@@ -1,0 +1,9 @@
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\EquipmentOptionWS\EquipmentOptionWS.BusinessLogic\bin\Debug\EquipmentOptionWS.BusinessLogic.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\EquipmentOptionWS\EquipmentOptionWS.BusinessLogic\bin\Debug\EquipmentOptionWS.BusinessLogic.pdb
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\EquipmentOptionWS\EquipmentOptionWS.BusinessLogic\bin\Debug\EquipmentOptionWS.DataAccess.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\EquipmentOptionWS\EquipmentOptionWS.BusinessLogic\bin\Debug\EquipmentOptionWS.DTO.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\EquipmentOptionWS\EquipmentOptionWS.BusinessLogic\bin\Debug\EquipmentOptionWS.DataAccess.pdb
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\EquipmentOptionWS\EquipmentOptionWS.BusinessLogic\bin\Debug\EquipmentOptionWS.DTO.pdb
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\EquipmentOptionWS\EquipmentOptionWS.BusinessLogic\obj\Debug\EquipmentOptionWS.BusinessLogic.csprojResolveAssemblyReference.cache
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\EquipmentOptionWS\EquipmentOptionWS.BusinessLogic\obj\Debug\EquipmentOptionWS.BusinessLogic.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\EquipmentOptionWS\EquipmentOptionWS.BusinessLogic\obj\Debug\EquipmentOptionWS.BusinessLogic.pdb

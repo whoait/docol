@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:iwfmws="http://www.canon.com/ns/active/iwfm/SoapWebService" targetNamespace="http://www.canon.com/ns/active/iwfm/SoapWebService" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>FMWebService</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://www.canon.com/ns/active/iwfm/SoapWebService">
+      <xs:element name="overlay">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="overlayResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getFormList">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getFormListResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getFormInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getFormInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getFormContent">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getFormContentResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="putFormContent">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="putFormContentResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="deleteFormContent">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="deleteFormContentResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getImageList">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getImageListResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getImageInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getImageInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getImageContent">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getImageContentResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="putImageContent">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="putImageContentResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="deleteImageContent">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="deleteImageContentResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getDevmodeList">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getDevmodeListResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getDevmodeInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getDevmodeInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getDevmodeContent">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getDevmodeContentResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="putDevmodeContent">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="putDevmodeContentResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="deleteDevmodeContent">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="deleteDevmodeContentResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGraphdataList">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGraphdataListResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGraphdataInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGraphdataInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGraphdataContent">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGraphdataContentResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="putGraphdataContent">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="putGraphdataContentResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="deleteGraphdataContent">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="deleteGraphdataContentResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getFielddataList">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getFielddataListResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getFielddataInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getFielddataInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="assortOverlay">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="assortOverlayResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAssortConfigurationList">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAssortConfigurationListResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAssortConfiguration">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAssortConfigurationResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="archiveCsmx">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="archiveCsmxResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="get">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="put">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="putResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="post">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="postResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="delete">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="iwfmws:FMWSRequest" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="deleteResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="iwfmws:FMWSResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="FMWSMessage">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="headers" nillable="true" type="iwfmws:FMWSKeyValue" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="parameters" nillable="true" type="iwfmws:FMWSKeyValue" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="attachments" nillable="true" type="iwfmws:FMWSData" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="FMWSData">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="contentName" type="xs:string" />
+          <xs:element minOccurs="0" name="contentType" type="xs:string" />
+          <xs:element minOccurs="0" name="content" type="xs:base64Binary" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="FMWSKeyValue">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="key" type="xs:string" />
+          <xs:element minOccurs="0" name="value" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="FMWSRequest">
+        <xs:complexContent mixed="false">
+          <xs:extension base="iwfmws:FMWSMessage">
+            <xs:sequence />
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="FMWSResponse">
+        <xs:complexContent mixed="false">
+          <xs:extension base="iwfmws:FMWSMessage">
+            <xs:sequence />
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="putGraphdataContentRequest">
+    <wsdl:part name="parameters" element="iwfmws:putGraphdataContent" />
+  </wsdl:message>
+  <wsdl:message name="deleteResponse">
+    <wsdl:part name="parameters" element="iwfmws:deleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteFormContentRequest">
+    <wsdl:part name="parameters" element="iwfmws:deleteFormContent" />
+  </wsdl:message>
+  <wsdl:message name="deleteFormContentResponse">
+    <wsdl:part name="parameters" element="iwfmws:deleteFormContentResponse" />
+  </wsdl:message>
+  <wsdl:message name="getFormContentRequest">
+    <wsdl:part name="parameters" element="iwfmws:getFormContent" />
+  </wsdl:message>
+  <wsdl:message name="putDevmodeContentResponse">
+    <wsdl:part name="parameters" element="iwfmws:putDevmodeContentResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteGraphdataContentRequest">
+    <wsdl:part name="parameters" element="iwfmws:deleteGraphdataContent" />
+  </wsdl:message>
+  <wsdl:message name="archiveCsmxRequest">
+    <wsdl:part name="parameters" element="iwfmws:archiveCsmx" />
+  </wsdl:message>
+  <wsdl:message name="putFormContentRequest">
+    <wsdl:part name="parameters" element="iwfmws:putFormContent" />
+  </wsdl:message>
+  <wsdl:message name="getGraphdataContentResponse">
+    <wsdl:part name="parameters" element="iwfmws:getGraphdataContentResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAssortConfigurationListRequest">
+    <wsdl:part name="parameters" element="iwfmws:getAssortConfigurationList" />
+  </wsdl:message>
+  <wsdl:message name="getAssortConfigurationRequest">
+    <wsdl:part name="parameters" element="iwfmws:getAssortConfiguration" />
+  </wsdl:message>
+  <wsdl:message name="postResponse">
+    <wsdl:part name="parameters" element="iwfmws:postResponse" />
+  </wsdl:message>
+  <wsdl:message name="getGraphdataListRequest">
+    <wsdl:part name="parameters" element="iwfmws:getGraphdataList" />
+  </wsdl:message>
+  <wsdl:message name="getResponse">
+    <wsdl:part name="parameters" element="iwfmws:getResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDevmodeInfoResponse">
+    <wsdl:part name="parameters" element="iwfmws:getDevmodeInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAssortConfigurationListResponse">
+    <wsdl:part name="parameters" element="iwfmws:getAssortConfigurationListResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDevmodeInfoRequest">
+    <wsdl:part name="parameters" element="iwfmws:getDevmodeInfo" />
+  </wsdl:message>
+  <wsdl:message name="getDevmodeContentResponse">
+    <wsdl:part name="parameters" element="iwfmws:getDevmodeContentResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteImageContentResponse">
+    <wsdl:part name="parameters" element="iwfmws:deleteImageContentResponse" />
+  </wsdl:message>
+  <wsdl:message name="assortOverlayResponse">
+    <wsdl:part name="parameters" element="iwfmws:assortOverlayResponse" />
+  </wsdl:message>
+  <wsdl:message name="overlayRequest">
+    <wsdl:part name="parameters" element="iwfmws:overlay" />
+  </wsdl:message>
+  <wsdl:message name="getRequest">
+    <wsdl:part name="parameters" element="iwfmws:get" />
+  </wsdl:message>
+  <wsdl:message name="deleteImageContentRequest">
+    <wsdl:part name="parameters" element="iwfmws:deleteImageContent" />
+  </wsdl:message>
+  <wsdl:message name="getImageInfoRequest">
+    <wsdl:part name="parameters" element="iwfmws:getImageInfo" />
+  </wsdl:message>
+  <wsdl:message name="getFormListResponse">
+    <wsdl:part name="parameters" element="iwfmws:getFormListResponse" />
+  </wsdl:message>
+  <wsdl:message name="getGraphdataInfoResponse">
+    <wsdl:part name="parameters" element="iwfmws:getGraphdataInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteGraphdataContentResponse">
+    <wsdl:part name="parameters" element="iwfmws:deleteGraphdataContentResponse" />
+  </wsdl:message>
+  <wsdl:message name="putDevmodeContentRequest">
+    <wsdl:part name="parameters" element="iwfmws:putDevmodeContent" />
+  </wsdl:message>
+  <wsdl:message name="archiveCsmxResponse">
+    <wsdl:part name="parameters" element="iwfmws:archiveCsmxResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteRequest">
+    <wsdl:part name="parameters" element="iwfmws:delete" />
+  </wsdl:message>
+  <wsdl:message name="getFielddataInfoRequest">
+    <wsdl:part name="parameters" element="iwfmws:getFielddataInfo" />
+  </wsdl:message>
+  <wsdl:message name="assortOverlayRequest">
+    <wsdl:part name="parameters" element="iwfmws:assortOverlay" />
+  </wsdl:message>
+  <wsdl:message name="deleteDevmodeContentRequest">
+    <wsdl:part name="parameters" element="iwfmws:deleteDevmodeContent" />
+  </wsdl:message>
+  <wsdl:message name="getImageListResponse">
+    <wsdl:part name="parameters" element="iwfmws:getImageListResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAssortConfigurationResponse">
+    <wsdl:part name="parameters" element="iwfmws:getAssortConfigurationResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDevmodeListRequest">
+    <wsdl:part name="parameters" element="iwfmws:getDevmodeList" />
+  </wsdl:message>
+  <wsdl:message name="putRequest">
+    <wsdl:part name="parameters" element="iwfmws:put" />
+  </wsdl:message>
+  <wsdl:message name="getGraphdataInfoRequest">
+    <wsdl:part name="parameters" element="iwfmws:getGraphdataInfo" />
+  </wsdl:message>
+  <wsdl:message name="postRequest">
+    <wsdl:part name="parameters" element="iwfmws:post" />
+  </wsdl:message>
+  <wsdl:message name="getImageListRequest">
+    <wsdl:part name="parameters" element="iwfmws:getImageList" />
+  </wsdl:message>
+  <wsdl:message name="getFormListRequest">
+    <wsdl:part name="parameters" element="iwfmws:getFormList" />
+  </wsdl:message>
+  <wsdl:message name="putImageContentResponse">
+    <wsdl:part name="parameters" element="iwfmws:putImageContentResponse" />
+  </wsdl:message>
+  <wsdl:message name="getGraphdataListResponse">
+    <wsdl:part name="parameters" element="iwfmws:getGraphdataListResponse" />
+  </wsdl:message>
+  <wsdl:message name="getFielddataListRequest">
+    <wsdl:part name="parameters" element="iwfmws:getFielddataList" />
+  </wsdl:message>
+  <wsdl:message name="deleteDevmodeContentResponse">
+    <wsdl:part name="parameters" element="iwfmws:deleteDevmodeContentResponse" />
+  </wsdl:message>
+  <wsdl:message name="putImageContentRequest">
+    <wsdl:part name="parameters" element="iwfmws:putImageContent" />
+  </wsdl:message>
+  <wsdl:message name="putFormContentResponse">
+    <wsdl:part name="parameters" element="iwfmws:putFormContentResponse" />
+  </wsdl:message>
+  <wsdl:message name="getFielddataListResponse">
+    <wsdl:part name="parameters" element="iwfmws:getFielddataListResponse" />
+  </wsdl:message>
+  <wsdl:message name="getFormInfoRequest">
+    <wsdl:part name="parameters" element="iwfmws:getFormInfo" />
+  </wsdl:message>
+  <wsdl:message name="getFielddataInfoResponse">
+    <wsdl:part name="parameters" element="iwfmws:getFielddataInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="getGraphdataContentRequest">
+    <wsdl:part name="parameters" element="iwfmws:getGraphdataContent" />
+  </wsdl:message>
+  <wsdl:message name="getFormInfoResponse">
+    <wsdl:part name="parameters" element="iwfmws:getFormInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="overlayResponse">
+    <wsdl:part name="parameters" element="iwfmws:overlayResponse" />
+  </wsdl:message>
+  <wsdl:message name="putResponse">
+    <wsdl:part name="parameters" element="iwfmws:putResponse" />
+  </wsdl:message>
+  <wsdl:message name="getImageContentRequest">
+    <wsdl:part name="parameters" element="iwfmws:getImageContent" />
+  </wsdl:message>
+  <wsdl:message name="getDevmodeListResponse">
+    <wsdl:part name="parameters" element="iwfmws:getDevmodeListResponse" />
+  </wsdl:message>
+  <wsdl:message name="getImageContentResponse">
+    <wsdl:part name="parameters" element="iwfmws:getImageContentResponse" />
+  </wsdl:message>
+  <wsdl:message name="getImageInfoResponse">
+    <wsdl:part name="parameters" element="iwfmws:getImageInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDevmodeContentRequest">
+    <wsdl:part name="parameters" element="iwfmws:getDevmodeContent" />
+  </wsdl:message>
+  <wsdl:message name="getFormContentResponse">
+    <wsdl:part name="parameters" element="iwfmws:getFormContentResponse" />
+  </wsdl:message>
+  <wsdl:message name="putGraphdataContentResponse">
+    <wsdl:part name="parameters" element="iwfmws:putGraphdataContentResponse" />
+  </wsdl:message>
+  <wsdl:portType name="FMWebServicePortType">
+    <wsdl:operation name="overlay">
+      <wsdl:input wsaw:Action="urn:overlay" message="iwfmws:overlayRequest" />
+      <wsdl:output wsaw:Action="urn:overlayResponse" message="iwfmws:overlayResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getFormList">
+      <wsdl:input wsaw:Action="urn:getFormList" message="iwfmws:getFormListRequest" />
+      <wsdl:output wsaw:Action="urn:getFormListResponse" message="iwfmws:getFormListResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getFormInfo">
+      <wsdl:input wsaw:Action="urn:getFormInfo" message="iwfmws:getFormInfoRequest" />
+      <wsdl:output wsaw:Action="urn:getFormInfoResponse" message="iwfmws:getFormInfoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getFormContent">
+      <wsdl:input wsaw:Action="urn:getFormContent" message="iwfmws:getFormContentRequest" />
+      <wsdl:output wsaw:Action="urn:getFormContentResponse" message="iwfmws:getFormContentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="putFormContent">
+      <wsdl:input wsaw:Action="urn:putFormContent" message="iwfmws:putFormContentRequest" />
+      <wsdl:output wsaw:Action="urn:putFormContentResponse" message="iwfmws:putFormContentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteFormContent">
+      <wsdl:input wsaw:Action="urn:deleteFormContent" message="iwfmws:deleteFormContentRequest" />
+      <wsdl:output wsaw:Action="urn:deleteFormContentResponse" message="iwfmws:deleteFormContentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getImageList">
+      <wsdl:input wsaw:Action="urn:getImageList" message="iwfmws:getImageListRequest" />
+      <wsdl:output wsaw:Action="urn:getImageListResponse" message="iwfmws:getImageListResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getImageInfo">
+      <wsdl:input wsaw:Action="urn:getImageInfo" message="iwfmws:getImageInfoRequest" />
+      <wsdl:output wsaw:Action="urn:getImageInfoResponse" message="iwfmws:getImageInfoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getImageContent">
+      <wsdl:input wsaw:Action="urn:getImageContent" message="iwfmws:getImageContentRequest" />
+      <wsdl:output wsaw:Action="urn:getImageContentResponse" message="iwfmws:getImageContentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="putImageContent">
+      <wsdl:input wsaw:Action="urn:putImageContent" message="iwfmws:putImageContentRequest" />
+      <wsdl:output wsaw:Action="urn:putImageContentResponse" message="iwfmws:putImageContentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteImageContent">
+      <wsdl:input wsaw:Action="urn:deleteImageContent" message="iwfmws:deleteImageContentRequest" />
+      <wsdl:output wsaw:Action="urn:deleteImageContentResponse" message="iwfmws:deleteImageContentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getDevmodeList">
+      <wsdl:input wsaw:Action="urn:getDevmodeList" message="iwfmws:getDevmodeListRequest" />
+      <wsdl:output wsaw:Action="urn:getDevmodeListResponse" message="iwfmws:getDevmodeListResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getDevmodeInfo">
+      <wsdl:input wsaw:Action="urn:getDevmodeInfo" message="iwfmws:getDevmodeInfoRequest" />
+      <wsdl:output wsaw:Action="urn:getDevmodeInfoResponse" message="iwfmws:getDevmodeInfoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getDevmodeContent">
+      <wsdl:input wsaw:Action="urn:getDevmodeContent" message="iwfmws:getDevmodeContentRequest" />
+      <wsdl:output wsaw:Action="urn:getDevmodeContentResponse" message="iwfmws:getDevmodeContentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="putDevmodeContent">
+      <wsdl:input wsaw:Action="urn:putDevmodeContent" message="iwfmws:putDevmodeContentRequest" />
+      <wsdl:output wsaw:Action="urn:putDevmodeContentResponse" message="iwfmws:putDevmodeContentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteDevmodeContent">
+      <wsdl:input wsaw:Action="urn:deleteDevmodeContent" message="iwfmws:deleteDevmodeContentRequest" />
+      <wsdl:output wsaw:Action="urn:deleteDevmodeContentResponse" message="iwfmws:deleteDevmodeContentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getGraphdataList">
+      <wsdl:input wsaw:Action="urn:getGraphdataList" message="iwfmws:getGraphdataListRequest" />
+      <wsdl:output wsaw:Action="urn:getGraphdataListResponse" message="iwfmws:getGraphdataListResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getGraphdataInfo">
+      <wsdl:input wsaw:Action="urn:getGraphdataInfo" message="iwfmws:getGraphdataInfoRequest" />
+      <wsdl:output wsaw:Action="urn:getGraphdataInfoResponse" message="iwfmws:getGraphdataInfoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getGraphdataContent">
+      <wsdl:input wsaw:Action="urn:getGraphdataContent" message="iwfmws:getGraphdataContentRequest" />
+      <wsdl:output wsaw:Action="urn:getGraphdataContentResponse" message="iwfmws:getGraphdataContentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="putGraphdataContent">
+      <wsdl:input wsaw:Action="urn:putGraphdataContent" message="iwfmws:putGraphdataContentRequest" />
+      <wsdl:output wsaw:Action="urn:putGraphdataContentResponse" message="iwfmws:putGraphdataContentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteGraphdataContent">
+      <wsdl:input wsaw:Action="urn:deleteGraphdataContent" message="iwfmws:deleteGraphdataContentRequest" />
+      <wsdl:output wsaw:Action="urn:deleteGraphdataContentResponse" message="iwfmws:deleteGraphdataContentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getFielddataList">
+      <wsdl:input wsaw:Action="urn:getFielddataList" message="iwfmws:getFielddataListRequest" />
+      <wsdl:output wsaw:Action="urn:getFielddataListResponse" message="iwfmws:getFielddataListResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getFielddataInfo">
+      <wsdl:input wsaw:Action="urn:getFielddataInfo" message="iwfmws:getFielddataInfoRequest" />
+      <wsdl:output wsaw:Action="urn:getFielddataInfoResponse" message="iwfmws:getFielddataInfoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="assortOverlay">
+      <wsdl:input wsaw:Action="urn:assortOverlay" message="iwfmws:assortOverlayRequest" />
+      <wsdl:output wsaw:Action="urn:assortOverlayResponse" message="iwfmws:assortOverlayResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getAssortConfigurationList">
+      <wsdl:input wsaw:Action="urn:getAssortConfigurationList" message="iwfmws:getAssortConfigurationListRequest" />
+      <wsdl:output wsaw:Action="urn:getAssortConfigurationListResponse" message="iwfmws:getAssortConfigurationListResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getAssortConfiguration">
+      <wsdl:input wsaw:Action="urn:getAssortConfiguration" message="iwfmws:getAssortConfigurationRequest" />
+      <wsdl:output wsaw:Action="urn:getAssortConfigurationResponse" message="iwfmws:getAssortConfigurationResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="archiveCsmx">
+      <wsdl:input wsaw:Action="urn:archiveCsmx" message="iwfmws:archiveCsmxRequest" />
+      <wsdl:output wsaw:Action="urn:archiveCsmxResponse" message="iwfmws:archiveCsmxResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="get">
+      <wsdl:input wsaw:Action="urn:get" message="iwfmws:getRequest" />
+      <wsdl:output wsaw:Action="urn:getResponse" message="iwfmws:getResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="put">
+      <wsdl:input wsaw:Action="urn:put" message="iwfmws:putRequest" />
+      <wsdl:output wsaw:Action="urn:putResponse" message="iwfmws:putResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="post">
+      <wsdl:input wsaw:Action="urn:post" message="iwfmws:postRequest" />
+      <wsdl:output wsaw:Action="urn:postResponse" message="iwfmws:postResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="delete">
+      <wsdl:input wsaw:Action="urn:delete" message="iwfmws:deleteRequest" />
+      <wsdl:output wsaw:Action="urn:deleteResponse" message="iwfmws:deleteResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FMWebServiceBinding" type="iwfmws:FMWebServicePortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="overlay">
+      <soap12:operation soapAction="urn:overlay" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFormList">
+      <soap12:operation soapAction="urn:getFormList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFormInfo">
+      <soap12:operation soapAction="urn:getFormInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFormContent">
+      <soap12:operation soapAction="urn:getFormContent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="putFormContent">
+      <soap12:operation soapAction="urn:putFormContent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteFormContent">
+      <soap12:operation soapAction="urn:deleteFormContent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getImageList">
+      <soap12:operation soapAction="urn:getImageList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getImageInfo">
+      <soap12:operation soapAction="urn:getImageInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getImageContent">
+      <soap12:operation soapAction="urn:getImageContent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="putImageContent">
+      <soap12:operation soapAction="urn:putImageContent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteImageContent">
+      <soap12:operation soapAction="urn:deleteImageContent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDevmodeList">
+      <soap12:operation soapAction="urn:getDevmodeList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDevmodeInfo">
+      <soap12:operation soapAction="urn:getDevmodeInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDevmodeContent">
+      <soap12:operation soapAction="urn:getDevmodeContent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="putDevmodeContent">
+      <soap12:operation soapAction="urn:putDevmodeContent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteDevmodeContent">
+      <soap12:operation soapAction="urn:deleteDevmodeContent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getGraphdataList">
+      <soap12:operation soapAction="urn:getGraphdataList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getGraphdataInfo">
+      <soap12:operation soapAction="urn:getGraphdataInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getGraphdataContent">
+      <soap12:operation soapAction="urn:getGraphdataContent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="putGraphdataContent">
+      <soap12:operation soapAction="urn:putGraphdataContent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteGraphdataContent">
+      <soap12:operation soapAction="urn:deleteGraphdataContent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFielddataList">
+      <soap12:operation soapAction="urn:getFielddataList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFielddataInfo">
+      <soap12:operation soapAction="urn:getFielddataInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="assortOverlay">
+      <soap12:operation soapAction="urn:assortOverlay" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAssortConfigurationList">
+      <soap12:operation soapAction="urn:getAssortConfigurationList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAssortConfiguration">
+      <soap12:operation soapAction="urn:getAssortConfiguration" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="archiveCsmx">
+      <soap12:operation soapAction="urn:archiveCsmx" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="get">
+      <soap12:operation soapAction="urn:get" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="put">
+      <soap12:operation soapAction="urn:put" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="post">
+      <soap12:operation soapAction="urn:post" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="delete">
+      <soap12:operation soapAction="urn:delete" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FMWebService">
+    <wsdl:port name="FMWebServiceEndpoint" binding="iwfmws:FMWebServiceBinding">
+      <soap12:address location="http://172.31.3.153:8080/axis2/services/FMWebService/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

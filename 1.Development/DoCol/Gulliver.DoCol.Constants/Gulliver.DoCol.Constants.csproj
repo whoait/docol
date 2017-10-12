@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{16945A79-74D5-4017-853E-21C9386DB5DC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gulliver.DoCol.Constants</RootNamespace>
+    <AssemblyName>Gulliver.DoCol.Constants</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CacheKeys.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Enum.cs" />
+    <Compile Include="Header.cs" />
+    <Compile Include="LogDiv.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="PermisionType.cs" />
+    <Compile Include="Resources\DC1010.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DC1010.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\DCW002.Designer.cs" />
+    <Compile Include="Resources\LibFullHalf.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LibFullHalf.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\RsMessage.Designer.cs">
+      <DependentUpon>RsMessage.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\ScreenList1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ScreenList.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\SystemSetting.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SystemSetting.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\TimeZone.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TimeZone.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ScreenId.cs" />
+    <Compile Include="MessageCd.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportCd.cs" />
+    <Compile Include="ResourceFile.cs" />
+    <Compile Include="StoreName.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H2010.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H2020.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H2030.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H2031.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H2040.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H2050.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H2060.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H2070.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H2080.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H3010ITFS.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H3010_SHOP.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H3020.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H3020_01.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H3030.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H3040.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H4010.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H4020.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H4030.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H4040.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H4050.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H4060.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H5020.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H5030.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H5040.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H5050.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H5060.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H5080.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H6030.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H6031.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H6032.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H6050.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H6060.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H6080.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H6090.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H6100.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H7010.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H7020.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H7030.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H7035.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H7040.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H7050.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H7060.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H9010.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H9020.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H9030.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H9031.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H9040.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H9070.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H9080.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H9085.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H9090.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.H9100.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.LibFullHalf.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.RsMessage.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.ScreenList.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.SystemSetting.resources" />
+    <EmbeddedResource Include="obj\Release\Gulliver.CarUpgrade.Constants.Resources.TimeZone.resources" />
+    <EmbeddedResource Include="Resources\DC1010.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>DC1010.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\DCW002.resx" />
+    <EmbeddedResource Include="Resources\LibFullHalf.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>LibFullHalf.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\RsMessage.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RsMessage.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ScreenList.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ScreenList1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\SystemSetting.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>SystemSetting.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\TimeZone.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>TimeZone.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Common\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="obj\Release\Gulliver.CarUpgrade.Constants.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\Gulliver.CarUpgrade.Constants.dll" />
+    <Content Include="obj\Release\Gulliver.CarUpgrade.Constants.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Release\Gulliver.CarUpgrade.Constants.csproj.GenerateResource.Cache" />
+    <None Include="StyleCop.Cache" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

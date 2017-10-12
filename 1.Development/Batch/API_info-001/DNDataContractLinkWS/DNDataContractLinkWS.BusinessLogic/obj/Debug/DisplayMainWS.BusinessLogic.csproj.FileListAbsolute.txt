@@ -1,0 +1,20 @@
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.BusinessLogic\bin\Debug\DisplayMainWS.BusinessLogic.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.BusinessLogic\bin\Debug\DisplayMainWS.BusinessLogic.pdb
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.BusinessLogic\bin\Debug\DisplayMainWS.DataAccess.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.BusinessLogic\bin\Debug\DisplayMainWS.DTO.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.BusinessLogic\bin\Debug\DisplayMainWS.DataAccess.pdb
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.BusinessLogic\bin\Debug\DisplayMainWS.DTO.pdb
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.BusinessLogic\obj\Debug\DisplayMainWS.BusinessLogic.csprojResolveAssemblyReference.cache
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.BusinessLogic\obj\Debug\DisplayMainWS.BusinessLogic.dll
+D:\Projects\GLV_DNL\SourceCode\01.Development\SaleConnect\3.Webservice\CarDb\DisplayMainWS\DisplayMainWS.BusinessLogic\obj\Debug\DisplayMainWS.BusinessLogic.pdb
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.BusinessLogic\bin\Debug\DisplayMainWS.BusinessLogic.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.BusinessLogic\bin\Debug\DisplayMainWS.BusinessLogic.pdb
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.BusinessLogic\bin\Debug\DisplayMainWS.Common.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.BusinessLogic\bin\Debug\DisplayMainWS.DataAccess.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.BusinessLogic\bin\Debug\DisplayMainWS.DTO.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.BusinessLogic\bin\Debug\DisplayMainWS.Common.pdb
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.BusinessLogic\bin\Debug\DisplayMainWS.DataAccess.pdb
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.BusinessLogic\bin\Debug\DisplayMainWS.DTO.pdb
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.BusinessLogic\obj\Debug\DisplayMainWS.BusinessLogic.csprojResolveAssemblyReference.cache
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.BusinessLogic\obj\Debug\DisplayMainWS.BusinessLogic.dll
+D:\glv_docol\03.Source Code\1.Development\Batch\API_info-001\DisplayMainWS\DisplayMainWS.BusinessLogic\obj\Debug\DisplayMainWS.BusinessLogic.pdb

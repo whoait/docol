@@ -1,0 +1,23 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>@ViewBag.Title</title>
+	@RenderSection( "CssSection", required: false )
+	@Styles.Render( "~/bundles/style" )
+	@Scripts.Render( "~/bundles/jquery" )
+	@Scripts.Render( "~/bundles/jqueryui" )
+	@Scripts.Render( "~/bundles/jqueryval" )
+	@Scripts.Render( "~/bundles/customjs" )	
+
+	<meta name="viewport" content="width=device-width" />
+</head>
+<body>
+	<div class="container">
+		@RenderBody()
+	</div>
+	<!-- content error validate-->
+	<div id="HiddenErrorValidate" class="hidden">@ViewBag.ErrorValidate</div>
+	@RenderSection( "Scripts", required: false )
+	@RenderSection( "Styles", required: false )
+</body>
+</html>

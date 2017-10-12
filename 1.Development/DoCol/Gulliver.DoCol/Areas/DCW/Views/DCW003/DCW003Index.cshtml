@@ -1,0 +1,57 @@
+﻿@using Gulliver.DoCol.Entities.DCW.DCW003Model
+@using Gulliver.DoCol.UtilityServices;
+@model Gulliver.DoCol.Entities.DCW.DCW003Model.DCW003Model
+@{
+	ViewBag.Title = "Index";
+	Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+@section TitleSection {
+    <h2>検索画面</h2>
+}
+<link href="~/Content/themes/DCW/DCW003.css" rel="stylesheet" />
+@*@Html.IncludeVersionedJs("/Scripts/DCW/DCW003.js")*@
+<script src="~/Scripts/DCW/DCW003.js"></script>
+<script src="~/Scripts/base/SortingPaging.js"></script>
+<script src="~/Scripts/base/suggestbox.js"></script>
+
+@{
+    Model.Condition = (DCW003ConditionModel)ViewBag.SearchCondition;
+}
+<div class="container no_pa" style="height: 850px;">
+
+    <div class="col-xs-12">
+        <div class="content">
+            <div class="col-xs-12">
+                <div id="searchCondition">
+                    @Html.Partial("~/Areas/DCW/Views/DCW003/_DCW003Condition.cshtml", Model.Condition)
+                </div>
+                <!-- Button -->
+                <div class="col-xs-12 margin_top_2persent pa_l_200">
+                    <input class="btn_common pa_r_60px w_204 h_60  f_14" type="button" id="btnSearch" value="検索" />                  
+                </div>
+
+                <!-- Search result -->
+                <div id="searchResult">
+                    @Html.Partial("~/Areas/DCW/Views/DCW003/_DCW003Result.cshtml", Model.Detail)
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+	var SEARCH = "@Url.Action( "DCW003Search" )";
+	var UPDATE = "@Url.Action( "DCW003Update" )";
+	var UPDATE_ALL = "@Url.Action( "DCW003UpdateAll" )";
+	var REGISTER = "@Url.Action( "DCW003Register" )";
+	var SEND_AUTO_SEARCH = "@Url.Action( "DCW003SendAutoSearch" )";
+    var DCW003PrintUrl = '@Url.Action("PrintPage")';
+    var DCW003ExportCSVUrl = '@Url.Action("OutputCsv","DCW003")';
+    var ReportPrintUrl = '@Url.Action("Index","DCW003")';
+	SuggestBoxShopCd("ShopCd,ShopName");
+	SuggestBoxShopName("ShopName,ShopCd");
+	SuggestBoxShopCd("RakusatsuShopCd,RakusatsuShopName");
+	SuggestBoxShopName("RakusatsuShopName,RakusatsuShopCd");
+
+	var MessageContentI0010 = '@ViewBag.contentMsgI0010';
+	var MessageTypeI0010 = '@ViewBag.typeMsgI0010';
+</script>

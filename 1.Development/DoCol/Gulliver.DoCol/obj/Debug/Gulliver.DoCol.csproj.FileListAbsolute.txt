@@ -1,0 +1,202 @@
+E:\Project\DocumentControls\Gulliver.DoCol\bin\Gulliver.DoCol.BusinessServices.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\DotNetOpenAuth.AspNet.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\DotNetOpenAuth.Core.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\DotNetOpenAuth.OAuth.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\DotNetOpenAuth.OpenId.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\EntityFramework.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\Gulliver.DoCol.Constants.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\Gulliver.DoCol.DataAccess.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\Gulliver.DoCol.DataValidation.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\Gulliver.DoCol.Entities.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\Gulliver.DoCol.MessageUtility.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\Gulliver.DoCol.UtilityServices.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\Microsoft.Web.Infrastructure.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\Newtonsoft.Json.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\System.Web.Helpers.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\System.Web.Mvc.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\System.Web.Optimization.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\System.Web.Razor.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\System.Web.WebPages.Deployment.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\System.Web.WebPages.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\System.Web.WebPages.Razor.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\WebGrease.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\WebMatrix.Data.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\WebMatrix.WebData.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\log4net.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\Gulliver.DoCol.DataAccess.Framework.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\AWSSDK.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\AntiXssLibrary.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\Ionic.Zip.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\Antlr3.Runtime.dll
+E:\Project\DocumentControls\Gulliver.DoCol\bin\Gulliver.DoCol.BusinessServices.pdb
+E:\Project\DocumentControls\Gulliver.DoCol\bin\Gulliver.DoCol.Constants.pdb
+E:\Project\DocumentControls\Gulliver.DoCol\bin\Gulliver.DoCol.DataAccess.pdb
+E:\Project\DocumentControls\Gulliver.DoCol\bin\Gulliver.DoCol.DataValidation.pdb
+E:\Project\DocumentControls\Gulliver.DoCol\bin\Gulliver.DoCol.Entities.pdb
+E:\Project\DocumentControls\Gulliver.DoCol\bin\Gulliver.DoCol.MessageUtility.pdb
+E:\Project\DocumentControls\Gulliver.DoCol\bin\Gulliver.DoCol.UtilityServices.pdb
+E:\Project\DocumentControls\Gulliver.DoCol\bin\EntityFramework.xml
+E:\Project\DocumentControls\Gulliver.DoCol\bin\Newtonsoft.Json.xml
+E:\Project\DocumentControls\Gulliver.DoCol\bin\System.Web.Mvc.xml
+E:\Project\DocumentControls\Gulliver.DoCol\bin\System.Web.Helpers.xml
+E:\Project\DocumentControls\Gulliver.DoCol\bin\System.Web.Razor.xml
+E:\Project\DocumentControls\Gulliver.DoCol\bin\System.Web.WebPages.xml
+E:\Project\DocumentControls\Gulliver.DoCol\bin\System.Web.WebPages.Deployment.xml
+E:\Project\DocumentControls\Gulliver.DoCol\bin\System.Web.WebPages.Razor.xml
+E:\Project\DocumentControls\Gulliver.DoCol\bin\WebMatrix.Data.xml
+E:\Project\DocumentControls\Gulliver.DoCol\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\Project\DocumentControls\Gulliver.DoCol\bin\WebMatrix.WebData.xml
+E:\Project\DocumentControls\Gulliver.DoCol\bin\DotNetOpenAuth.AspNet.xml
+E:\Project\DocumentControls\Gulliver.DoCol\bin\DotNetOpenAuth.Core.xml
+E:\Project\DocumentControls\Gulliver.DoCol\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Project\DocumentControls\Gulliver.DoCol\bin\DotNetOpenAuth.OAuth.xml
+E:\Project\DocumentControls\Gulliver.DoCol\bin\DotNetOpenAuth.OpenId.xml
+E:\Project\DocumentControls\Gulliver.DoCol\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Project\DocumentControls\Gulliver.DoCol\bin\Gulliver.DoCol.DataAccess.Framework.pdb
+E:\Project\DocumentControls\Gulliver.DoCol\bin\AWSSDK.pdb
+E:\Project\DocumentControls\Gulliver.DoCol\obj\Debug\Gulliver.DoCol.csprojResolveAssemblyReference.cache
+E:\Project\DocumentControls\Gulliver.DoCol\obj\Debug\Gulliver.DoCol.dll
+E:\Project\DocumentControls\Gulliver.DoCol\obj\Debug\Gulliver.DoCol.pdb
+E:\Project\DocumentControls\Gulliver.DoCol\bin\log4net.xml
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.dll.config
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.pdb
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\DotNetOpenAuth.AspNet.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\DotNetOpenAuth.Core.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\DotNetOpenAuth.OAuth.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\DotNetOpenAuth.OpenId.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\EntityFramework.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.BusinessServices.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.Constants.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.DataAccess.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.DataValidation.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.Entities.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.MessageUtility.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.UtilityServices.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Microsoft.Web.Infrastructure.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Newtonsoft.Json.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\System.Web.Helpers.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\System.Web.Mvc.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\System.Web.Optimization.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\System.Web.Razor.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\System.Web.WebPages.Deployment.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\System.Web.WebPages.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\System.Web.WebPages.Razor.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\WebGrease.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\WebMatrix.Data.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\WebMatrix.WebData.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\log4net.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.DataAccess.Framework.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\AWSSDK.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\AntiXssLibrary.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Ionic.Zip.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Antlr3.Runtime.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.BusinessServices.pdb
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.Constants.pdb
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.DataAccess.pdb
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.DataValidation.pdb
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.Entities.pdb
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.MessageUtility.pdb
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.UtilityServices.pdb
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\EntityFramework.xml
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Newtonsoft.Json.xml
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\System.Web.Mvc.xml
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\System.Web.Helpers.xml
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\System.Web.Razor.xml
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\System.Web.WebPages.xml
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\System.Web.WebPages.Deployment.xml
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\System.Web.WebPages.Razor.xml
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\WebMatrix.Data.xml
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\WebMatrix.WebData.xml
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\DotNetOpenAuth.AspNet.xml
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\DotNetOpenAuth.Core.xml
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\DotNetOpenAuth.OAuth.xml
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\DotNetOpenAuth.OpenId.xml
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.DataAccess.Framework.pdb
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\bin\AWSSDK.pdb
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\obj\Debug\Gulliver.DoCol.csprojResolveAssemblyReference.cache
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\obj\Debug\Gulliver.DoCol.dll
+E:\glv_docol\03.Source Code\DoCol\Gulliver.DoCol\obj\Debug\Gulliver.DoCol.pdb
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.dll.config
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.dll
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.pdb
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.BusinessServices.dll
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.Constants.dll
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.DataAccess.dll
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.DataValidation.dll
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.Entities.dll
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.MessageUtility.dll
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.UtilityServices.dll
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\log4net.dll
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.DataAccess.Framework.dll
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\AWSSDK.dll
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\AntiXssLibrary.dll
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Ionic.Zip.dll
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.BusinessServices.pdb
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.Constants.pdb
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.DataAccess.pdb
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.DataValidation.pdb
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.Entities.pdb
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.MessageUtility.pdb
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.UtilityServices.pdb
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.DataAccess.Framework.pdb
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\AWSSDK.pdb
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\obj\Debug\Gulliver.DoCol.csprojResolveAssemblyReference.cache
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\obj\Debug\Gulliver.DoCol.dll
+E:\Docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\obj\Debug\Gulliver.DoCol.pdb
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\obj\Debug\Gulliver.DoCol.csprojResolveAssemblyReference.cache
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\obj\Debug\Gulliver.DoCol.dll
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\obj\Debug\Gulliver.DoCol.pdb
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.dll.config
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.dll
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.pdb
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.BusinessServices.dll
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.Constants.dll
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.DataAccess.dll
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.DataValidation.dll
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.Entities.dll
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.MessageUtility.dll
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.ReportServices.dll
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.UtilityServices.dll
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\log4net.dll
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.DataAccess.Framework.dll
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Ionic.Zip.dll
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\AWSSDK.dll
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\AntiXssLibrary.dll
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Antlr3.Runtime.dll
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.BusinessServices.pdb
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.Constants.pdb
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.DataAccess.pdb
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.DataValidation.pdb
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.Entities.pdb
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.MessageUtility.pdb
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.ReportServices.pdb
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.UtilityServices.pdb
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\EntityFramework.xml
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Newtonsoft.Json.xml
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\System.Web.Mvc.xml
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\System.Web.Helpers.xml
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\System.Web.Razor.xml
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\System.Web.WebPages.xml
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\System.Web.WebPages.Deployment.xml
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\System.Web.WebPages.Razor.xml
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\WebMatrix.Data.xml
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\WebMatrix.WebData.xml
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\DotNetOpenAuth.AspNet.xml
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\DotNetOpenAuth.Core.xml
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\DotNetOpenAuth.OAuth.xml
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\DotNetOpenAuth.OpenId.xml
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\Gulliver.DoCol.DataAccess.Framework.pdb
+D:\glv_docol\03.Source Code\1.Development\DoCol\Gulliver.DoCol\bin\AWSSDK.pdb

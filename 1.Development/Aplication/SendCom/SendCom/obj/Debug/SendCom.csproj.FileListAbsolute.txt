@@ -1,0 +1,14 @@
+D:\glv_docol\03.Source Code\1.Development\Aplication\SendCom\SendCom\bin\Debug\SendCom.exe.config
+D:\glv_docol\03.Source Code\1.Development\Aplication\SendCom\SendCom\bin\Debug\SendCom.exe.manifest
+D:\glv_docol\03.Source Code\1.Development\Aplication\SendCom\SendCom\bin\Debug\SendCom.application
+D:\glv_docol\03.Source Code\1.Development\Aplication\SendCom\SendCom\bin\Debug\SendCom.exe
+D:\glv_docol\03.Source Code\1.Development\Aplication\SendCom\SendCom\bin\Debug\SendCom.pdb
+D:\glv_docol\03.Source Code\1.Development\Aplication\SendCom\SendCom\obj\Debug\SendCom.Login.resources
+D:\glv_docol\03.Source Code\1.Development\Aplication\SendCom\SendCom\obj\Debug\SendCom.MainForm.resources
+D:\glv_docol\03.Source Code\1.Development\Aplication\SendCom\SendCom\obj\Debug\SendCom.Properties.Resources.resources
+D:\glv_docol\03.Source Code\1.Development\Aplication\SendCom\SendCom\obj\Debug\SendCom.csproj.GenerateResource.Cache
+D:\glv_docol\03.Source Code\1.Development\Aplication\SendCom\SendCom\obj\Debug\SendCom.exe.manifest
+D:\glv_docol\03.Source Code\1.Development\Aplication\SendCom\SendCom\obj\Debug\SendCom.application
+D:\glv_docol\03.Source Code\1.Development\Aplication\SendCom\SendCom\obj\Debug\SendCom.exe
+D:\glv_docol\03.Source Code\1.Development\Aplication\SendCom\SendCom\obj\Debug\SendCom.pdb
+D:\glv_docol\03.Source Code\1.Development\Aplication\SendCom\SendCom\obj\Debug\SendCom.csprojResolveAssemblyReference.cache

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{85261325-354A-4C6F-A687-7DF8C39F4C6F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gulliver.DoCol.DataAccess</RootNamespace>
+    <AssemblyName>Gulliver.DoCol.DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseDa.cs" />
+    <Compile Include="Common\CmnDa.cs" />
+    <Compile Include="DCW\DCW003Da.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\LogDa.cs" />
+    <Compile Include="Utility\UtilityDa.cs" />
+    <Compile Include="DCW\DCW001Da.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Gulliver.DoCol.Constants\Gulliver.DoCol.Constants.csproj">
+      <Project>{16945a79-74d5-4017-853e-21c9386db5dc}</Project>
+      <Name>Gulliver.DoCol.Constants</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gulliver.DoCol.DataAccess.Framework\Gulliver.DoCol.DataAccess.Framework.csproj">
+      <Project>{7d7b4453-a7b9-4037-ae9b-8ee39654d71e}</Project>
+      <Name>Gulliver.DoCol.DataAccess.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gulliver.DoCol.Entities\Gulliver.DoCol.Entities.csproj">
+      <Project>{498be419-2f92-4441-bad2-889c4ec0c99b}</Project>
+      <Name>Gulliver.DoCol.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gulliver.DoCol.UtilityServices\Gulliver.DoCol.UtilityServices.csproj">
+      <Project>{caa5f09e-d141-46c7-8be9-a5c1a8f16e81}</Project>
+      <Name>Gulliver.DoCol.UtilityServices</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\AntiXssLibrary.dll" />
+    <Content Include="bin\Debug\AWSSDK.dll" />
+    <Content Include="bin\Debug\AWSSDK.pdb" />
+    <Content Include="bin\Debug\Gulliver.CarUpgrade.Constants.dll" />
+    <Content Include="bin\Debug\Gulliver.CarUpgrade.Constants.pdb" />
+    <Content Include="bin\Debug\Gulliver.CarUpgrade.DataAccess.dll" />
+    <Content Include="bin\Debug\Gulliver.CarUpgrade.DataAccess.Framework.dll" />
+    <Content Include="bin\Debug\Gulliver.CarUpgrade.DataAccess.Framework.pdb" />
+    <Content Include="bin\Debug\Gulliver.CarUpgrade.DataAccess.pdb" />
+    <Content Include="bin\Debug\Gulliver.CarUpgrade.DataValidation.dll" />
+    <Content Include="bin\Debug\Gulliver.CarUpgrade.DataValidation.pdb" />
+    <Content Include="bin\Debug\Gulliver.CarUpgrade.Entities.dll" />
+    <Content Include="bin\Debug\Gulliver.CarUpgrade.Entities.pdb" />
+    <Content Include="bin\Debug\Gulliver.CarUpgrade.MessageUtility.dll" />
+    <Content Include="bin\Debug\Gulliver.CarUpgrade.MessageUtility.pdb" />
+    <Content Include="bin\Debug\Gulliver.CarUpgrade.UtilityServices.dll" />
+    <Content Include="bin\Debug\Gulliver.CarUpgrade.UtilityServices.pdb" />
+    <Content Include="bin\Debug\Gulliver.DoCol.Constants.dll" />
+    <Content Include="bin\Debug\Gulliver.DoCol.Constants.pdb" />
+    <Content Include="bin\Debug\Gulliver.DoCol.DataAccess.dll" />
+    <Content Include="bin\Debug\Gulliver.DoCol.DataAccess.Framework.dll" />
+    <Content Include="bin\Debug\Gulliver.DoCol.DataAccess.Framework.pdb" />
+    <Content Include="bin\Debug\Gulliver.DoCol.DataAccess.pdb" />
+    <Content Include="bin\Debug\Gulliver.DoCol.DataValidation.dll" />
+    <Content Include="bin\Debug\Gulliver.DoCol.DataValidation.pdb" />
+    <Content Include="bin\Debug\Gulliver.DoCol.Entities.dll" />
+    <Content Include="bin\Debug\Gulliver.DoCol.Entities.pdb" />
+    <Content Include="bin\Debug\Gulliver.DoCol.MessageUtility.dll" />
+    <Content Include="bin\Debug\Gulliver.DoCol.MessageUtility.pdb" />
+    <Content Include="bin\Debug\Gulliver.DoCol.UtilityServices.dll" />
+    <Content Include="bin\Debug\Gulliver.DoCol.UtilityServices.pdb" />
+    <Content Include="bin\Debug\Ionic.Zip.dll" />
+    <Content Include="bin\Debug\log4net.dll" />
+    <Content Include="bin\Debug\log4net.xml" />
+    <Content Include="bin\Debug\System.Web.Mvc.dll" />
+    <Content Include="bin\Debug\System.Web.Mvc.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

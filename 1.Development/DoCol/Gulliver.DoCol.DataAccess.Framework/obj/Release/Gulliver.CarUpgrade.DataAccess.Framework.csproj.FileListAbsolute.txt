@@ -1,0 +1,4 @@
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.DataAccess.Framework\bin\Release\Gulliver.DoCol.DataAccess.Framework.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.DataAccess.Framework\bin\Release\Gulliver.DoCol.DataAccess.Framework.pdb
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.DataAccess.Framework\obj\Release\Gulliver.DoCol.DataAccess.Framework.dll
+D:\GLV_CAMU\03.Source Code\1.Development\Order\Web\Gulliver.DoCol.DataAccess.Framework\obj\Release\Gulliver.DoCol.DataAccess.Framework.pdb
